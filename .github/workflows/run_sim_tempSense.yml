@@ -1,0 +1,19 @@
+name: sky130hd_temp-sense-generator
+
+on:
+  # push:
+  #   branches:
+  #   - main
+  workflow_dispatch:
+
+jobs:
+  sky130hd_temp:
+    runs-on: ubuntu-latest
+    steps:
+    # clone the OpenFASOC repo
+    # run each config of a generator using the docker image
+    # run the simulation for each config with a timeout of 40 mins. 
+    # store the drc, lvs, gds file (save the svg image of the gds file for 3-d visual), spice file and all simulation results for every config
+    # process the results of drc, lvs and each simulation for every config and dump into a csv file
+    
+    #later steps are to read the csv file, modify the html pages accordingly and publish them via gh-pages similar to https://chipsalliance.github.io/sv-tests-results/
