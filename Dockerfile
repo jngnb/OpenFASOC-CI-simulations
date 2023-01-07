@@ -8,3 +8,6 @@ RUN apt-get install vim less -y
 WORKDIR /xyce_install
 COPY xyce_install.sh /xyce_install/.
 RUN /xyce_install/xyce_install.sh
+
+ENV argument="-h"
+CMD /opt/xyce/xyce_serial/bin/Xyce ${argument}
