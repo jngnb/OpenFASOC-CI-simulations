@@ -11,9 +11,6 @@ jobs:
   sky130hd_temp:
     runs-on: ubuntu-latest
     steps:
-      - name: Preparing openfasoc for release
-        run: mkdir /home/runner/work/nghdl_release
-
       - name: Checkout saicharan0112/OpenFASOC master branch
         uses: actions/checkout@v3
         with:
@@ -35,6 +32,7 @@ jobs:
               make sky130hd_temp\
             "| tee -a file.log
           if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi
+          ls -altr ./openfasoc/generators/temp-sense-gen
           
 
       # - name: Pack the output and store it inside this repo
@@ -48,7 +46,6 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          # cp -rf /home/runner/work/data $GITHUB_WORKDIR/.
           git status
           git config --global user.name 'sai charan'
           git config --global user.email 'saicharan0112@users.noreply.github.com'
