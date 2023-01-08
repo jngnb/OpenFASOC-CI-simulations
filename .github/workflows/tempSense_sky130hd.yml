@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Preparing openfasoc for release
-        run: mkdir /home/runner/work/openfasoc && cd /home/runner/work/openfasoc_ci
+        run: mkdir /home/runner/work/openfasoc_ci && cd /home/runner/work/openfasoc_ci
 
       - name: Checkout saicharan0112/OpenFASOC master branch
         uses: actions/checkout@v3
