@@ -38,7 +38,7 @@ jobs:
           # cd /home/runner/work/ && mkdir data
           # cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/simulations/run/* /home/runner/work/data/.
           # cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
-          apt-get install tree -y
+          sudo apt-get install tree -y
           tree -L 3 /home/runner/work/
 
       # - name: Checkout this repo
