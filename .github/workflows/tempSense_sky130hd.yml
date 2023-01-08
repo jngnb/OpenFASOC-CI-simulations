@@ -38,7 +38,7 @@ jobs:
         run: |
           mkdir -p /home/runner/work/data
           #cp -rf simulations/run/* /home/runner/work/data/.
-          cp -rf work /home/runner/work/data/.
+          cp -rf /home/runner/work/OpenFASOC/OpenFASOC/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
 
       - name: Checkout this repo
         uses: actions/checkout@v2
