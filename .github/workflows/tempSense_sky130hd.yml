@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: saicharan0112/OpenFASOC
-          ref: master
+          ref: main
 
       - name: Run tempSense generator
         env:

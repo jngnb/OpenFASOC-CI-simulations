@@ -1,15 +1,15 @@
-name: sky130hd_temp-sense-generator
+# name: sky130hd_temp-sense-generator
 
-on:
-  # push:
-  #   branches:
-  #   - main
-  workflow_dispatch:
+# on:
+#   # push:
+#   #   branches:
+#   #   - main
+#   workflow_dispatch:
 
-jobs:
-  sky130hd_temp:
-    runs-on: ubuntu-latest
-    steps:
+# jobs:
+#   sky130hd_temp:
+#     runs-on: ubuntu-latest
+#     steps:
     # clone the OpenFASOC repo
     # run each config of a generator using the docker image
     # run the simulation for each config with a timeout of 40 mins. 
