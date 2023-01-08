@@ -21,6 +21,8 @@ jobs:
         env:
                 IMAGE_NAME: ghcr.io/saicharan0112/openfasoc_ci_image:alpha
         run: |
+          echo $PWD
+          ls -al
           touch file.log
           docker run --rm \
             -v $PWD:$PWD\
@@ -36,10 +38,6 @@ jobs:
       - name: Pack the output and store it inside this repo
         run: |
           cd /home/runner/work/ && mkdir data
-
-      - name: Checkout saicharan0112/OpenFASOC master branch
-        uses: actions/checkout@v3
-
 
       - name: Commit and push changes
         run: |
