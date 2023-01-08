@@ -14,7 +14,8 @@ jobs:
 
       - name: Clone OpenFASOC repo
         run: |
-          cd /home/runner/work/openfasoc_ci && git clone https://github.com/saicharan0112/OpenFASOC && cd OpenFASOC
+          mkdir /home/runner/work/openfasoc_ci && cd $!
+          git clone https://github.com/saicharan0112/OpenFASOC && cd OpenFASOC
 
       - name: Run tempSense generator
         env:
