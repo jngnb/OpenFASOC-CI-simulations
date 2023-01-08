@@ -38,7 +38,7 @@ jobs:
           cd /home/runner/work/ && mkdir data
           cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/simulations/run/* /home/runner/work/data/.
           cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
-          rm -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/*
+          sudo rm -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/*
           cp -rf data /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/.
 
       - name: Commit and push changes
