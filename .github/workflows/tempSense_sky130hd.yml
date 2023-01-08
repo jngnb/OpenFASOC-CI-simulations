@@ -11,6 +11,9 @@ jobs:
   sky130hd_temp:
     runs-on: ubuntu-latest
     steps:
+      - name: Preparing openfasoc for release
+        run: mkdir /home/runner/work/openfasoc && cd /home/runner/work/openfasoc_ci
+
       - name: Checkout saicharan0112/OpenFASOC master branch
         uses: actions/checkout@v3
         with:
@@ -31,30 +34,26 @@ jobs:
               cd ./openfasoc/generators/temp-sense-gen &&\
               make sky130hd_temp\
             "| tee -a file.log
-          if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi
-
-          
+          if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi         
 
       - name: Pack the output and store it inside this repo
         run: |
-          cd ./openfasoc/generators/temp-sense-gen
-          ls -al
-          cd work
-          #mkdir -p /home/runner/work/data
-          #cp -rf simulations/run/* /home/runner/work/data/.
-          #cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
+          cd /home/runner/work/ && mkdir data
+          cp -rf /home/runner/work/openfasoc_ci/openfasoc/generators/temp-sense-gen/simulations/run/* /home/runner/work/data/.
+          cp -rf /home/runner/work/openfasoc_ci/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
 
-      # - name: Checkout this repo
-      #   uses: actions/checkout@v2
+      - name: Checkout this repo
+        uses: actions/checkout@v2
 
-      # - name: Commit and push changes
-      #   run: |
-      #     git status
-      #     git config --global user.name 'sai charan'
-      #     git config --global user.email 'saicharan0112@users.noreply.github.com'
-      #     git add -A 
-      #     git commit -m "add run data"
-      #     git push
+      - name: Commit and push changes
+        run: |
+          cp -rf /home/runner/work/data /home/runner/work/OpenFASOC-CI-simulations/.
+          git status
+          git config --global user.name 'sai charan'
+          git config --global user.email 'saicharan0112@users.noreply.github.com'
+          git add -A 
+          git commit -m "add run data"
+          git push
 
       
        
