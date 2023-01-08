@@ -11,11 +11,10 @@ jobs:
   sky130hd_temp:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout saicharan0112/OpenFASOC master branch
-        uses: actions/checkout@v3
-        with:
-          repository: saicharan0112/OpenFASOC
-          ref: main
+
+      - name: Clone OpenFASOC repo
+        run: |
+          cd /home/runner/work/openfasoc_ci && git clone https://github.com/saicharan0112/OpenFASOC && cd OpenFASOC
 
       - name: Run tempSense generator
         env:
@@ -36,13 +35,14 @@ jobs:
       - name: Pack the output and store it inside this repo
         run: |
           cd /home/runner/work/ && mkdir data
-          cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/simulations/run/* /home/runner/work/data/.
-          cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
-          sudo rm -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/*
-          cp -rf data /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/.
+
+      - name: Checkout saicharan0112/OpenFASOC master branch
+        uses: actions/checkout@v3
+
 
       - name: Commit and push changes
         run: |
+          cp /home/runner/work/openfasoc_ci/openfasoc/generators/temp-sense-gen/work /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/.
           git status
           git config --global user.name 'sai charan'
           git config --global user.email 'saicharan0112@users.noreply.github.com'
