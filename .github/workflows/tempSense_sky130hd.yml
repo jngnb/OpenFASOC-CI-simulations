@@ -19,7 +19,7 @@ jobs:
 
       - name: Run tempSense generator
         env:
-                IMAGE_NAME: ghcr.io/saicharan0112/openfasoc_ci_image:latest
+                IMAGE_NAME: ghcr.io/saicharan0112/openfasoc_ci_image:alpha
         run: |
           touch file.log
           docker run --rm \
