@@ -1,0 +1,50 @@
+name: sky130hd_temp-sense-generator
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  sky130hd_temp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout saicharan0112/OpenFASOC master branch
+        uses: actions/checkout@v3
+        with:
+          repository: saicharan0112/OpenFASOC
+          ref: master
+
+      - name: Run tempSense generator
+        env:
+                IMAGE_NAME: ghcr.io/saicharan0112/openfasoc_ci_image:latest
+        run: |
+          touch file.log
+          docker run --rm \
+            -v $PWD:$PWD\
+            -w $PWD\
+            $IMAGE_NAME\
+            bash -c "\
+              pip3 install -r requirements.txt &&\
+              cd ./openfasoc/generators/temp-sense-gen &&\
+              make sky130hd_temp\
+            ">> file.log
+            if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi
+
+          tree -L 2
+
+        # - name: Pack the output and store it inside this repo
+        #   run: 
+        
+        # - name: Upload Release Asset
+        # id: upload-release-asset 
+        # uses: actions/upload-release-asset@v1
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # with:
+        #   upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+        #   asset_path: /home/runner/work/eSim-$VERSION.zip
+        #   asset_name: eSim-$VERSION.zip
+        #   asset_content_type: application/zip
