@@ -35,35 +35,17 @@ jobs:
 
       - name: Pack the output and store it inside this repo
         run: |
-          # cd /home/runner/work/ && mkdir data
-          # cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/simulations/run/* /home/runner/work/data/.
-          # cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
-          sudo apt-get install tree -y
-          tree -L 3 /home/runner/work/
+          cd /home/runner/work/ && mkdir data
+          cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/simulations/run/* /home/runner/work/data/.
+          cp -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
+          rm -rf /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/*
+          cp -rf data /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/.
 
-      # - name: Checkout this repo
-      #   uses: actions/checkout@v3
-
-      # - name: Commit and push changes
-      #   run: |
-      #     cp -rf /home/runner/work/data /home/runner/work/OpenFASOC-CI-simulations/.
-      #     git status
-      #     git config --global user.name 'sai charan'
-      #     git config --global user.email 'saicharan0112@users.noreply.github.com'
-      #     git add -A 
-      #     git commit -m "add run data"
-      #     git push
-
-      
-       
-        
-        # - name: Upload Release Asset
-        # id: upload-release-asset 
-        # uses: actions/upload-release-asset@v1
-        # env:
-        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # with:
-        #   upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-        #   asset_path: /home/runner/work/eSim-$VERSION.zip
-        #   asset_name: eSim-$VERSION.zip
-        #   asset_content_type: application/zip
+      - name: Commit and push changes
+        run: |
+          git status
+          git config --global user.name 'sai charan'
+          git config --global user.email 'saicharan0112@users.noreply.github.com'
+          git add -A 
+          git commit -m "add run data"
+          git push
