@@ -1,0 +1,3298 @@
+Collecting pandas
+  Downloading pandas-1.3.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 111.8 MB/s eta 0:00:00
+Collecting klayout
+  Downloading klayout-0.28.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (21.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.9/21.9 MB 41.3 MB/s eta 0:00:00
+Collecting numpy
+  Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.7/15.7 MB 107.9 MB/s eta 0:00:00
+Collecting matplotlib
+  Downloading matplotlib-3.5.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 132.7 MB/s eta 0:00:00
+Collecting gdsfactory==5.1.1
+  Using cached gdsfactory-5.1.1-py3-none-any.whl (725 kB)
+Collecting nbsphinx
+  Using cached nbsphinx-0.8.11-py3-none-any.whl (26 kB)
+Collecting scipy
+  Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.1/38.1 MB 67.6 MB/s eta 0:00:00
+Collecting loguru
+  Using cached loguru-0.6.0-py3-none-any.whl (58 kB)
+Collecting click
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Collecting rectpack
+  Using cached rectpack-0.2.2.tar.gz (17 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting xmltodict
+  Using cached xmltodict-0.13.0-py2.py3-none-any.whl (10.0 kB)
+Collecting pydantic
+  Downloading pydantic-1.10.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 122.3 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (4.4.0)
+Collecting Pyqtree
+  Using cached Pyqtree-1.0.0.tar.gz (5.2 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting picwriter==0.5
+  Using cached picwriter-0.5-py3-none-any.whl (139 kB)
+Collecting phidl==1.6.1
+  Using cached phidl-1.6.1.tar.gz (114 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting jsonschema
+  Using cached jsonschema-4.17.3-py3-none-any.whl (90 kB)
+Collecting scikit-image
+  Downloading scikit_image-0.19.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (13.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 112.2 MB/s eta 0:00:00
+Requirement already satisfied: tqdm in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (4.64.1)
+Collecting semantic-version
+  Using cached semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting orjson
+  Downloading orjson-3.8.4-cp37-cp37m-manylinux_2_28_x86_64.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 kB 39.3 MB/s eta 0:00:00
+Collecting Shapely
+  Downloading shapely-2.0.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 119.4 MB/s eta 0:00:00
+Requirement already satisfied: toolz in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (0.12.0)
+Collecting gdspy
+  Using cached gdspy-1.6.12.zip (157 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting networkx
+  Downloading networkx-2.6.3-py3-none-any.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 122.4 MB/s eta 0:00:00
+Collecting omegaconf
+  Using cached omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Collecting jsondiff
+  Using cached jsondiff-2.0.0-py3-none-any.whl (6.6 kB)
+Collecting pytest
+  Using cached pytest-7.2.0-py3-none-any.whl (316 kB)
+Collecting trimesh
+  Using cached trimesh-3.17.1-py3-none-any.whl (669 kB)
+Collecting qrcode
+  Using cached qrcode-7.3.1.tar.gz (43 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting lytest==0.0.20
+  Using cached lytest-0.0.20-py3-none-any.whl (14 kB)
+Collecting pytest-regressions
+  Using cached pytest_regressions-2.4.1-py3-none-any.whl (23 kB)
+Collecting lygadgets>=0.1.15
+  Using cached lygadgets-0.1.35-py3-none-any.whl (24 kB)
+Collecting lyipc>0.2.0
+  Using cached lyipc-0.2.13-py3-none-any.whl (15 kB)
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytz>=2017.3
+  Using cached pytz-2022.7-py2.py3-none-any.whl (499 kB)
+Collecting pyparsing>=2.2.1
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 96.2 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-23.0-py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 kB 12.3 MB/s eta 0:00:00
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.4.0-cp37-cp37m-manylinux_2_28_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 120.4 MB/s eta 0:00:00
+Collecting cycler>=0.10
+  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Using cached fonttools-4.38.0-py3-none-any.whl (965 kB)
+Collecting jinja2
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting nbformat
+  Using cached nbformat-5.7.1-py3-none-any.whl (77 kB)
+Collecting nbconvert!=5.4
+  Using cached nbconvert-7.2.7-py3-none-any.whl (273 kB)
+Collecting sphinx>=1.8
+  Downloading sphinx-5.3.0-py3-none-any.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 123.9 MB/s eta 0:00:00
+Collecting traitlets>=5
+  Using cached traitlets-5.8.0-py3-none-any.whl (116 kB)
+Collecting docutils
+  Using cached docutils-0.19-py3-none-any.whl (570 kB)
+Collecting tinycss2
+  Using cached tinycss2-1.2.1-py3-none-any.whl (21 kB)
+Collecting bleach
+  Using cached bleach-5.0.1-py3-none-any.whl (160 kB)
+Requirement already satisfied: importlib-metadata>=3.6 in /usr/bin/miniconda3/lib/python3.7/site-packages (from nbconvert!=5.4->nbsphinx->-r requirements.txt (line 6)) (4.11.3)
+Collecting mistune<3,>=2.0.3
+  Using cached mistune-2.0.4-py2.py3-none-any.whl (24 kB)
+Collecting markupsafe>=2.0
+  Downloading MarkupSafe-2.1.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting nbclient>=0.5.0
+  Using cached nbclient-0.7.2-py3-none-any.whl (71 kB)
+Collecting pandocfilters>=1.4.1
+  Using cached pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting jupyterlab-pygments
+  Using cached jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Collecting pygments>=2.4.1
+  Using cached Pygments-2.14.0-py3-none-any.whl (1.1 MB)
+Collecting beautifulsoup4
+  Using cached beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)
+Collecting defusedxml
+  Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting jupyter-core>=4.7
+  Downloading jupyter_core-4.12.0-py3-none-any.whl (89 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 30.9 MB/s eta 0:00:00
+Collecting fastjsonschema
+  Using cached fastjsonschema-2.16.2-py3-none-any.whl (22 kB)
+Collecting pkgutil-resolve-name>=1.3.10
+  Using cached pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-22.2.0-py3-none-any.whl (60 kB)
+Collecting importlib-resources>=1.4.0
+  Using cached importlib_resources-5.10.2-py3-none-any.whl (34 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Using cached pyrsistent-0.19.3-py3-none-any.whl (57 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sphinxcontrib-devhelp
+  Using cached sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl (84 kB)
+Collecting alabaster<0.8,>=0.7
+  Using cached alabaster-0.7.12-py2.py3-none-any.whl (14 kB)
+Collecting imagesize>=1.3
+  Using cached imagesize-1.4.1-py2.py3-none-any.whl (8.8 kB)
+Collecting sphinxcontrib-serializinghtml>=1.1.5
+  Using cached sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl (94 kB)
+Collecting babel>=2.9
+  Using cached Babel-2.11.0-py3-none-any.whl (9.5 MB)
+Collecting sphinxcontrib-applehelp
+  Downloading sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl (121 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.2/121.2 kB 40.2 MB/s eta 0:00:00
+Collecting sphinxcontrib-jsmath
+  Using cached sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl (5.1 kB)
+Collecting snowballstemmer>=2.0
+  Using cached snowballstemmer-2.2.0-py2.py3-none-any.whl (93 kB)
+Collecting sphinxcontrib-htmlhelp>=2.0.0
+  Using cached sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl (100 kB)
+Requirement already satisfied: requests>=2.5.0 in /usr/bin/miniconda3/lib/python3.7/site-packages (from sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2.28.1)
+Collecting sphinxcontrib-qthelp
+  Using cached sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl (90 kB)
+Collecting antlr4-python3-runtime==4.9.*
+  Using cached antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting PyYAML>=5.1.0
+  Downloading PyYAML-6.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (596 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 596.3/596.3 kB 89.9 MB/s eta 0:00:00
+Collecting exceptiongroup>=1.0.0rc8
+  Using cached exceptiongroup-1.1.0-py3-none-any.whl (14 kB)
+Collecting tomli>=1.0.0
+  Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: pluggy<2.0,>=0.12 in /usr/bin/miniconda3/lib/python3.7/site-packages (from pytest->gdsfactory==5.1.1->-r requirements.txt (line 5)) (1.0.0)
+Collecting iniconfig
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting pytest-datadir>=1.2.0
+  Using cached pytest_datadir-1.4.1-py3-none-any.whl (5.0 kB)
+Collecting imageio>=2.4.1
+  Downloading imageio-2.24.0-py3-none-any.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 109.9 MB/s eta 0:00:00
+Collecting PyWavelets>=1.1.1
+  Downloading PyWavelets-1.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 120.2 MB/s eta 0:00:00
+Collecting tifffile>=2019.7.26
+  Downloading tifffile-2021.11.2-py3-none-any.whl (178 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.9/178.9 kB 34.1 MB/s eta 0:00:00
+Requirement already satisfied: zipp>=0.5 in /usr/bin/miniconda3/lib/python3.7/site-packages (from importlib-metadata>=3.6->nbconvert!=5.4->nbsphinx->-r requirements.txt (line 6)) (3.11.0)
+Collecting future
+  Using cached future-0.18.2.tar.gz (829 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting jupyter-client>=6.1.12
+  Using cached jupyter_client-7.4.8-py3-none-any.whl (133 kB)
+Requirement already satisfied: charset-normalizer<3,>=2 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2022.12.7)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (1.26.13)
+Collecting soupsieve>1.2
+  Using cached soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)
+Collecting webencodings
+  Using cached webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting entrypoints
+  Using cached entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Collecting tornado>=6.2
+  Using cached tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+Collecting nest-asyncio>=1.5.4
+  Using cached nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting pyzmq>=23.0
+  Downloading pyzmq-24.0.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 110.9 MB/s eta 0:00:00
+Building wheels for collected packages: phidl, gdspy, antlr4-python3-runtime, Pyqtree, qrcode, rectpack, future
+  Building wheel for phidl (setup.py): started
+  Building wheel for phidl (setup.py): finished with status 'done'
+  Created wheel for phidl: filename=phidl-1.6.1-py3-none-any.whl size=114527 sha256=9c230b0cb50c97be76cbc26b2955d558d764b4b9c55a6f29bd5c28813deed497
+  Stored in directory: /root/.cache/pip/wheels/7c/81/63/67cf000b415bda4674c00eebf2f1708031bb1a1a147cd66984
+  Building wheel for gdspy (setup.py): started
+  Building wheel for gdspy (setup.py): finished with status 'done'
+  Created wheel for gdspy: filename=gdspy-1.6.12-cp37-cp37m-linux_x86_64.whl size=610924 sha256=c31c4d01a60c1fbcc193e50522bf2061a966b118fffb3e3942dddd58c0bed012
+  Stored in directory: /root/.cache/pip/wheels/f1/51/b4/94f53111d1b74488fc88dbe792e2f5d44055620439264e8179
+  Building wheel for antlr4-python3-runtime (setup.py): started
+  Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144554 sha256=4fce09b00a868e462e5c303d86c8808a944e1131423f160d137eef722c49ea25
+  Stored in directory: /root/.cache/pip/wheels/a9/8b/1f/b8233836d5798e3224c2442947e9639f220095de8bf46e800c
+  Building wheel for Pyqtree (setup.py): started
+  Building wheel for Pyqtree (setup.py): finished with status 'done'
+  Created wheel for Pyqtree: filename=Pyqtree-1.0.0-py3-none-any.whl size=5969 sha256=3eb5d693a0da031075e282e70429d732e4e2ad792cb546d2fc7e7178a03a96cc
+  Stored in directory: /root/.cache/pip/wheels/2d/99/df/2bf3943f25f29ae786013fbd8d67ad2d53b80a6fc28b2929fa
+  Building wheel for qrcode (setup.py): started
+  Building wheel for qrcode (setup.py): finished with status 'done'
+  Created wheel for qrcode: filename=qrcode-7.3.1-py3-none-any.whl size=40386 sha256=729fb044eec0e5467dd2577ae5f513c191d2f62bcdf2c15d3e980e85fc703db8
+  Stored in directory: /root/.cache/pip/wheels/a9/b6/05/48e66c0a6a7cc8629e602c873240aca1a4daa1f1a7f089908c
+  Building wheel for rectpack (setup.py): started
+  Building wheel for rectpack (setup.py): finished with status 'done'
+  Created wheel for rectpack: filename=rectpack-0.2.2-py3-none-any.whl size=19330 sha256=36d534385bc728cc3b60cb984999d86c2e5f75299e6e4fcd74b4affbf15b6116
+  Stored in directory: /root/.cache/pip/wheels/90/fc/05/00ca02c6966d8cd34044a6eeb417357943078ab4b74f515471
+  Building wheel for future (setup.py): started
+  Building wheel for future (setup.py): finished with status 'done'
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491058 sha256=48933700364b5fd565651887aa4f11b55fbb979ac493161ac107fbdd8c45fe45
+  Stored in directory: /root/.cache/pip/wheels/3e/3c/b4/7132d27620dd551cf00823f798a7190e7320ae7ffb71d1e989
+Successfully built phidl gdspy antlr4-python3-runtime Pyqtree qrcode rectpack future
+Installing collected packages: webencodings, snowballstemmer, rectpack, pytz, Pyqtree, mistune, klayout, jsondiff, fastjsonschema, antlr4-python3-runtime, alabaster, xmltodict, traitlets, tornado, tomli, tinycss2, sphinxcontrib-serializinghtml, sphinxcontrib-qthelp, sphinxcontrib-jsmath, sphinxcontrib-htmlhelp, sphinxcontrib-devhelp, sphinxcontrib-applehelp, soupsieve, six, semantic-version, qrcode, pyzmq, PyYAML, pyrsistent, pyparsing, pygments, pydantic, pkgutil-resolve-name, pillow, pandocfilters, packaging, orjson, numpy, networkx, nest-asyncio, markupsafe, loguru, kiwisolver, jupyterlab-pygments, iniconfig, importlib-resources, imagesize, future, fonttools, exceptiongroup, entrypoints, docutils, defusedxml, cycler, babel, attrs, trimesh, tifffile, Shapely, scipy, PyWavelets, python-dateutil, omegaconf, lygadgets, jupyter-core, jsonschema, jinja2, imageio, gdspy, click, bleach, beautifulsoup4, sphinx, scikit-image, pytest, picwriter, pandas, nbformat, matplotlib, lyipc, jupyter-client, pytest-datadir, phidl, nbclient, pytest-regressions, nbconvert, lytest, nbsphinx, gdsfactory
+Successfully installed PyWavelets-1.3.0 PyYAML-6.0 Pyqtree-1.0.0 Shapely-2.0.0 alabaster-0.7.12 antlr4-python3-runtime-4.9.3 attrs-22.2.0 babel-2.11.0 beautifulsoup4-4.11.1 bleach-5.0.1 click-8.1.3 cycler-0.11.0 defusedxml-0.7.1 docutils-0.19 entrypoints-0.4 exceptiongroup-1.1.0 fastjsonschema-2.16.2 fonttools-4.38.0 future-0.18.2 gdsfactory-5.1.1 gdspy-1.6.12 imageio-2.24.0 imagesize-1.4.1 importlib-resources-5.10.2 iniconfig-2.0.0 jinja2-3.1.2 jsondiff-2.0.0 jsonschema-4.17.3 jupyter-client-7.4.8 jupyter-core-4.12.0 jupyterlab-pygments-0.2.2 kiwisolver-1.4.4 klayout-0.28.2 loguru-0.6.0 lygadgets-0.1.35 lyipc-0.2.13 lytest-0.0.20 markupsafe-2.1.1 matplotlib-3.5.3 mistune-2.0.4 nbclient-0.7.2 nbconvert-7.2.7 nbformat-5.7.1 nbsphinx-0.8.11 nest-asyncio-1.5.6 networkx-2.6.3 numpy-1.21.6 omegaconf-2.3.0 orjson-3.8.4 packaging-23.0 pandas-1.3.5 pandocfilters-1.5.0 phidl-1.6.1 picwriter-0.5 pillow-9.4.0 pkgutil-resolve-name-1.3.10 pydantic-1.10.4 pygments-2.14.0 pyparsing-3.0.9 pyrsistent-0.19.3 pytest-7.2.0 pytest-datadir-1.4.1 pytest-regressions-2.4.1 python-dateutil-2.8.2 pytz-2022.7 pyzmq-24.0.1 qrcode-7.3.1 rectpack-0.2.2 scikit-image-0.19.3 scipy-1.7.3 semantic-version-2.10.0 six-1.16.0 snowballstemmer-2.2.0 soupsieve-2.3.2.post1 sphinx-5.3.0 sphinxcontrib-applehelp-1.0.2 sphinxcontrib-devhelp-1.0.2 sphinxcontrib-htmlhelp-2.0.0 sphinxcontrib-jsmath-1.0.1 sphinxcontrib-qthelp-1.0.3 sphinxcontrib-serializinghtml-1.1.5 tifffile-2021.11.2 tinycss2-1.2.1 tomli-2.0.1 tornado-6.2 traitlets-5.8.0 trimesh-3.17.1 webencodings-0.5.1 xmltodict-0.13.0
+# add --pex to also run pex simulations
+#----------------------------------------------------------------------
+# Parsing command line arguments...
+#----------------------------------------------------------------------
+['tools/temp-sense-gen.py', '--specfile', 'test.json', '--outputDir', './work', '--platform', 'sky130hd', '--mode', 'full', '--prepex', '--ninv', '6', '--nhead', '3']
+Loading specfile...
+Searching for the new Temperature Min.... -20
+Searching for the new Temperature Max.... 100
+*********Performing Error Optimization*********
+   Temp  Frequency         Power     Error  inv  header
+0   -20      127.0  3.232879e-07  0.794667    4       3
+1     0      558.7  3.232879e-07  0.535216    4       3
+2    20     2231.9  3.232879e-07  0.100672    4       3
+3    40     7771.5  3.232879e-07  0.210243    4       3
+4    60    23086.3  3.232879e-07  0.158666    4       3
+5    80    60537.6  3.232879e-07  0.062586    4       3
+6   100   142937.2  3.232879e-07 -0.099607    4       3
+----calculate_max_error------ 0.794666934962595 0
+    Temp   Frequency         Power     Error  inv  header
+7    -20     129.500  2.440277e-07  0.650577    6       3
+8      0     597.875  2.440277e-07 -0.079742    6       3
+9     20    2347.750  2.440277e-07 -0.311720    6       3
+10    40    7900.000  2.440277e-07 -0.189233    6       3
+11    60   22885.250  2.440277e-07 -0.131162    6       3
+12    80   58738.250  2.440277e-07 -0.042120    6       3
+13   100  136055.500  2.440277e-07  0.010621    6       3
+----calculate_max_error------ 0.650577204396424 7
+    Temp  Frequency         Power     Error  inv  header
+14   -20     110.75  3.698848e-07  1.720183    8       3
+15     0     452.15  3.698848e-07 -0.588162    8       3
+16    20    1777.80  3.698848e-07 -0.974724    8       3
+17    40    6106.80  3.698848e-07 -0.683091    8       3
+18    60   18084.50  3.698848e-07 -0.344211    8       3
+19    80   47044.45  3.698848e-07 -0.088324    8       3
+20   100  109803.50  3.698848e-07  0.045180    8       3
+----calculate_max_error------ 1.72018259960235 14
+    Temp     Frequency         Power     Error  inv  header
+21   -20     94.944444  3.950984e-07  2.037004   10       3
+22     0    376.611111  3.950984e-07 -0.516268   10       3
+23    20   1487.833333  3.950984e-07 -0.813659   10       3
+24    40   5092.055556  3.950984e-07 -0.582986   10       3
+25    60  15048.111111  3.950984e-07 -0.297466   10       3
+26    80  39145.222222  3.950984e-07 -0.090237   10       3
+27   100  91621.444444  3.950984e-07  0.061466   10       3
+----calculate_max_error------ 2.03700381744706 21
+    Temp      Frequency         Power     Error  inv  header
+28   -20     116.000000  3.648363e-07  0.251817    4       5
+29     0     590.833333  3.648363e-07 -0.145793    4       5
+30    20    2455.666667  3.648363e-07 -0.336102    4       5
+31    40    8637.333333  3.648363e-07 -0.268425    4       5
+32    60   26240.666667  3.648363e-07 -0.187707    4       5
+33    80   70493.000000  3.648363e-07 -0.061453    4       5
+34   100  170370.333333  3.648363e-07 -0.000057    4       5
+----calculate_max_error------ 0.336101638668978 30
+    Temp   Frequency         Power     Error  inv  header
+35   -20     180.125  4.819866e-07  2.873734    6       5
+36     0     685.375  4.819866e-07 -0.200451    6       5
+37    20    2713.250  4.819866e-07 -0.334425    6       5
+38    40    9142.250  4.819866e-07 -0.223904    6       5
+39    60   26568.375  4.819866e-07 -0.147698    6       5
+40    80   68457.250  4.819866e-07 -0.077339    6       5
+41   100  160246.250  4.819866e-07  0.115901    6       5
+----calculate_max_error------ 2.87373386402416 35
+    Temp  Frequency         Power     Error  inv  header
+42   -20     145.00  1.945947e-07  2.648701    8       5
+43     0     507.25  1.945947e-07 -1.203975    8       5
+44    20    1866.50  1.945947e-07 -2.151063    8       5
+45    40    6288.25  1.945947e-07 -1.794888    8       5
+46    60   18515.25  1.945947e-07 -1.146341    8       5
+47    80   48256.25  1.945947e-07 -0.422154    8       5
+48   100  113495.00  1.945947e-07  0.387494    8       5
+----calculate_max_error------ 2.64870100861324 42
+    Temp  Frequency         Power     Error  inv  header
+49   -20      134.2  3.422742e-07  2.706028   10       5
+50     0      496.4  3.422742e-07 -0.892753   10       5
+51    20     1921.4  3.422742e-07 -1.317148   10       5
+52    40     6572.8  3.422742e-07 -0.885693   10       5
+53    60    19301.7  3.422742e-07 -0.502719   10       5
+54    80    49993.9  3.422742e-07 -0.159256   10       5
+55   100   116645.4  3.422742e-07  0.142977   10       5
+----calculate_max_error------ 2.70602845436118 49
+    Temp      Frequency         Power     Error  inv  header
+56   -20     178.500000  2.855601e-07  0.528264    4       7
+57     0     874.833333  2.855601e-07 -0.205096    4       7
+58    20    3660.333333  2.855601e-07 -0.273595    4       7
+59    40   12875.833333  2.855601e-07 -0.132329    4       7
+60    60   38443.500000  2.855601e-07 -0.373959    4       7
+61    80  103365.833333  2.855601e-07 -0.145059    4       7
+62   100  249120.333333  2.855601e-07  0.035036    4       7
+----calculate_max_error------ 0.528263670377131 56
+    Temp   Frequency         Power     Error  inv  header
+63   -20     202.750  4.421295e-07  2.031135    6       7
+64     0     809.000  4.421295e-07 -0.578494    6       7
+65    20    3236.375  4.421295e-07 -0.715499    6       7
+66    40   11046.500  4.421295e-07 -0.514104    6       7
+67    60   32552.500  4.421295e-07 -0.281547    6       7
+68    80   84590.875  4.421295e-07 -0.064808    6       7
+69   100  197251.375  4.421295e-07  0.021481    6       7
+----calculate_max_error------ 2.03113461362493 63
+    Temp      Frequency         Power     Error  inv  header
+70   -20     141.045455  2.761786e-07  1.243177    8       7
+71     0     606.681818  2.761786e-07 -0.491672    8       7
+72    20    2414.409091  2.761786e-07 -0.765383    8       7
+73    40    8304.500000  2.761786e-07 -0.546839    8       7
+74    60   24665.045455  2.761786e-07 -0.274237    8       7
+75    80   64466.045455  2.761786e-07 -0.072418    8       7
+76   100  151462.318182  2.761786e-07  0.051009    8       7
+----calculate_max_error------ 1.24317697453866 70
+    Temp      Frequency         Power     Error  inv  header
+77   -20     112.923077  2.834897e-07  1.013418   10       7
+78     0     511.961538  2.834897e-07 -0.166080   10       7
+79    20    2063.807692  2.834897e-07 -0.314165   10       7
+80    40    7090.730769  2.834897e-07 -0.158755   10       7
+81    60   20963.807692  2.834897e-07 -0.031009   10       7
+82    80   54598.307692  2.834897e-07  0.017763   10       7
+83   100  127753.730769  2.834897e-07 -0.046459   10       7
+----calculate_max_error------ 1.01341772680729 77
+    Temp   Frequency         Power     Error  inv  header
+84   -20     176.875  4.450566e-07  1.283129    4       9
+85     0     739.875  4.450566e-07 -0.650320    4       9
+86    20    3345.125  4.450566e-07  0.720678    4       9
+87    40   11637.000  4.450566e-07  0.639072    4       9
+88    60   34764.000  4.450566e-07  0.468410    4       9
+89    80   91422.750  4.450566e-07  0.186705    4       9
+90   100  215970.250  4.450566e-07 -0.237504    4       9
+----calculate_max_error------ 1.28312882640905 84
+    Temp      Frequency         Power     Error  inv  header
+91   -20     185.818182  3.048115e-07  0.399097    6       9
+92     0     888.272727  3.048115e-07 -0.049144    6       9
+93    20    3530.136364  3.048115e-07 -0.157275    6       9
+94    40   11867.636364  3.048115e-07 -0.117207    6       9
+95    60   34578.045455  3.048115e-07 -0.024095    6       9
+96    80   88959.136364  3.048115e-07  0.006415    6       9
+97   100  206316.772727  3.048115e-07 -0.026117    6       9
+----calculate_max_error------ 0.399097255325166 91
+     Temp      Frequency         Power     Error  inv  header
+98    -20     156.666667  2.536070e-07  2.999813    8       9
+99      0     588.000000  2.536070e-07 -0.371750    8       9
+100    20    2337.000000  2.536070e-07 -0.610628    8       9
+101    40    7948.166667  2.536070e-07 -0.533696    8       9
+102    60   23553.833333  2.536070e-07 -0.269215    8       9
+103    80   61357.333333  2.536070e-07 -0.104226    8       9
+104   100  144489.333333  2.536070e-07  0.118424    8       9make[1]: Entering directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
+[INFO][FLOW] Using platform directory /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd
+/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/util/markDontUse.py -p "sky130_fd_sc_hd__probe_p_8 sky130_fd_sc_hd__probec_p_8 sky130_fd_sc_hd__lpflow_bleeder_1 sky130_fd_sc_hd__lpflow_clkbufkapwr_1 sky130_fd_sc_hd__lpflow_clkbufkapwr_16 sky130_fd_sc_hd__lpflow_clkbufkapwr_2 sky130_fd_sc_hd__lpflow_clkbufkapwr_4 sky130_fd_sc_hd__lpflow_clkbufkapwr_8 sky130_fd_sc_hd__lpflow_clkinvkapwr_1 sky130_fd_sc_hd__lpflow_clkinvkapwr_16 sky130_fd_sc_hd__lpflow_clkinvkapwr_2 sky130_fd_sc_hd__lpflow_clkinvkapwr_4 sky130_fd_sc_hd__lpflow_clkinvkapwr_8 sky130_fd_sc_hd__lpflow_decapkapwr_12 sky130_fd_sc_hd__lpflow_decapkapwr_3 sky130_fd_sc_hd__lpflow_decapkapwr_4 sky130_fd_sc_hd__lpflow_decapkapwr_6 sky130_fd_sc_hd__lpflow_decapkapwr_8 sky130_fd_sc_hd__lpflow_inputiso0n_1 sky130_fd_sc_hd__lpflow_inputiso0p_1 sky130_fd_sc_hd__lpflow_inputiso1n_1 sky130_fd_sc_hd__lpflow_inputiso1p_1 sky130_fd_sc_hd__lpflow_inputisolatch_1 sky130_fd_sc_hd__lpflow_isobufsrc_1 sky130_fd_sc_hd__lpflow_isobufsrc_16 sky130_fd_sc_hd__lpflow_isobufsrc_2 sky130_fd_sc_hd__lpflow_isobufsrc_4 sky130_fd_sc_hd__lpflow_isobufsrc_8 sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4" -i /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib -o /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Opening file for replace: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Marked 36 cells as dont_use
+Commented 0 lines containing "original_pin"
+Replaced malformed functions 0
+Writing replaced file: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+mkdir -p /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense/
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/yosys -v 3 -c /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/synth.tcl) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//1_1_yosys.log
+1. Executing Verilog-2005 frontend: ./design/src/tempsense/TEMP_ANALOG_hv.nl.v
+2. Executing Verilog-2005 frontend: ./design/src/tempsense/TEMP_ANALOG_lv.nl.v
+3. Executing Verilog-2005 frontend: ./design/src/tempsense/TEMP_AUTO_def.v
+4. Executing Verilog-2005 frontend: ./design/src/tempsense/counter.v
+5. Executing Verilog-2005 frontend: ./design/src/tempsense/tempsenseInst_error.v
+6. Executing Verilog-2005 frontend: ../blocks/sky130hd/tempsenseInst.blackbox.v
+7. Executing Liberty frontend.
+8. Executing Verilog-2005 frontend: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/cells_clkgate_hd.v
+9. Executing SYNTH pass.
+9.1. Executing HIERARCHY pass (managing design hierarchy).
+9.2. Executing AST frontend in derive mode using pre-parsed AST for module `\tempsenseInst_error'.
+9.2.1. Analyzing design hierarchy..
+9.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\TEMP_ANALOG_hv'.
+9.2.3. Executing AST frontend in derive mode using pre-parsed AST for module `\TEMP_ANALOG_lv'.
+9.2.4. Analyzing design hierarchy..
+9.2.5. Executing AST frontend in derive mode using pre-parsed AST for module `\counter'.
+9.2.6. Analyzing design hierarchy..
+9.2.7. Analyzing design hierarchy..
+9.3. Executing PROC pass (convert processes to netlists).
+9.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+9.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+9.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+9.3.4. Executing PROC_INIT pass (extract init attributes).
+9.3.5. Executing PROC_ARST pass (detect async resets in processes).
+9.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+9.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+9.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+9.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+9.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+9.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+9.3.12. Executing OPT_EXPR pass (perform const folding).
+9.4. Executing FLATTEN pass (flatten design).
+9.5. Executing OPT_EXPR pass (perform const folding).
+9.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.7. Executing CHECK pass (checking for obvious problems).
+9.8. Executing OPT pass (performing simple optimizations).
+9.8.1. Executing OPT_EXPR pass (perform const folding).
+9.8.2. Executing OPT_MERGE pass (detect identical cells).
+9.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.8.5. Executing OPT_MERGE pass (detect identical cells).
+9.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+9.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.8.8. Executing OPT_EXPR pass (perform const folding).
+9.8.9. Rerunning OPT passes. (Maybe there is more to do..)
+9.8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.8.12. Executing OPT_MERGE pass (detect identical cells).
+9.8.13. Executing OPT_DFF pass (perform DFF optimizations).
+9.8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.8.15. Executing OPT_EXPR pass (perform const folding).
+9.8.16. Finished OPT passes. (There is nothing left to do.)
+9.9. Executing FSM pass (extract and optimize FSM).
+9.9.1. Executing FSM_DETECT pass (finding FSMs in design).
+9.9.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+9.9.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+9.9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.9.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+9.9.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+9.9.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+9.9.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+9.10. Executing OPT pass (performing simple optimizations).
+9.10.1. Executing OPT_EXPR pass (perform const folding).
+9.10.2. Executing OPT_MERGE pass (detect identical cells).
+9.10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.10.5. Executing OPT_MERGE pass (detect identical cells).
+9.10.6. Executing OPT_DFF pass (perform DFF optimizations).
+9.10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.10.8. Executing OPT_EXPR pass (perform const folding).
+9.10.9. Rerunning OPT passes. (Maybe there is more to do..)
+9.10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.10.12. Executing OPT_MERGE pass (detect identical cells).
+9.10.13. Executing OPT_DFF pass (perform DFF optimizations).
+9.10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.10.15. Executing OPT_EXPR pass (perform const folding).
+9.10.16. Finished OPT passes. (There is nothing left to do.)
+9.11. Executing WREDUCE pass (reducing word size of cells).
+9.12. Executing PEEPOPT pass (run peephole optimizers).
+9.13. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.14. Executing ALUMACC pass (create $alu and $macc cells).
+9.15. Executing SHARE pass (SAT-based resource sharing).
+9.16. Executing OPT pass (performing simple optimizations).
+9.16.1. Executing OPT_EXPR pass (perform const folding).
+9.16.2. Executing OPT_MERGE pass (detect identical cells).
+9.16.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.16.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.16.5. Executing OPT_MERGE pass (detect identical cells).
+9.16.6. Executing OPT_DFF pass (perform DFF optimizations).
+9.16.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.16.8. Executing OPT_EXPR pass (perform const folding).
+9.16.9. Finished OPT passes. (There is nothing left to do.)
+9.17. Executing MEMORY pass.
+9.17.1. Executing OPT_MEM pass (optimize memories).
+9.17.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+9.17.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+9.17.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+9.17.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+9.17.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.17.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+9.17.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+9.17.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.17.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+9.18. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.19. Executing OPT pass (performing simple optimizations).
+9.19.1. Executing OPT_EXPR pass (perform const folding).
+9.19.2. Executing OPT_MERGE pass (detect identical cells).
+9.19.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.19.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.19.5. Finished fast OPT passes.
+9.20. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+9.21. Executing OPT pass (performing simple optimizations).
+9.21.1. Executing OPT_EXPR pass (perform const folding).
+9.21.2. Executing OPT_MERGE pass (detect identical cells).
+9.21.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+9.21.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+9.21.5. Executing OPT_MERGE pass (detect identical cells).
+9.21.6. Executing OPT_SHARE pass.
+9.21.7. Executing OPT_DFF pass (perform DFF optimizations).
+9.21.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.21.9. Executing OPT_EXPR pass (perform const folding).
+9.21.10. Finished OPT passes. (There is nothing left to do.)
+9.22. Executing TECHMAP pass (map to technology primitives).
+9.22.1. Executing Verilog-2005 frontend: /usr/bin/miniconda3/bin/../share/yosys/techmap.v
+9.22.2. Continuing TECHMAP pass.
+9.23. Executing OPT pass (performing simple optimizations).
+9.23.1. Executing OPT_EXPR pass (perform const folding).
+9.23.2. Executing OPT_MERGE pass (detect identical cells).
+9.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.23.5. Finished fast OPT passes.
+9.24. Executing ABC pass (technology mapping using ABC).
+9.24.1. Extracting gate netlist of module `\tempsenseInst_error' to `<abc-temp-dir>/input.blif'..
+9.25. Executing OPT pass (performing simple optimizations).
+9.25.1. Executing OPT_EXPR pass (perform const folding).
+9.25.2. Executing OPT_MERGE pass (detect identical cells).
+9.25.3. Executing OPT_DFF pass (perform DFF optimizations).
+9.25.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+9.25.5. Finished fast OPT passes.
+9.26. Executing HIERARCHY pass (managing design hierarchy).
+9.26.1. Analyzing design hierarchy..
+9.26.2. Analyzing design hierarchy..
+9.27. Printing statistics.
+9.28. Executing CHECK pass (checking for obvious problems).
+10. Executing OPT pass (performing simple optimizations).
+10.1. Executing OPT_EXPR pass (perform const folding).
+10.2. Executing OPT_MERGE pass (detect identical cells).
+10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+10.5. Executing OPT_MERGE pass (detect identical cells).
+10.6. Executing OPT_DFF pass (perform DFF optimizations).
+10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+10.8. Executing OPT_EXPR pass (perform const folding).
+10.9. Rerunning OPT passes. (Maybe there is more to do..)
+10.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+10.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+10.12. Executing OPT_MERGE pass (detect identical cells).
+10.13. Executing OPT_DFF pass (perform DFF optimizations).
+10.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+10.15. Executing OPT_EXPR pass (perform const folding).
+10.16. Finished OPT passes. (There is nothing left to do.)
+11. Executing EXTRACT_FA pass (find and extract full/half adders).
+12. Executing TECHMAP pass (map to technology primitives).
+12.1. Executing Verilog-2005 frontend: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/cells_adders_hd.v
+12.2. Continuing TECHMAP pass.
+13. Executing TECHMAP pass (map to technology primitives).
+13.1. Executing Verilog-2005 frontend: /usr/bin/miniconda3/bin/../share/yosys/techmap.v
+13.2. Continuing TECHMAP pass.
+14. Executing OPT pass (performing simple optimizations).
+14.1. Executing OPT_EXPR pass (perform const folding).
+14.2. Executing OPT_MERGE pass (detect identical cells).
+14.3. Executing OPT_DFF pass (perform DFF optimizations).
+14.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+14.5. Finished fast OPT passes.
+15. Executing TECHMAP pass (map to technology primitives).
+15.1. Executing Verilog-2005 frontend: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/cells_latch_hd.v
+15.2. Continuing TECHMAP pass.
+16. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbn_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtn_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE|IQ&!DE' in pin attribute of cell 'sky130_fd_sc_hd__edfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfbbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfrtp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfsbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfstp_4' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sdfxtp_4' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxbp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_1' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_2' - skipping.
+Warning: Found unsupported expression 'D&DE&!SCE|IQ&!DE&!SCE|SCD&SCE' in pin attribute of cell 'sky130_fd_sc_hd__sedfxtp_4' - skipping.
+16.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+17. Executing OPT pass (performing simple optimizations).
+17.1. Executing OPT_EXPR pass (perform const folding).
+17.2. Executing OPT_MERGE pass (detect identical cells).
+17.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+17.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+17.5. Executing OPT_MERGE pass (detect identical cells).
+17.6. Executing OPT_DFF pass (perform DFF optimizations).
+17.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+17.8. Executing OPT_EXPR pass (perform const folding).
+17.9. Finished OPT passes. (There is nothing left to do.)
+Using ABC speed script.
+[WARN][FLOW] No clock period constraints detected in design
+18. Executing ABC pass (technology mapping using ABC).
+18.1. Extracting gate netlist of module `\tempsenseInst_error' to `<abc-temp-dir>/input.blif'..
+18.1.1. Executing ABC.
+18.1.2. Re-integrating ABC results.
+19. Executing SETUNDEF pass (replace undef values with defined constants).
+20. Executing SPLITNETS pass (splitting up multi-bit signals).
+21. Executing OPT_CLEAN pass (remove unused cells and wires).
+22. Executing HILOMAP pass (mapping to constant drivers).
+23. Executing INSBUF pass (insert buffer cells for connected wires).
+24. Executing CHECK pass (checking for obvious problems).
+25. Printing statistics.
+26. Executing Verilog backend.
+26.1. Executing BMUXMAP pass.
+26.2. Executing DEMUXMAP pass.
+Warnings: 26 unique messages, 234 total
+End of script. Logfile hash: e950ac29ff, CPU: user 0.84s system 0.02s, MEM: 41.50 MB peak
+Yosys 0.23+3 (git sha1 853f4bb3c, x86_64-conda-linux-gnu-cc 11.2.0 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -fdebug-prefix-map=/home/runner/work/conda-eda/conda-eda/workdir/conda-env/conda-bld/yosys_1668468037942/work=/usr/local/src/conda/yosys-0.23_6_g853f4bb3c -fdebug-prefix-map=/usr/bin/miniconda3=/usr/local/src/conda-prefix -fPIC -Os -fno-merge-constants)
+Time spent: 29% 2x abc (0 sec), 13% 2x read_liberty (0 sec), ...
+Elapsed time: 0:01.28[h:]min:sec. CPU time: user 1.17 sys 0.03 (93%). Peak memory: 42812KB.
+mkdir -p /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense/
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//1_1_yosys.v /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//1_synth.v
+mkdir -p /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense/
+cp design/sky130hd/tempsense/constraint.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//1_synth.sdc
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/floorplan.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_1_floorplan.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_1_floorplan.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0226] Finished LEF file:  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef
+[INFO ODB-0222] Reading LEF file: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef
+[INFO ODB-0222] Reading LEF file: ../blocks/sky130hd/lef/HEADER.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ../blocks/sky130hd/lef/HEADER.lef
+[INFO ODB-0222] Reading LEF file: ../blocks/sky130hd/lef/SLC.lef
+[INFO ODB-0225]     Created 1 library cells
+[INFO ODB-0226] Finished LEF file:  ../blocks/sky130hd/lef/SLC.lef
+[WARNING ORD-1011] LEF master HEADER has no liberty cell.
+[WARNING ORD-1011] LEF master SLC has no liberty cell.
+number instances in verilog is 163
+[INFO IFP-0001] Added 42 rows of 258 sites.
+[INFO RSZ-0026] Removed 13 buffers.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1nW
+ distance 1um
+
+==========================================================================
+floorplan final report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+floorplan final report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+floorplan final report_worst_slack
+--------------------------------------------------------------------------
+worst slack INF
+
+==========================================================================
+floorplan final report_clock_skew
+--------------------------------------------------------------------------
+
+==========================================================================
+floorplan final report_checks -path_delay min
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+floorplan final report_checks -path_delay max
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+floorplan final report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _176_ (falling edge-triggered flip-flop)
+Endpoint: DOUT[10] (output port)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.05    0.00    0.00 v _176_/CLK_N (sky130_fd_sc_hd__dfrtn_1)
+                  0.05    0.34    0.34 v _176_/Q (sky130_fd_sc_hd__dfrtn_1)
+     3    0.01                           temp_analog_1.async_counter_0.div_r[10] (net)
+                  0.05    0.00    0.34 v _092_/A1 (sky130_fd_sc_hd__mux4_1)
+                  0.08    0.49    0.83 v _092_/X (sky130_fd_sc_hd__mux4_1)
+     1    0.00                           _053_ (net)
+                  0.08    0.00    0.83 v _093_/B (sky130_fd_sc_hd__nand2_1)
+                  0.05    0.08    0.90 ^ _093_/Y (sky130_fd_sc_hd__nand2_1)
+     1    0.00                           _054_ (net)
+                  0.05    0.00    0.90 ^ _094_/B1 (sky130_fd_sc_hd__o311a_1)
+                  0.75    0.66    1.56 ^ _094_/X (sky130_fd_sc_hd__o311a_1)
+    27    0.08                           _055_ (net)
+                  0.75    0.00    1.56 ^ _129_/B (sky130_fd_sc_hd__nor3_1)
+                  0.10    0.07    1.63 v _129_/Y (sky130_fd_sc_hd__nor3_1)
+     1    0.00                           DOUT[10] (net)
+                  0.10    0.00    1.63 v DOUT[10] (out)
+                                  1.63   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+==========================================================================
+floorplan final report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.68e-13   3.57e-14   5.48e-10   5.48e-10  58.0%
+Combinational          9.63e-14   1.04e-13   3.96e-10   3.96e-10  42.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.65e-13   1.39e-13   9.44e-10   9.44e-10 100.0%
+                           0.0%       0.0%     100.0%
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 1854 u^2 14% utilization.
+
+Elapsed time: 0:00.64[h:]min:sec. CPU time: user 0.47 sys 0.03 (79%). Peak memory: 85200KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/io_placement_random.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_2_floorplan_io.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_2_floorplan_io.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Found 0 macro blocks.
+Using 1u default distance from corners.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0007] Random pin placement.
+Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.39 sys 0.02 (99%). Peak memory: 78680KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/tdms_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_3_tdms.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_3_tdms_place.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+No macros found: Skipping global_placement
+Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.40 sys 0.01 (99%). Peak memory: 78980KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/macro_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_4_mplace.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_4_mplace.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+No macros found: Skipping macro_placement
+Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.41 sys 0.00 (99%). Peak memory: 78832KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/tapcell.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_5_tapcell.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_5_tapcell.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING TAP-0014] endcap_cpp option is deprecated.
+[INFO TAP-0004] Inserted 106 endcaps.
+[INFO TAP-0005] Inserted 139 tapcells.
+Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.39 sys 0.03 (99%). Peak memory: 78752KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/pdn.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_6_pdn.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_6_pdn.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING PDN-1024] -verbose has been deprecated.
+[INFO PDN-0001] Inserting grid: stdcell
+[INFO PDN-0001] Inserting grid: stdcell_analog
+Elapsed time: 0:00.79[h:]min:sec. CPU time: user 0.76 sys 0.01 (98%). Peak memory: 81740KB.
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//2_6_floorplan_pdn.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//2_floorplan.odb
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/global_place_skip_io.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_1_place_gp_skip_io.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_1_place_gp_skip_io.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Has top down IO Constraints. Skip global placement without IOs
+Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.40 sys 0.01 (99%). Peak memory: 78956KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/io_placement.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_2_place_iop.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_2_place_iop.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Found 0 macro blocks.
+Using 1u default distance from corners.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0007] Random pin placement.
+Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.39 sys 0.03 (99%). Peak memory: 79540KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/global_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_3_place_gp.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_3_place_gp.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 18400 16320
+[INFO GPL-0005] CoreAreaUxUy: 137080 130560
+[INFO GPL-0006] NumInstances: 429
+[INFO GPL-0007] NumPlaceInstances: 150
+[INFO GPL-0008] NumFixedInstances: 245
+[INFO GPL-0009] NumDummyInstances: 34
+[INFO GPL-0010] NumNets: 155
+[INFO GPL-0011] NumPins: 522
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 155480 146880
+[INFO GPL-0014] CoreAreaLxLy: 18400 16320
+[INFO GPL-0015] CoreAreaUxUy: 137080 130560
+[INFO GPL-0016] CoreArea: 13558003200
+[INFO GPL-0017] NonPlaceInstsArea: 3682281600
+[INFO GPL-0018] PlaceInstsArea: 2229638400
+[INFO GPL-0019] Util(%): 22.58
+[INFO GPL-0020] StdInstsArea: 2229638400
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00000012 HPWL: 6664150
+[InitialPlace]  Iter: 2 CG residual: 0.00000005 HPWL: 5413691
+[InitialPlace]  Iter: 3 CG residual: 0.00000011 HPWL: 5403111
+[InitialPlace]  Iter: 4 CG residual: 0.00000009 HPWL: 5394987
+[InitialPlace]  Iter: 5 CG residual: 0.00000010 HPWL: 5353382
+[INFO GPL-0031] FillerInit: NumGCells: 409
+[INFO GPL-0032] FillerInit: NumGNets: 155
+[INFO GPL-0033] FillerInit: NumGPins: 522
+[INFO GPL-0023] TargetDensity: 0.60
+[INFO GPL-0024] AveragePlaceInstArea: 14864256
+[INFO GPL-0025] IdealBinArea: 24773760
+[INFO GPL-0026] IdealBinCnt: 547
+[INFO GPL-0027] TotalBinArea: 13558003200
+[INFO GPL-0028] BinCnt: 16 16
+[INFO GPL-0029] BinSize: 7418 7140
+[INFO GPL-0030] NumBins: 256
+[NesterovSolve] Iter: 1 overflow: 0.57812 HPWL: 4602086
+[INFO GPL-0100] worst slack 1e+30
+[WARNING GPL-0102] No slacks found. Timing-driven mode disabled.
+[NesterovSolve] Snapshot saved at iter = 0
+[NesterovSolve] Iter: 10 overflow: 0.464948 HPWL: 4564335
+[NesterovSolve] Iter: 20 overflow: 0.45665 HPWL: 4507091
+[NesterovSolve] Iter: 30 overflow: 0.442716 HPWL: 4451008
+[NesterovSolve] Iter: 40 overflow: 0.472482 HPWL: 4451555
+[NesterovSolve] Iter: 50 overflow: 0.471734 HPWL: 4462712
+[NesterovSolve] Iter: 60 overflow: 0.458368 HPWL: 4461249
+[NesterovSolve] Iter: 70 overflow: 0.454403 HPWL: 4452124
+[NesterovSolve] Iter: 80 overflow: 0.450919 HPWL: 4445755
+[NesterovSolve] Iter: 90 overflow: 0.447797 HPWL: 4437994
+[NesterovSolve] Iter: 100 overflow: 0.442088 HPWL: 4427706
+[NesterovSolve] Iter: 110 overflow: 0.431769 HPWL: 4412477
+[NesterovSolve] Iter: 120 overflow: 0.431707 HPWL: 4420547
+[NesterovSolve] Iter: 130 overflow: 0.427812 HPWL: 4412597
+[NesterovSolve] Iter: 140 overflow: 0.424527 HPWL: 4412027
+[NesterovSolve] Iter: 150 overflow: 0.425491 HPWL: 4411909
+[NesterovSolve] Iter: 160 overflow: 0.413165 HPWL: 4412252
+[NesterovSolve] Iter: 170 overflow: 0.415687 HPWL: 4417434
+[NesterovSolve] Iter: 180 overflow: 0.406948 HPWL: 4405586
+[NesterovSolve] Iter: 190 overflow: 0.394156 HPWL: 4403412
+[NesterovSolve] Iter: 200 overflow: 0.382548 HPWL: 4406002
+[NesterovSolve] Iter: 210 overflow: 0.358185 HPWL: 4389457
+[NesterovSolve] Iter: 220 overflow: 0.32258 HPWL: 4362046
+[NesterovSolve] Iter: 230 overflow: 0.292802 HPWL: 4338841
+[NesterovSolve] Iter: 240 overflow: 0.260704 HPWL: 4321127
+[NesterovSolve] Iter: 250 overflow: 0.228443 HPWL: 4337535
+[INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
+[INFO GPL-0036] TileLxLy: 0 0
+[INFO GPL-0037] TileSize: 6900 6900
+[INFO GPL-0038] TileCnt: 22 21
+[INFO GPL-0039] numRoutingLayers: 6
+[INFO GPL-0040] NumTiles: 462
+[INFO GPL-0063] TotalRouteOverflowH2: 0.0
+[INFO GPL-0064] TotalRouteOverflowV2: 0.0
+[INFO GPL-0065] OverflowTileCnt2: 0
+[INFO GPL-0066] 0.5%RC: 0.8642857159887042
+[INFO GPL-0067] 1.0%RC: 0.7961538434028625
+[INFO GPL-0068] 2.0%RC: 0.7179999947547913
+[INFO GPL-0069] 5.0%RC: 0.6666666865348816
+[INFO GPL-0070] 0.5rcK: 1.0
+[INFO GPL-0071] 1.0rcK: 1.0
+[INFO GPL-0072] 2.0rcK: 0.0
+[INFO GPL-0073] 5.0rcK: 0.0
+[INFO GPL-0074] FinalRC: 0.8302198
+[NesterovSolve] Iter: 260 overflow: 0.189841 HPWL: 4336418
+[NesterovSolve] Iter: 270 overflow: 0.152959 HPWL: 4345933
+[NesterovSolve] Iter: 280 overflow: 0.127551 HPWL: 4352051
+[NesterovSolve] Iter: 290 overflow: 0.108215 HPWL: 4362090
+[NesterovSolve] Finished with Overflow: 0.098918
+
+==========================================================================
+global place report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global place report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global place report_worst_slack
+--------------------------------------------------------------------------
+worst slack INF
+
+==========================================================================
+global place report_clock_skew
+--------------------------------------------------------------------------
+
+==========================================================================
+global place report_checks -path_delay min
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+global place report_checks -path_delay max
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+global place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _178_ (falling edge-triggered flip-flop)
+Endpoint: DOUT[10] (output port)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.06    0.00    0.00 v _178_/CLK_N (sky130_fd_sc_hd__dfrtn_1)
+                  0.07    0.36    0.36 v _178_/Q (sky130_fd_sc_hd__dfrtn_1)
+     3    0.01                           temp_analog_1.async_counter_0.div_r[8] (net)
+                  0.07    0.00    0.36 v _100_/A3 (sky130_fd_sc_hd__mux4_2)
+                  0.10    0.50    0.87 v _100_/X (sky130_fd_sc_hd__mux4_2)
+     1    0.01                           _061_ (net)
+                  0.10    0.00    0.87 v _101_/B1 (sky130_fd_sc_hd__a221oi_4)
+                  1.29    1.06    1.92 ^ _101_/Y (sky130_fd_sc_hd__a221oi_4)
+    27    0.12                           _062_ (net)
+                  1.29    0.01    1.93 ^ _129_/C (sky130_fd_sc_hd__nor3_1)
+                  0.33    0.36    2.29 v _129_/Y (sky130_fd_sc_hd__nor3_1)
+     1    0.02                           DOUT[10] (net)
+                  0.33    0.00    2.29 v DOUT[10] (out)
+                                  2.29   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+==========================================================================
+global place report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.65e-13   5.44e-14   5.48e-10   5.48e-10  42.5%
+Combinational          9.71e-14   2.42e-13   7.40e-10   7.40e-10  57.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.62e-13   2.96e-13   1.29e-09   1.29e-09 100.0%
+                           0.0%       0.0%     100.0%
+
+==========================================================================
+global place report_design_area
+--------------------------------------------------------------------------
+Design area 2559 u^2 19% utilization.
+
+Elapsed time: 0:00.65[h:]min:sec. CPU time: user 0.58 sys 0.04 (96%). Peak memory: 159100KB.
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_3_place_gp.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_4_place_resized.odb
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/detail_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_5_opendp.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_5_opendp.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Placement Analysis
+---------------------------------
+total displacement        917.0 u
+average displacement        2.3 u
+max displacement           53.7 u
+original HPWL            4373.5 u
+legalized HPWL           4785.2 u
+delta HPWL                    9 %
+
+[INFO DPL-0020] Mirrored 64 instances
+[INFO DPL-0021] HPWL before            4785.2 u
+[INFO DPL-0022] HPWL after             4700.4 u
+[INFO DPL-0023] HPWL delta               -1.8 %
+[INFO FLW-0012] Placement violations .
+
+==========================================================================
+detailed place report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+detailed place report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+detailed place report_worst_slack
+--------------------------------------------------------------------------
+worst slack INF
+
+==========================================================================
+detailed place report_clock_skew
+--------------------------------------------------------------------------
+
+==========================================================================
+detailed place report_checks -path_delay min
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+detailed place report_checks -path_delay max
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+detailed place report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _178_ (falling edge-triggered flip-flop)
+Endpoint: DOUT[10] (output port)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.07    0.00    0.00 v _178_/CLK_N (sky130_fd_sc_hd__dfrtn_1)
+                  0.07    0.37    0.37 v _178_/Q (sky130_fd_sc_hd__dfrtn_1)
+     3    0.01                           temp_analog_1.async_counter_0.div_r[8] (net)
+                  0.07    0.00    0.37 v _100_/A3 (sky130_fd_sc_hd__mux4_2)
+                  0.10    0.50    0.87 v _100_/X (sky130_fd_sc_hd__mux4_2)
+     1    0.01                           _061_ (net)
+                  0.10    0.00    0.87 v _101_/B1 (sky130_fd_sc_hd__a221oi_4)
+                  1.27    1.04    1.91 ^ _101_/Y (sky130_fd_sc_hd__a221oi_4)
+    27    0.12                           _062_ (net)
+                  1.27    0.01    1.92 ^ _129_/C (sky130_fd_sc_hd__nor3_1)
+                  0.33    0.36    2.28 v _129_/Y (sky130_fd_sc_hd__nor3_1)
+     1    0.02                           DOUT[10] (net)
+                  0.33    0.00    2.28 v DOUT[10] (out)
+                                  2.28   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+==========================================================================
+detailed place report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+
+==========================================================================
+detailed place max_slew_check_slack
+--------------------------------------------------------------------------
+0.2308293581008911
+
+==========================================================================
+detailed place max_slew_check_limit
+--------------------------------------------------------------------------
+1.5
+
+==========================================================================
+detailed place max_slew_check_slack_limit
+--------------------------------------------------------------------------
+0.1539
+
+==========================================================================
+detailed place max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+detailed place max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+detailed place max_capacitance_check_slack
+--------------------------------------------------------------------------
+0.027964461594820023
+
+==========================================================================
+detailed place max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.052195001393556595
+
+==========================================================================
+detailed place max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+0.5358
+
+==========================================================================
+detailed place max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 0
+
+==========================================================================
+detailed place max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+detailed place max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 0
+
+==========================================================================
+detailed place setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+detailed place hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+detailed place critical path delay
+--------------------------------------------------------------------------
+-1
+
+==========================================================================
+detailed place critical path slack
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+detailed place slack div critical path delay
+--------------------------------------------------------------------------
+0.000000
+
+==========================================================================
+detailed place report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.64e-13   5.49e-14   5.48e-10   5.48e-10  42.5%
+Combinational          9.70e-14   2.50e-13   7.40e-10   7.40e-10  57.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.61e-13   3.04e-13   1.29e-09   1.29e-09 100.0%
+                           0.0%       0.0%     100.0%
+
+==========================================================================
+detailed place report_design_area
+--------------------------------------------------------------------------
+Design area 2559 u^2 19% utilization.
+
+Elapsed time: 0:00.47[h:]min:sec. CPU time: user 0.44 sys 0.02 (98%). Peak memory: 82140KB.
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_5_place_dp.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.odb
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//2_floorplan.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.sdc
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_1_cts.odb
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/fillcell.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//4_2_cts_fillcell.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//4_2_cts_fillcell.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO DPL-0001] Placed 1096 filler instances.
+Elapsed time: 0:00.43[h:]min:sec. CPU time: user 0.41 sys 0.01 (99%). Peak memory: 81164KB.
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_2_cts_fillcell.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_cts.odb
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_cts.sdc
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/global_route.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_1_fastroute.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_1_fastroute.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 0 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 48
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 710
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal       9240          5688          38.44%
+met2       Vertical         6930          4583          33.87%
+met3       Horizontal       4620          3002          35.02%
+met4       Vertical         2772          1452          47.62%
+met5       Horizontal        924           399          56.82%
+---------------------------------------------------------------
+
+[INFO GRT-0197] Via related to pin nodes: 618
+[INFO GRT-0198] Via related Steiner nodes: 9
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 707
+[INFO GRT-0112] Final usage 3D: 2826
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1              5688           395            6.94%             0 /  0 /  0
+met2              4583           310            6.76%             0 /  0 /  0
+met3              3002             0            0.00%             0 /  0 /  0
+met4              1452             0            0.00%             0 /  0 /  0
+met5               399             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total            15124           705            4.66%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 7824 um
+[INFO GRT-0014] Routed nets: 155
+
+==========================================================================
+global route report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+global route report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+global route report_worst_slack
+--------------------------------------------------------------------------
+worst slack INF
+
+==========================================================================
+global route report_clock_skew
+--------------------------------------------------------------------------
+
+==========================================================================
+global route report_checks -path_delay min
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+global route report_checks -path_delay max
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+global route report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _178_ (falling edge-triggered flip-flop)
+Endpoint: DOUT[10] (output port)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.07    0.00    0.00 v _178_/CLK_N (sky130_fd_sc_hd__dfrtn_1)
+                  0.08    0.38    0.38 v _178_/Q (sky130_fd_sc_hd__dfrtn_1)
+     3    0.01                           temp_analog_1.async_counter_0.div_r[8] (net)
+                  0.08    0.00    0.38 v _100_/A3 (sky130_fd_sc_hd__mux4_2)
+                  0.10    0.51    0.89 v _100_/X (sky130_fd_sc_hd__mux4_2)
+     1    0.01                           _061_ (net)
+                  0.10    0.00    0.89 v _101_/B1 (sky130_fd_sc_hd__a221oi_4)
+                  1.52    1.22    2.11 ^ _101_/Y (sky130_fd_sc_hd__a221oi_4)
+    27    0.14                           _062_ (net)
+                  1.52    0.01    2.12 ^ _129_/C (sky130_fd_sc_hd__nor3_1)
+                  0.39    0.41    2.54 v _129_/Y (sky130_fd_sc_hd__nor3_1)
+     1    0.03                           DOUT[10] (net)
+                  0.39    0.00    2.54 v DOUT[10] (out)
+                                  2.54   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+==========================================================================
+global route report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+_153_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_117_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_143_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_145_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_121_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_123_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_149_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_119_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_127_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_131_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_147_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_113_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_129_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_115_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_151_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_133_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_102_/A2                                1.50    1.52   -0.02 (VIOLATED)
+_107_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_137_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_103_/A2                                1.50    1.52   -0.02 (VIOLATED)
+_111_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_109_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_135_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_141_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_139_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_155_/C                                 1.50    1.52   -0.02 (VIOLATED)
+_156_/B                                 1.50    1.52   -0.02 (VIOLATED)
+
+
+==========================================================================
+global route max_slew_check_slack
+--------------------------------------------------------------------------
+-0.016198821365833282
+
+==========================================================================
+global route max_slew_check_limit
+--------------------------------------------------------------------------
+1.5
+
+==========================================================================
+global route max_slew_check_slack_limit
+--------------------------------------------------------------------------
+-0.0108
+
+==========================================================================
+global route max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+global route max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+global route max_capacitance_check_slack
+--------------------------------------------------------------------------
+0.015115946531295776
+
+==========================================================================
+global route max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.15565000474452972
+
+==========================================================================
+global route max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+0.0971
+
+==========================================================================
+global route max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 27
+
+==========================================================================
+global route max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+global route max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 0
+
+==========================================================================
+global route setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+global route hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+global route critical path delay
+--------------------------------------------------------------------------
+-1
+
+==========================================================================
+global route critical path slack
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+global route slack div critical path delay
+--------------------------------------------------------------------------
+0.000000
+
+==========================================================================
+global route report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.61e-13   7.04e-14   5.48e-10   5.48e-10  42.5%
+Combinational          9.76e-14   3.11e-13   7.40e-10   7.40e-10  57.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.59e-13   3.81e-13   1.29e-09   1.29e-09 100.0%
+                           0.0%       0.0%     100.0%
+
+==========================================================================
+global route report_design_area
+--------------------------------------------------------------------------
+Design area 2559 u^2 19% utilization.
+
+
+==========================================================================
+check_antennas
+--------------------------------------------------------------------------
+[WARNING ANT-0011] -report_violating_nets is deprecated.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+[WARNING FLW-0006] No clocks found.
+[INFO FLW-0011] Path endpoint count 129
+Elapsed time: 0:00.55[h:]min:sec. CPU time: user 0.47 sys 0.07 (98%). Peak memory: 139444KB.
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/detail_route.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_2_TritonRoute.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_2_TritonRoute.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 2 thread(s).
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                1000
+Number of layers:     13
+Number of macros:     443
+Number of vias:       25
+Number of viarulegen: 25
+
+[INFO DRT-0150] Reading design.
+
+Design:                   tempsenseInst_error
+Die area:                 ( 0 0 ) ( 155480 146880 )
+Number of track patterns: 12
+Number of DEF vias:       12
+Number of components:     1491
+Number of terminals:      41
+Number of snets:          3
+Number of nets:           156
+
+[INFO DRT-0167] List of default vias:
+  Layer mcon
+    default via: L1M1_PR
+  Layer via
+    default via: M1M2_PR
+  Layer via2
+    default via: M2M3_PR
+  Layer via3
+    default via: M3M4_PR
+  Layer via4
+    default via: M4M5_PR
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 51.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete FR_MASTERSLICE.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete li1.
+[INFO DRT-0024]   Complete mcon.
+[INFO DRT-0024]   Complete met1.
+[INFO DRT-0024]   Complete via.
+[INFO DRT-0024]   Complete met2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete met3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete met4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete met5.
+[INFO DRT-0033] FR_MASTERSLICE shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] li1 shape region query size = 8564.
+[INFO DRT-0033] mcon shape region query size = 17351.
+[INFO DRT-0033] met1 shape region query size = 4199.
+[INFO DRT-0033] via shape region query size = 1560.
+[INFO DRT-0033] met2 shape region query size = 462.
+[INFO DRT-0033] via2 shape region query size = 1299.
+[INFO DRT-0033] met3 shape region query size = 558.
+[INFO DRT-0033] via3 shape region query size = 2595.
+[INFO DRT-0033] met4 shape region query size = 241.
+[INFO DRT-0033] via4 shape region query size = 152.
+[INFO DRT-0033] met5 shape region query size = 60.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0076]   Complete 100 pins.
+[INFO DRT-0078]   Complete 138 pins.
+[INFO DRT-0081]   Complete 41 unique inst patterns.
+[INFO DRT-0084]   Complete 101 groups.
+#scanned instances     = 1491
+#unique  instances     = 51
+#stdCellGenAp          = 1555
+#stdCellValidPlanarAp  = 53
+#stdCellValidViaAp     = 865
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 487
+#instTermValidViaApCnt = 0
+#macroGenAp            = 0
+#macroValidPlanarAp    = 0
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:00:06, elapsed time = 00:00:03, memory = 90.98 (MB), peak = 90.98 (MB)
+
+Number of guides:     1118
+
+[INFO DRT-0169] Post process guides.
+[INFO DRT-0176] GCELLGRID X 0 DO 22 STEP 6900 ;
+[INFO DRT-0177] GCELLGRID Y 0 DO 21 STEP 6900 ;
+[INFO DRT-0028]   Complete FR_MASTERSLICE.
+[INFO DRT-0028]   Complete Fr_VIA.
+[INFO DRT-0028]   Complete li1.
+[INFO DRT-0028]   Complete mcon.
+[INFO DRT-0028]   Complete met1.
+[INFO DRT-0028]   Complete via.
+[INFO DRT-0028]   Complete met2.
+[INFO DRT-0028]   Complete via2.
+[INFO DRT-0028]   Complete met3.
+[INFO DRT-0028]   Complete via3.
+[INFO DRT-0028]   Complete met4.
+[INFO DRT-0028]   Complete via4.
+[INFO DRT-0028]   Complete met5.
+[INFO DRT-1000] Pin temp_analog_1.a_header_2/VIN not in any guide. Attempting to patch guides to cover (at least part of) the pin.
+[INFO DRT-1000] Pin temp_analog_1.a_header_1/VIN not in any guide. Attempting to patch guides to cover (at least part of) the pin.
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0035]   Complete FR_MASTERSLICE (guide).
+[INFO DRT-0035]   Complete Fr_VIA (guide).
+[INFO DRT-0035]   Complete li1 (guide).
+[INFO DRT-0035]   Complete mcon (guide).
+[INFO DRT-0035]   Complete met1 (guide).
+[INFO DRT-0035]   Complete via (guide).
+[INFO DRT-0035]   Complete met2 (guide).
+[INFO DRT-0035]   Complete via2 (guide).
+[INFO DRT-0035]   Complete met3 (guide).
+[INFO DRT-0035]   Complete via3 (guide).
+[INFO DRT-0035]   Complete met4 (guide).
+[INFO DRT-0035]   Complete via4 (guide).
+[INFO DRT-0035]   Complete met5 (guide).
+[INFO DRT-0036] FR_MASTERSLICE guide region query size = 0.
+[INFO DRT-0036] FR_VIA guide region query size = 0.
+[INFO DRT-0036] li1 guide region query size = 325.
+[INFO DRT-0036] mcon guide region query size = 0.
+[INFO DRT-0036] met1 guide region query size = 301.
+[INFO DRT-0036] via guide region query size = 0.
+[INFO DRT-0036] met2 guide region query size = 176.
+[INFO DRT-0036] via2 guide region query size = 0.
+[INFO DRT-0036] met3 guide region query size = 20.
+[INFO DRT-0036] via3 guide region query size = 0.
+[INFO DRT-0036] met4 guide region query size = 0.
+[INFO DRT-0036] via4 guide region query size = 0.
+[INFO DRT-0036] met5 guide region query size = 0.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0185] Post process initialize RPin region query.
+[INFO DRT-0181] Start track assignment.
+[INFO DRT-0184] Done with 501 vertical wires in 1 frboxes and 321 horizontal wires in 1 frboxes.
+[INFO DRT-0186] Done with 28 vertical wires in 1 frboxes and 135 horizontal wires in 1 frboxes.
+[INFO DRT-0182] Complete track assignment.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 95.48 (MB), peak = 95.48 (MB)
+[INFO DRT-0187] Start routing data preparation.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 95.48 (MB), peak = 95.48 (MB)
+[INFO DRT-0194] Start detail routing.
+[INFO DRT-0195] Start 0th optimization iteration.
+    Completing 10% with 0 violations.
+    elapsed time = 00:00:00, memory = 120.50 (MB).
+    Completing 20% with 0 violations.
+    elapsed time = 00:00:00, memory = 136.99 (MB).
+    Completing 30% with 0 violations.
+    elapsed time = 00:00:00, memory = 134.92 (MB).
+    Completing 40% with 30 violations.
+    elapsed time = 00:00:01, memory = 141.11 (MB).
+    Completing 50% with 30 violations.
+    elapsed time = 00:00:01, memory = 141.11 (MB).
+    Completing 60% with 37 violations.
+    elapsed time = 00:00:03, memory = 155.15 (MB).
+    Completing 70% with 37 violations.
+    elapsed time = 00:00:03, memory = 155.15 (MB).
+    Completing 80% with 37 violations.
+    elapsed time = 00:00:08, memory = 155.39 (MB).
+    Completing 90% with 106 violations.
+    elapsed time = 00:00:08, memory = 155.39 (MB).
+    Completing 100% with 107 violations.
+    elapsed time = 00:00:08, memory = 155.39 (MB).
+[INFO DRT-0199]   Number of violations = 184.
+Viol/Layer        met1    via   met2   met3
+Metal Spacing       28      0      2     17
+Min Hole             2      0      0      0
+Recheck             57      0     20      0
+Short               50      2      6      0
+[INFO DRT-0267] cpu time = 00:00:10, elapsed time = 00:00:09, memory = 480.55 (MB), peak = 480.55 (MB)
+Total wire length = 5649 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2632 um.
+Total wire length on LAYER met2 = 2656 um.
+Total wire length on LAYER met3 = 356 um.
+Total wire length on LAYER met4 = 4 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 1007.
+Up-via summary (total 1007):.
+
+-----------------------
+ FR_MASTERSLICE       0
+            li1     436
+           met1     543
+           met2      24
+           met3       4
+           met4       0
+-----------------------
+                   1007
+
+
+[INFO DRT-0195] Start 1st optimization iteration.
+    Completing 10% with 184 violations.
+    elapsed time = 00:00:00, memory = 480.55 (MB).
+    Completing 20% with 184 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 30% with 123 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 40% with 123 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 50% with 123 violations.
+    elapsed time = 00:00:02, memory = 500.14 (MB).
+    Completing 60% with 98 violations.
+    elapsed time = 00:00:02, memory = 500.14 (MB).
+    Completing 70% with 98 violations.
+    elapsed time = 00:00:03, memory = 500.14 (MB).
+    Completing 80% with 81 violations.
+    elapsed time = 00:00:03, memory = 500.14 (MB).
+    Completing 90% with 81 violations.
+    elapsed time = 00:00:03, memory = 500.14 (MB).
+    Completing 100% with 81 violations.
+    elapsed time = 00:00:03, memory = 500.14 (MB).
+[INFO DRT-0199]   Number of violations = 81.
+Viol/Layer        met1   met2   met3
+Metal Spacing       24      2      5
+Short               48      2      0
+[INFO DRT-0267] cpu time = 00:00:04, elapsed time = 00:00:03, memory = 500.14 (MB), peak = 500.14 (MB)
+Total wire length = 5650 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2729 um.
+Total wire length on LAYER met2 = 2629 um.
+Total wire length on LAYER met3 = 285 um.
+Total wire length on LAYER met4 = 6 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 1003.
+Up-via summary (total 1003):.
+
+-----------------------
+ FR_MASTERSLICE       0
+            li1     436
+           met1     534
+           met2      29
+           met3       4
+           met4       0
+-----------------------
+                   1003
+
+
+[INFO DRT-0195] Start 2nd optimization iteration.
+    Completing 10% with 81 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 20% with 81 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 30% with 83 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 40% with 83 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 50% with 83 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 60% with 74 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 70% with 74 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 80% with 74 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 90% with 74 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+    Completing 100% with 65 violations.
+    elapsed time = 00:00:01, memory = 500.14 (MB).
+[INFO DRT-0199]   Number of violations = 66.
+Viol/Layer        met1   met2   met3
+Metal Spacing       23      0     10
+Recheck              1      0      0
+Short               30      2      0
+[INFO DRT-0267] cpu time = 00:00:02, elapsed time = 00:00:01, memory = 500.14 (MB), peak = 500.14 (MB)
+Total wire length = 5576 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2691 um.
+Total wire length on LAYER met2 = 2578 um.
+Total wire length on LAYER met3 = 299 um.
+Total wire length on LAYER met4 = 6 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 981.
+Up-via summary (total 981):.
+
+----------------------
+ FR_MASTERSLICE      0
+            li1    436
+           met1    520
+           met2     21
+           met3      4
+           met4      0
+----------------------
+                   981
+
+
+[INFO DRT-0195] Start 3rd optimization iteration.
+    Completing 10% with 66 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 20% with 66 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 30% with 66 violations.
+    elapsed time = 00:00:02, memory = 500.14 (MB).
+    Completing 40% with 60 violations.
+    elapsed time = 00:00:02, memory = 500.14 (MB).
+    Completing 50% with 60 violations.
+    elapsed time = 00:00:02, memory = 500.14 (MB).
+    Completing 60% with 60 violations.
+    elapsed time = 00:00:02, memory = 500.14 (MB).
+    Completing 70% with 60 violations.
+    elapsed time = 00:00:02, memory = 500.14 (MB).
+    Completing 80% with 60 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 90% with 13 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 100% with 13 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+[INFO DRT-0199]   Number of violations = 13.
+Viol/Layer        met1   met2
+Metal Spacing        4      0
+Short                7      2
+[INFO DRT-0267] cpu time = 00:00:07, elapsed time = 00:00:05, memory = 500.14 (MB), peak = 500.14 (MB)
+Total wire length = 5596 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2670 um.
+Total wire length on LAYER met2 = 2592 um.
+Total wire length on LAYER met3 = 318 um.
+Total wire length on LAYER met4 = 14 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 991.
+Up-via summary (total 991):.
+
+----------------------
+ FR_MASTERSLICE      0
+            li1    436
+           met1    522
+           met2     27
+           met3      6
+           met4      0
+----------------------
+                   991
+
+
+[INFO DRT-0195] Start 4th optimization iteration.
+    Completing 10% with 13 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 20% with 13 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 30% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 40% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 50% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 60% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 70% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 80% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 90% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+    Completing 100% with 5 violations.
+    elapsed time = 00:00:05, memory = 500.14 (MB).
+[INFO DRT-0199]   Number of violations = 5.
+Viol/Layer        met1
+Metal Spacing        5
+[INFO DRT-0267] cpu time = 00:00:05, elapsed time = 00:00:05, memory = 500.14 (MB), peak = 500.14 (MB)
+Total wire length = 5599 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2625 um.
+Total wire length on LAYER met2 = 2599 um.
+Total wire length on LAYER met3 = 360 um.
+Total wire length on LAYER met4 = 14 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 992.
+Up-via summary (total 992):.
+
+----------------------
+ FR_MASTERSLICE      0
+            li1    436
+           met1    521
+           met2     29
+           met3      6
+           met4      0
+----------------------
+                   992
+
+
+[INFO DRT-0195] Start 5th optimization iteration.
+    Completing 10% with 5 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 20% with 5 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 30% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 40% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 50% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 60% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 70% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 80% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 90% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+    Completing 100% with 0 violations.
+    elapsed time = 00:00:00, memory = 500.14 (MB).
+[INFO DRT-0199]   Number of violations = 0.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 500.14 (MB), peak = 500.14 (MB)
+Total wire length = 5589 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2629 um.
+Total wire length on LAYER met2 = 2589 um.
+Total wire length on LAYER met3 = 356 um.
+Total wire length on LAYER met4 = 14 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 987.
+Up-via summary (total 987):.
+
+----------------------
+ FR_MASTERSLICE      0
+            li1    436
+           met1    518
+           met2     27
+           met3      6
+           met4      0
+----------------------
+                   987
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 5589 um.
+Total wire length on LAYER li1 = 0 um.
+Total wire length on LAYER met1 = 2629 um.
+Total wire length on LAYER met2 = 2589 um.
+Total wire length on LAYER met3 = 356 um.
+Total wire length on LAYER met4 = 14 um.
+Total wire length on LAYER met5 = 0 um.
+Total number of vias = 987.
+Up-via summary (total 987):.
+
+----------------------
+ FR_MASTERSLICE      0
+            li1    436
+           met1    518
+           met2     27
+           met3      6
+           met4      0
+----------------------
+                   987
+
+
+[INFO DRT-0267] cpu time = 00:00:30, elapsed time = 00:00:26, memory = 500.14 (MB), peak = 500.14 (MB)
+
+[INFO DRT-0180] Post processing.
+Elapsed time: 0:30.07[h:]min:sec. CPU time: user 37.46 sys 0.24 (125%). Peak memory: 512448KB.
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_2_route.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.odb
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_fill.odb
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_cts.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.sdc
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_fill.sdc
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/final_report.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//6_report.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//6_report.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO] Deleted 0 routing obstructions
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0008] extracting parasitics of tempsenseInst_error ...
+[INFO RCX-0435] Reading extraction model file /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation tempsenseInst_error (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 652 rc segments
+[INFO RCX-0439] Coupling Cap extraction tempsenseInst_error ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0043] 1470 wires to be extracted
+[INFO RCX-0442] 61% completion -- 900 wires have been extracted
+[INFO RCX-0442] 100% completion -- 1470 wires have been extracted
+[INFO RCX-0045] Extract 157 nets, 806 rsegs, 806 caps, 850 ccs
+[INFO RCX-0015] Finished extracting tempsenseInst_error.
+[INFO RCX-0016] Writing SPEF ...
+[INFO RCX-0443] 156 nets finished
+[INFO RCX-0017] Finished writing SPEF ...
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 118.680 or core height of 114.240. Changing bump location to the center of the die at (77.740, 73.440).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (77.740um, 73.440um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (76.400um, 124.320um).
+[INFO PSM-0031] Number of PDN nodes on net VDD = 691.
+[WARNING PSM-0024] Instance PHY_12, current node at (31600, 78880) at layer 2 have been moved from (33580, 32640).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_0, current node at (80960, 51680) at layer 2 have been moved from (60720, 54400).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_1, current node at (80960, 51680) at layer 2 have been moved from (58420, 51680).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_2, current node at (80960, 51680) at layer 2 have been moved from (59340, 54400).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_3, current node at (80960, 51680) at layer 2 have been moved from (57960, 54400).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_4, current node at (80960, 57120) at layer 2 have been moved from (58420, 57120).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_5, current node at (80960, 57120) at layer 2 have been moved from (57040, 57120).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_m1, current node at (54000, 78880) at layer 2 have been moved from (56580, 59840).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_m2, current node at (80960, 57120) at layer 2 have been moved from (59800, 57120).
+[WARNING PSM-0024] Instance temp_analog_0.a_inv_m3, current node at (80960, 57120) at layer 2 have been moved from (61640, 57120).
+[WARNING PSM-0024] Instance temp_analog_0.a_nand_0, current node at (80960, 51680) at layer 2 have been moved from (61640, 51680).
+[WARNING PSM-0024] Instance PHY_13, current node at (80960, 29920) at layer 2 have been moved from (63020, 32640).
+[WARNING PSM-0024] Instance PHY_16, current node at (31600, 78880) at layer 2 have been moved from (33580, 35360).
+[WARNING PSM-0024] Instance PHY_17, current node at (80960, 35360) at layer 2 have been moved from (63020, 35360).
+[WARNING PSM-0024] Instance PHY_20, current node at (31600, 78880) at layer 2 have been moved from (33580, 38080).
+[WARNING PSM-0024] Instance PHY_21, current node at (80960, 35360) at layer 2 have been moved from (63020, 38080).
+[WARNING PSM-0024] Instance PHY_24, current node at (31600, 78880) at layer 2 have been moved from (33580, 40800).
+[WARNING PSM-0024] Instance PHY_25, current node at (80960, 40800) at layer 2 have been moved from (63020, 40800).
+[WARNING PSM-0024] Instance PHY_28, current node at (31600, 78880) at layer 2 have been moved from (33580, 43520).
+[WARNING PSM-0024] Instance PHY_29, current node at (80960, 40800) at layer 2 have been moved from (63020, 43520).
+[WARNING PSM-0024] Instance PHY_32, current node at (31600, 78880) at layer 2 have been moved from (33580, 46240).
+[WARNING PSM-0024] Instance PHY_33, current node at (80960, 46240) at layer 2 have been moved from (63020, 46240).
+[WARNING PSM-0024] Instance PHY_36, current node at (31600, 78880) at layer 2 have been moved from (33580, 48960).
+[WARNING PSM-0024] Instance PHY_37, current node at (80960, 46240) at layer 2 have been moved from (63020, 48960).
+[WARNING PSM-0024] Instance PHY_40, current node at (31600, 78880) at layer 2 have been moved from (33580, 51680).
+[WARNING PSM-0024] Instance PHY_41, current node at (80960, 51680) at layer 2 have been moved from (63020, 51680).
+[WARNING PSM-0024] Instance PHY_44, current node at (31600, 78880) at layer 2 have been moved from (33580, 54400).
+[WARNING PSM-0024] Instance PHY_45, current node at (80960, 51680) at layer 2 have been moved from (63020, 54400).
+[WARNING PSM-0024] Instance PHY_48, current node at (31600, 78880) at layer 2 have been moved from (33580, 57120).
+[WARNING PSM-0024] Instance PHY_49, current node at (80960, 57120) at layer 2 have been moved from (63020, 57120).
+[WARNING PSM-0024] Instance PHY_52, current node at (31600, 78880) at layer 2 have been moved from (33580, 59840).
+[WARNING PSM-0024] Instance PHY_53, current node at (80960, 57120) at layer 2 have been moved from (63020, 59840).
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VDD are connected.
+########## IR report #################
+Worstcase voltage: 1.80e+00 V
+Average IR drop  : 3.96e-10 V
+Worstcase IR drop: 1.81e-09 V
+######################################
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 118.680 or core height of 114.240. Changing bump location to the center of the die at (77.740, 73.440).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (77.740um, 73.440um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (76.360um, 61.320um).
+[INFO PSM-0031] Number of PDN nodes on net VSS = 902.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VSS are connected.
+########## IR report #################
+Worstcase voltage: 7.53e-10 V
+Average IR drop  : 2.81e-10 V
+Worstcase IR drop: 7.53e-10 V
+######################################
+
+==========================================================================
+finish report_tns
+--------------------------------------------------------------------------
+tns 0.00
+
+==========================================================================
+finish report_wns
+--------------------------------------------------------------------------
+wns 0.00
+
+==========================================================================
+finish report_worst_slack
+--------------------------------------------------------------------------
+worst slack INF
+
+==========================================================================
+finish report_clock_skew
+--------------------------------------------------------------------------
+
+==========================================================================
+finish report_checks -path_delay min
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+finish report_checks -path_delay max
+--------------------------------------------------------------------------
+No paths found.
+
+==========================================================================
+finish report_checks -unconstrained
+--------------------------------------------------------------------------
+Startpoint: _178_ (falling edge-triggered flip-flop)
+Endpoint: DOUT[10] (output port)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.07    0.00    0.00 v _178_/CLK_N (sky130_fd_sc_hd__dfrtn_1)
+                  0.07    0.37    0.37 v _178_/Q (sky130_fd_sc_hd__dfrtn_1)
+     3    0.01                           temp_analog_1.async_counter_0.div_r[8] (net)
+                  0.07    0.00    0.37 v _100_/A3 (sky130_fd_sc_hd__mux4_2)
+                  0.10    0.50    0.87 v _100_/X (sky130_fd_sc_hd__mux4_2)
+     1    0.01                           _061_ (net)
+                  0.10    0.00    0.87 v _101_/B1 (sky130_fd_sc_hd__a221oi_4)
+                  1.36    1.10    1.97 ^ _101_/Y (sky130_fd_sc_hd__a221oi_4)
+    27    0.13                           _062_ (net)
+                  1.36    0.02    1.98 ^ _129_/C (sky130_fd_sc_hd__nor3_1)
+                  0.32    0.32    2.30 v _129_/Y (sky130_fd_sc_hd__nor3_1)
+     1    0.02                           DOUT[10] (net)
+                  0.32    0.00    2.30 v DOUT[10] (out)
+                                  2.30   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+==========================================================================
+finish report_check_types -max_slew -max_cap -max_fanout -violators
+--------------------------------------------------------------------------
+
+==========================================================================
+finish max_slew_check_slack
+--------------------------------------------------------------------------
+0.13946810364723206
+
+==========================================================================
+finish max_slew_check_limit
+--------------------------------------------------------------------------
+1.5
+
+==========================================================================
+finish max_slew_check_slack_limit
+--------------------------------------------------------------------------
+0.0930
+
+==========================================================================
+finish max_fanout_check_slack
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_fanout_check_limit
+--------------------------------------------------------------------------
+1.0000000150474662e+30
+
+==========================================================================
+finish max_capacitance_check_slack
+--------------------------------------------------------------------------
+0.025052985176444054
+
+==========================================================================
+finish max_capacitance_check_limit
+--------------------------------------------------------------------------
+0.15565000474452972
+
+==========================================================================
+finish max_capacitance_check_slack_limit
+--------------------------------------------------------------------------
+0.1610
+
+==========================================================================
+finish max_slew_violation_count
+--------------------------------------------------------------------------
+max slew violation count 0
+
+==========================================================================
+finish max_fanout_violation_count
+--------------------------------------------------------------------------
+max fanout violation count 0
+
+==========================================================================
+finish max_cap_violation_count
+--------------------------------------------------------------------------
+max cap violation count 0
+
+==========================================================================
+finish setup_violation_count
+--------------------------------------------------------------------------
+setup violation count 0
+
+==========================================================================
+finish hold_violation_count
+--------------------------------------------------------------------------
+hold violation count 0
+
+==========================================================================
+finish critical path delay
+--------------------------------------------------------------------------
+-1
+
+==========================================================================
+finish critical path slack
+--------------------------------------------------------------------------
+0
+
+==========================================================================
+finish slack div critical path delay
+--------------------------------------------------------------------------
+0.000000
+
+==========================================================================
+finish report_power
+--------------------------------------------------------------------------
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             1.64e-13   5.45e-14   5.48e-10   5.48e-10  42.5%
+Combinational          9.73e-14   2.53e-13   7.40e-10   7.40e-10  57.5%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.61e-13   3.07e-13   1.29e-09   1.29e-09 100.0%
+                           0.0%       0.0%     100.0%
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 2559 u^2 19% utilization.
+
+Elapsed time: 0:00.61[h:]min:sec. CPU time: user 0.59 sys 0.01 (99%). Peak memory: 93572KB.
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.sdc
+sed '/OR_DEFAULT/d' /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef > /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//klayout_tech.lef
+sed 's,<lef-files>.*</lef-files>,<lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense/klayout_tech.lef</lef-files> <lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/common/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef</lef-files> <lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/blocks/sky130hd/lef/HEADER.lef</lef-files> <lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/blocks/sky130hd/lef/SLC.lef</lef-files>,g' /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/sky130hd.lyt > /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//klayout.lyt
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' stdbuf -o L /usr/bin/klayout -zz -rd design_name=tempsenseInst_error \
+        -rd in_def=/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.def \
+        -rd in_files="/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/gds/sky130_fd_sc_hd.gds ../blocks/sky130hd/gds/HEADER.gds ../blocks/sky130hd/gds/SLC.gds " \
+        -rd config_file=/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/fill.json \
+        -rd seal_file="" \
+        -rd out_file=/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_merged.gds \
+        -rd tech_file=/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//klayout.lyt \
+        -rd layer_map= \
+        -r /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/util/def2stream.py) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//6_1_merge.log
+[INFO] Reporting cells prior to loading DEF ...
+[INFO] Reading DEF ...
+[INFO] Clearing cells...
+[INFO] Merging GDS/OAS files...
+	/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/gds/sky130_fd_sc_hd.gds
+	../blocks/sky130hd/gds/HEADER.gds
+	../blocks/sky130hd/gds/SLC.gds
+[INFO] Copying toplevel cell 'tempsenseInst_error'
+INFO: Reading config file: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/fill.json
+[INFO] Checking for missing cell from GDS/OAS...
+[INFO] All LEF cells have matching GDS/OAS cells
+[INFO] Checking for orphan cell in the final layout...
+[INFO] No orphan cells
+[INFO] Writing out GDS/OAS '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_merged.gds'
+Elapsed time: 0:01.50[h:]min:sec. CPU time: user 1.29 sys 0.10 (93%). Peak memory: 391484KB.
+cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_merged.gds /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.gds
+make[1]: Leaving directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
+make[1]: Entering directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
+[INFO][FLOW] Using platform directory /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd
+/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/drc-lvs-check/run_drc.sh
+
+Magic 8.3 revision 356 - Compiled on Thu Dec 22 04:21:23 UTC 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/drc-lvs-check/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "sky130_fd_sc_hd__tap_1".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "VIA_M3M4_PR_M".
+Saving contents of cell VIA_M3M4_PR_M
+Reading "VIA_M3M4_PR".
+Saving contents of cell VIA_M3M4_PR
+Reading "VIA_M2M3_PR".
+Saving contents of cell VIA_M2M3_PR
+Reading "VIA_M1M2_PR".
+Saving contents of cell VIA_M1M2_PR
+Reading "VIA_L1M1_PR_MR".
+Saving contents of cell VIA_L1M1_PR_MR
+Reading "VIA_via4_5_1200_5000_12_3_400_400".
+Saving contents of cell VIA_via4_5_1200_5000_12_3_400_400
+Reading "VIA_via4_5_5000_5000_12_12_400_400".
+Saving contents of cell VIA_via4_5_5000_5000_12_12_400_400
+Reading "VIA_via2_3_1200_490_1_3_320_320".
+Saving contents of cell VIA_via2_3_1200_490_1_3_320_320
+Reading "VIA_via3_4_1200_490_1_3_400_400".
+Saving contents of cell VIA_via3_4_1200_490_1_3_400_400
+Reading "VIA_via4_5_1200_490_1_3_400_400".
+Saving contents of cell VIA_via4_5_1200_490_1_3_400_400
+Reading "VIA_via2_3_5000_490_1_15_320_320".
+Saving contents of cell VIA_via2_3_5000_490_1_15_320_320
+Reading "VIA_via3_4_5000_490_1_12_400_400".
+Saving contents of cell VIA_via3_4_5000_490_1_12_400_400
+Reading "VIA_via4_5_5000_490_1_12_400_400".
+Saving contents of cell VIA_via4_5_5000_490_1_12_400_400
+Reading "VIA_via5_6_1200_1600_1_1_1600_1600".
+Saving contents of cell VIA_via5_6_1200_1600_1_1_1600_1600
+Reading "VIA_via5_6_1200_5000_3_1_1600_1600".
+Saving contents of cell VIA_via5_6_1200_5000_3_1_1600_1600
+Reading "VIA_via5_6_5000_1600_1_3_1600_1600".
+Saving contents of cell VIA_via5_6_5000_1600_1_3_1600_1600
+Reading "VIA_via5_6_5000_5000_3_3_1600_1600".
+Saving contents of cell VIA_via5_6_5000_5000_3_3_1600_1600
+Reading "SLC".
+Reading "HEADER".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__dfrtn_1".
+Reading "sky130_fd_sc_hd__dfrtp_1".
+Reading "sky130_fd_sc_hd__or2_2".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__nor3_2".
+Reading "sky130_fd_sc_hd__o211a_1".
+Reading "sky130_fd_sc_hd__a221oi_4".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__o2111a_2".
+Reading "sky130_fd_sc_hd__or3_1".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__o311a_1".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__o221ai_1".
+Reading "sky130_fd_sc_hd__or3b_2".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "sky130_fd_sc_hd__or2b_1".
+Reading "sky130_fd_sc_hd__nor3_1".
+Reading "sky130_fd_sc_hd__inv_1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__fill_4".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__fill_8".
+Reading "tempsenseInst_error".
+[INFO]: Loading tempsenseInst_error
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense//6_final_drc.rpt
+
+Using technology "sky130A", version 1.0.378-0-g3696eca
+# magic -rcfile /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/drc-lvs-check/sky130A/sky130A.magicrc -noconsole -dnull /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/drc-lvs-check/magic_commands.tcl < /dev/null
+make[1]: Leaving directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
+make[1]: Entering directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
+[INFO][FLOW] Using platform directory /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd
+(/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/cdl.tcl) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//6_cdl.log
+OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Elapsed time: 0:00.45[h:]min:sec. CPU time: user 0.43 sys 0.01 (99%). Peak memory: 83368KB.
+mkdir -p /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/spice /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/ext
+python /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/util/openfasoc/cdl_parser.py -i /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.cdl -s /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/cdl/sky130_fd_sc_hd.spice -o /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/spice/tempsenseInst_error.spice
+/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/drc-lvs-check/run_lvspex.sh /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.gds tempsenseInst_error /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense//6_final_lvs.rpt
+
+Magic 8.3 revision 356 - Compiled on Thu Dec 22 04:21:23 UTC 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.378-0-g3696eca
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "sky130_fd_sc_hd__tap_1".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "VIA_M3M4_PR_M".
+Reading "VIA_M3M4_PR".
+Reading "VIA_M2M3_PR".
+Reading "VIA_M1M2_PR".
+Reading "VIA_L1M1_PR_MR".
+Reading "VIA_via4_5_1200_5000_12_3_400_400".
+Reading "VIA_via4_5_5000_5000_12_12_400_400".
+Reading "VIA_via2_3_1200_490_1_3_320_320".
+Reading "VIA_via3_4_1200_490_1_3_400_400".
+Reading "VIA_via4_5_1200_490_1_3_400_400".
+Reading "VIA_via2_3_5000_490_1_15_320_320".
+Reading "VIA_via3_4_5000_490_1_12_400_400".
+Reading "VIA_via4_5_5000_490_1_12_400_400".
+Reading "VIA_via5_6_1200_1600_1_1_1600_1600".
+Reading "VIA_via5_6_1200_5000_3_1_1600_1600".
+Reading "VIA_via5_6_5000_1600_1_3_1600_1600".
+Reading "VIA_via5_6_5000_5000_3_3_1600_1600".
+Reading "SLC".
+Reading "HEADER".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__dfrtn_1".
+Reading "sky130_fd_sc_hd__dfrtp_1".
+Reading "sky130_fd_sc_hd__or2_2".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__nor3_2".
+Reading "sky130_fd_sc_hd__o211a_1".
+Reading "sky130_fd_sc_hd__a221oi_4".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__o2111a_2".
+Reading "sky130_fd_sc_hd__or3_1".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__o311a_1".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__o221ai_1".
+Reading "sky130_fd_sc_hd__or3b_2".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "sky130_fd_sc_hd__or2b_1".
+Reading "sky130_fd_sc_hd__nor3_1".
+Reading "sky130_fd_sc_hd__inv_1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__fill_4".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__fill_8".
+Reading "tempsenseInst_error".
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+sky130_fd_sc_hd__decap_4: 2 warnings
+Extracting sky130_fd_sc_hd__fill_8 into sky130_fd_sc_hd__fill_8.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+sky130_fd_sc_hd__fill_1: 3 warnings
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__fill_4 into sky130_fd_sc_hd__fill_4.ext:
+Extracting sky130_fd_sc_hd__inv_1 into sky130_fd_sc_hd__inv_1.ext:
+Extracting sky130_fd_sc_hd__nor3_1 into sky130_fd_sc_hd__nor3_1.ext:
+Extracting sky130_fd_sc_hd__dfrtn_1 into sky130_fd_sc_hd__dfrtn_1.ext:
+Extracting sky130_fd_sc_hd__tap_1 into sky130_fd_sc_hd__tap_1.ext:
+sky130_fd_sc_hd__tap_1: 3 warnings
+Extracting HEADER into HEADER.ext:
+HEADER: 2 warnings
+Extracting sky130_fd_sc_hd__nor3_2 into sky130_fd_sc_hd__nor3_2.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting SLC into SLC.ext:
+SLC: 4 warnings
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+sky130_fd_sc_hd__conb_1: 10 warnings
+Extracting sky130_fd_sc_hd__dfrtp_1 into sky130_fd_sc_hd__dfrtp_1.ext:
+Extracting sky130_fd_sc_hd__o211a_1 into sky130_fd_sc_hd__o211a_1.ext:
+Extracting sky130_fd_sc_hd__or2_2 into sky130_fd_sc_hd__or2_2.ext:
+Extracting sky130_fd_sc_hd__a221oi_4 into sky130_fd_sc_hd__a221oi_4.ext:
+Extracting sky130_fd_sc_hd__mux4_2 into sky130_fd_sc_hd__mux4_2.ext:
+Extracting sky130_fd_sc_hd__o2111a_2 into sky130_fd_sc_hd__o2111a_2.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
+Extracting sky130_fd_sc_hd__o311a_1 into sky130_fd_sc_hd__o311a_1.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__o221ai_1 into sky130_fd_sc_hd__o221ai_1.ext:
+Extracting sky130_fd_sc_hd__or3b_2 into sky130_fd_sc_hd__or3b_2.ext:
+Extracting sky130_fd_sc_hd__or2b_1 into sky130_fd_sc_hd__or2b_1.ext:
+Extracting VIA_via3_4_1200_490_1_3_400_400 into VIA_via3_4_1200_490_1_3_400_400.ext:
+Extracting VIA_via3_4_5000_490_1_12_400_400 into VIA_via3_4_5000_490_1_12_400_400.ext:
+Extracting VIA_via4_5_1200_490_1_3_400_400 into VIA_via4_5_1200_490_1_3_400_400.ext:
+Extracting VIA_via2_3_5000_490_1_15_320_320 into VIA_via2_3_5000_490_1_15_320_320.ext:
+Extracting VIA_via4_5_5000_490_1_12_400_400 into VIA_via4_5_5000_490_1_12_400_400.ext:
+Extracting VIA_via2_3_1200_490_1_3_320_320 into VIA_via2_3_1200_490_1_3_320_320.ext:
+Extracting VIA_via5_6_5000_1600_1_3_1600_1600 into VIA_via5_6_5000_1600_1_3_1600_1600.ext:
+Extracting VIA_M2M3_PR into VIA_M2M3_PR.ext:
+Extracting VIA_via5_6_1200_5000_3_1_1600_1600 into VIA_via5_6_1200_5000_3_1_1600_1600.ext:
+Extracting VIA_M1M2_PR into VIA_M1M2_PR.ext:
+Extracting VIA_via5_6_5000_5000_3_3_1600_1600 into VIA_via5_6_5000_5000_3_3_1600_1600.ext:
+Extracting VIA_L1M1_PR_MR into VIA_L1M1_PR_MR.ext:
+Extracting VIA_M3M4_PR_M into VIA_M3M4_PR_M.ext:
+Extracting VIA_M3M4_PR into VIA_M3M4_PR.ext:
+Extracting VIA_via5_6_1200_1600_1_1_1600_1600 into VIA_via5_6_1200_1600_1_1_1600_1600.ext:
+Extracting VIA_via4_5_1200_5000_12_3_400_400 into VIA_via4_5_1200_5000_12_3_400_400.ext:
+Extracting VIA_via4_5_5000_5000_12_12_400_400 into VIA_via4_5_5000_5000_12_12_400_400.ext:
+Extracting tempsenseInst_error into tempsenseInst_error.ext:
+tempsenseInst_error: 2 warnings
+exttospice finished.
+Extracting VIA_via5_6_5000_5000_3_3_1600_1600 into VIA_via5_6_5000_5000_3_3_1600_1600.ext:
+Extracting VIA_via5_6_1200_5000_3_1_1600_1600 into VIA_via5_6_1200_5000_3_1_1600_1600.ext:
+Extracting VIA_M2M3_PR into VIA_M2M3_PR.ext:
+Extracting VIA_M1M2_PR into VIA_M1M2_PR.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+sky130_fd_sc_hd__decap_4: 2 warnings
+Extracting sky130_fd_sc_hd__fill_8 into sky130_fd_sc_hd__fill_8.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting VIA_via4_5_1200_490_1_3_400_400 into VIA_via4_5_1200_490_1_3_400_400.ext:
+Extracting VIA_via3_4_1200_490_1_3_400_400 into VIA_via3_4_1200_490_1_3_400_400.ext:
+Extracting VIA_via2_3_1200_490_1_3_320_320 into VIA_via2_3_1200_490_1_3_320_320.ext:
+Extracting sky130_fd_sc_hd__fill_4 into sky130_fd_sc_hd__fill_4.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+sky130_fd_sc_hd__fill_1: 3 warnings
+Extracting VIA_via2_3_5000_490_1_15_320_320 into VIA_via2_3_5000_490_1_15_320_320.ext:
+Extracting VIA_via3_4_5000_490_1_12_400_400 into VIA_via3_4_5000_490_1_12_400_400.ext:
+Extracting VIA_via4_5_5000_490_1_12_400_400 into VIA_via4_5_5000_490_1_12_400_400.ext:
+Extracting VIA_via4_5_5000_5000_12_12_400_400 into VIA_via4_5_5000_5000_12_12_400_400.ext:
+Extracting VIA_via4_5_1200_5000_12_3_400_400 into VIA_via4_5_1200_5000_12_3_400_400.ext:
+Extracting sky130_fd_sc_hd__dfrtn_1 into sky130_fd_sc_hd__dfrtn_1.ext:
+Extracting sky130_fd_sc_hd__tap_1 into sky130_fd_sc_hd__tap_1.ext:
+sky130_fd_sc_hd__tap_1: 3 warnings
+Extracting HEADER into HEADER.ext:
+HEADER: 2 warnings
+Extracting VIA_M3M4_PR_M into VIA_M3M4_PR_M.ext:
+Extracting VIA_L1M1_PR_MR into VIA_L1M1_PR_MR.ext:
+Extracting sky130_fd_sc_hd__inv_1 into sky130_fd_sc_hd__inv_1.ext:
+Extracting sky130_fd_sc_hd__nor3_1 into sky130_fd_sc_hd__nor3_1.ext:
+Extracting VIA_M3M4_PR into VIA_M3M4_PR.ext:
+Extracting VIA_via5_6_5000_1600_1_3_1600_1600 into VIA_via5_6_5000_1600_1_3_1600_1600.ext:
+Extracting VIA_via5_6_1200_1600_1_1_1600_1600 into VIA_via5_6_1200_1600_1_1_1600_1600.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting sky130_fd_sc_hd__nor3_2 into sky130_fd_sc_hd__nor3_2.ext:
+Extracting sky130_fd_sc_hd__o211a_1 into sky130_fd_sc_hd__o211a_1.ext:
+Extracting SLC into SLC.ext:
+SLC: 4 warnings
+Extracting sky130_fd_sc_hd__dfrtp_1 into sky130_fd_sc_hd__dfrtp_1.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+sky130_fd_sc_hd__conb_1: 10 warnings
+Extracting sky130_fd_sc_hd__or2_2 into sky130_fd_sc_hd__or2_2.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__o311a_1 into sky130_fd_sc_hd__o311a_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
+Extracting sky130_fd_sc_hd__o2111a_2 into sky130_fd_sc_hd__o2111a_2.ext:
+Extracting sky130_fd_sc_hd__or2b_1 into sky130_fd_sc_hd__or2b_1.ext:
+Extracting sky130_fd_sc_hd__a221oi_4 into sky130_fd_sc_hd__a221oi_4.ext:
+Extracting sky130_fd_sc_hd__mux4_2 into sky130_fd_sc_hd__mux4_2.ext:
+Extracting sky130_fd_sc_hd__o221ai_1 into sky130_fd_sc_hd__o221ai_1.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__or3b_2 into sky130_fd_sc_hd__or3b_2.ext:
+Extracting tempsenseInst_error into tempsenseInst_error.ext:
+tempsenseInst_error: 2 warnings
+exttospice finished.
+Extracting VIA_via5_6_5000_5000_3_3_1600_1600 into VIA_via5_6_5000_5000_3_3_1600_1600.ext:
+Extracting VIA_via5_6_1200_5000_3_1_1600_1600 into VIA_via5_6_1200_5000_3_1_1600_1600.ext:
+Extracting VIA_M2M3_PR into VIA_M2M3_PR.ext:
+Extracting VIA_M1M2_PR into VIA_M1M2_PR.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+sky130_fd_sc_hd__decap_4: 2 warnings
+Extracting sky130_fd_sc_hd__fill_8 into sky130_fd_sc_hd__fill_8.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting VIA_via4_5_1200_490_1_3_400_400 into VIA_via4_5_1200_490_1_3_400_400.ext:
+Extracting VIA_via3_4_1200_490_1_3_400_400 into VIA_via3_4_1200_490_1_3_400_400.ext:
+Extracting VIA_via2_3_1200_490_1_3_320_320 into VIA_via2_3_1200_490_1_3_320_320.ext:
+Extracting sky130_fd_sc_hd__fill_4 into sky130_fd_sc_hd__fill_4.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+sky130_fd_sc_hd__fill_1: 3 warnings
+Extracting VIA_via2_3_5000_490_1_15_320_320 into VIA_via2_3_5000_490_1_15_320_320.ext:
+Extracting VIA_via3_4_5000_490_1_12_400_400 into VIA_via3_4_5000_490_1_12_400_400.ext:
+Extracting VIA_via4_5_5000_490_1_12_400_400 into VIA_via4_5_5000_490_1_12_400_400.ext:
+Extracting VIA_via4_5_5000_5000_12_12_400_400 into VIA_via4_5_5000_5000_12_12_400_400.ext:
+Extracting VIA_via4_5_1200_5000_12_3_400_400 into VIA_via4_5_1200_5000_12_3_400_400.ext:
+Extracting sky130_fd_sc_hd__dfrtn_1 into sky130_fd_sc_hd__dfrtn_1.ext:
+Extracting sky130_fd_sc_hd__tap_1 into sky130_fd_sc_hd__tap_1.ext:
+sky130_fd_sc_hd__tap_1: 3 warnings
+Extracting HEADER into HEADER.ext:
+HEADER: 2 warnings
+Extracting VIA_M3M4_PR_M into VIA_M3M4_PR_M.ext:
+Extracting VIA_L1M1_PR_MR into VIA_L1M1_PR_MR.ext:
+Extracting sky130_fd_sc_hd__inv_1 into sky130_fd_sc_hd__inv_1.ext:
+Extracting sky130_fd_sc_hd__nor3_1 into sky130_fd_sc_hd__nor3_1.ext:
+Extracting VIA_M3M4_PR into VIA_M3M4_PR.ext:
+Extracting VIA_via5_6_5000_1600_1_3_1600_1600 into VIA_via5_6_5000_1600_1_3_1600_1600.ext:
+Extracting VIA_via5_6_1200_1600_1_1_1600_1600 into VIA_via5_6_1200_1600_1_1_1600_1600.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting sky130_fd_sc_hd__nor3_2 into sky130_fd_sc_hd__nor3_2.ext:
+Extracting sky130_fd_sc_hd__o211a_1 into sky130_fd_sc_hd__o211a_1.ext:
+Extracting SLC into SLC.ext:
+SLC: 4 warnings
+Extracting sky130_fd_sc_hd__dfrtp_1 into sky130_fd_sc_hd__dfrtp_1.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+sky130_fd_sc_hd__conb_1: 10 warnings
+Extracting sky130_fd_sc_hd__or2_2 into sky130_fd_sc_hd__or2_2.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__o311a_1 into sky130_fd_sc_hd__o311a_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
+Extracting sky130_fd_sc_hd__o2111a_2 into sky130_fd_sc_hd__o2111a_2.ext:
+Extracting sky130_fd_sc_hd__or2b_1 into sky130_fd_sc_hd__or2b_1.ext:
+Extracting sky130_fd_sc_hd__a221oi_4 into sky130_fd_sc_hd__a221oi_4.ext:
+Extracting sky130_fd_sc_hd__mux4_2 into sky130_fd_sc_hd__mux4_2.ext:
+Extracting sky130_fd_sc_hd__o221ai_1 into sky130_fd_sc_hd__o221ai_1.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__or3b_2 into sky130_fd_sc_hd__or3b_2.ext:
+Extracting tempsenseInst_error into tempsenseInst_error.ext:
+tempsenseInst_error: 2 warnings
+exttospice finished.
+Netgen 1.5.244 compiled on Thu Jan  5 13:27:32 UTC 2023
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/spice/tempsenseInst_error_lvsmag.spice
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Reading netlist file /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/spice/tempsenseInst_error.spice
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8_hvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__diode_pw2nd
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nand2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_sc_hd__nor2_2
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_03v3_nvt
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8_lvt
+Creating placeholder cell definition.
+Reading setup file /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/drc-lvs-check/sky130A/sky130A_setup.tcl
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__res_generic_po pin end_a == end_b
+No property mult found for device sky130_fd_pr__res_generic_po
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_01v8
+No property ad found for device sky130_fd_pr__nfet_01v8
+No property ps found for device sky130_fd_pr__nfet_01v8
+No property pd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8_lvt
+No property sa found for device sky130_fd_pr__nfet_01v8_lvt
+No property sb found for device sky130_fd_pr__nfet_01v8_lvt
+No property sd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_01v8_lvt pin 1 == 3
+No property as found for device sky130_fd_pr__nfet_01v8_lvt
+No property ad found for device sky130_fd_pr__nfet_01v8_lvt
+No property ps found for device sky130_fd_pr__nfet_01v8_lvt
+No property pd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nf found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrd found for device sky130_fd_pr__nfet_01v8_lvt
+No property nrs found for device sky130_fd_pr__nfet_01v8_lvt
+No property area found for device sky130_fd_pr__nfet_01v8_lvt
+No property perim found for device sky130_fd_pr__nfet_01v8_lvt
+No property topography found for device sky130_fd_pr__nfet_01v8_lvt
+Model sky130_fd_pr__nfet_03v3_nvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_03v3_nvt
+No property sa found for device sky130_fd_pr__nfet_03v3_nvt
+No property sb found for device sky130_fd_pr__nfet_03v3_nvt
+No property sd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nf found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrs found for device sky130_fd_pr__nfet_03v3_nvt
+No property area found for device sky130_fd_pr__nfet_03v3_nvt
+No property perim found for device sky130_fd_pr__nfet_03v3_nvt
+No property topography found for device sky130_fd_pr__nfet_03v3_nvt
+Model sky130_fd_pr__nfet_03v3_nvt pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_03v3_nvt
+No property sa found for device sky130_fd_pr__nfet_03v3_nvt
+No property sb found for device sky130_fd_pr__nfet_03v3_nvt
+No property sd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nf found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrd found for device sky130_fd_pr__nfet_03v3_nvt
+No property nrs found for device sky130_fd_pr__nfet_03v3_nvt
+No property area found for device sky130_fd_pr__nfet_03v3_nvt
+No property perim found for device sky130_fd_pr__nfet_03v3_nvt
+No property topography found for device sky130_fd_pr__nfet_03v3_nvt
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8_hvt
+No property sa found for device sky130_fd_pr__pfet_01v8_hvt
+No property sb found for device sky130_fd_pr__pfet_01v8_hvt
+No property sd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Model sky130_fd_pr__pfet_01v8_hvt pin 1 == 3
+No property as found for device sky130_fd_pr__pfet_01v8_hvt
+No property ad found for device sky130_fd_pr__pfet_01v8_hvt
+No property ps found for device sky130_fd_pr__pfet_01v8_hvt
+No property pd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nf found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrd found for device sky130_fd_pr__pfet_01v8_hvt
+No property nrs found for device sky130_fd_pr__pfet_01v8_hvt
+No property area found for device sky130_fd_pr__pfet_01v8_hvt
+No property perim found for device sky130_fd_pr__pfet_01v8_hvt
+No property topography found for device sky130_fd_pr__pfet_01v8_hvt
+Comparison output logged to file /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense//6_final_lvs.rpt
+Logging to file "/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense//6_final_lvs.rpt" enabled
+Circuit sky130_fd_pr__nfet_03v3_nvt contains no devices.
+Circuit sky130_fd_pr__pfet_01v8_hvt contains no devices.
+Circuit sky130_fd_pr__nfet_01v8 contains no devices.
+Circuit sky130_fd_pr__nfet_01v8_lvt contains no devices.
+
+Contents of circuit 1:  Circuit: 'HEADER'
+Circuit HEADER contains 8 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   8
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'HEADER'
+Circuit HEADER contains 8 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   8
+Circuit contains 5 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'HEADER'
+Circuit HEADER contains 2 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   2
+Circuit contains 5 nets.
+Contents of circuit 2:  Circuit: 'HEADER'
+Circuit HEADER contains 2 device instances.
+  Class: sky130_fd_pr__nfet_03v3_nvt instances:   2
+Circuit contains 5 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 5 nets,    Circuit 2 contains 5 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__decap_4'
+Circuit sky130_fd_sc_hd__decap_4 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 4 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or3_1'
+Circuit sky130_fd_sc_hd__or3_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or3_1'
+Circuit sky130_fd_sc_hd__or3_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 11 nets,    Circuit 2 contains 11 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor3_1'
+Circuit sky130_fd_sc_hd__nor3_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor3_1'
+Circuit sky130_fd_sc_hd__nor3_1 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 10 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 10 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__inv_1'
+Circuit sky130_fd_sc_hd__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 6 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__inv_1'
+Circuit sky130_fd_sc_hd__inv_1 contains 2 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   1
+Circuit contains 6 nets.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 6 nets,    Circuit 2 contains 6 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__dfrtp_1'
+Circuit sky130_fd_sc_hd__dfrtp_1 contains 28 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  14
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  14
+Circuit contains 21 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__dfrtp_1'
+Circuit sky130_fd_sc_hd__dfrtp_1 contains 28 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  14
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  14
+Circuit contains 21 nets.
+
+Circuit 1 contains 28 devices, Circuit 2 contains 28 devices.
+Circuit 1 contains 21 nets,    Circuit 2 contains 21 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a221oi_4'
+Circuit sky130_fd_sc_hd__a221oi_4 contains 40 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  20
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  20
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a221oi_4'
+Circuit sky130_fd_sc_hd__a221oi_4 contains 40 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  20
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  20
+Circuit contains 14 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__a221oi_4'
+Circuit sky130_fd_sc_hd__a221oi_4 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__a221oi_4'
+Circuit sky130_fd_sc_hd__a221oi_4 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 14 nets,    Circuit 2 contains 14 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor2_1'
+Circuit sky130_fd_sc_hd__nor2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 8 nets,    Circuit 2 contains 8 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or2b_1'
+Circuit sky130_fd_sc_hd__or2b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or2b_1'
+Circuit sky130_fd_sc_hd__or2b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 10 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 10 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux4_1'
+Circuit sky130_fd_sc_hd__mux4_1 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+
+Circuit 1 contains 26 devices, Circuit 2 contains 26 devices.
+Circuit 1 contains 24 nets,    Circuit 2 contains 24 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor3_2'
+Circuit sky130_fd_sc_hd__nor3_2 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor3_2'
+Circuit sky130_fd_sc_hd__nor3_2 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 10 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nor3_2'
+Circuit sky130_fd_sc_hd__nor3_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 10 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nor3_2'
+Circuit sky130_fd_sc_hd__nor3_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 10 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 10 nets,    Circuit 2 contains 10 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand3b_1'
+Circuit sky130_fd_sc_hd__nand3b_1 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 11 nets,    Circuit 2 contains 11 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or3b_2'
+Circuit sky130_fd_sc_hd__or3b_2 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or3b_2'
+Circuit sky130_fd_sc_hd__or3b_2 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 12 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or3b_2'
+Circuit sky130_fd_sc_hd__or3b_2 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or3b_2'
+Circuit sky130_fd_sc_hd__or3b_2 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 12 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 12 nets,    Circuit 2 contains 12 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__o2111a_2'
+Circuit sky130_fd_sc_hd__o2111a_2 contains 14 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   7
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   7
+Circuit contains 15 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__o2111a_2'
+Circuit sky130_fd_sc_hd__o2111a_2 contains 14 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   7
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   7
+Circuit contains 15 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__o2111a_2'
+Circuit sky130_fd_sc_hd__o2111a_2 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__o2111a_2'
+Circuit sky130_fd_sc_hd__o2111a_2 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 15 nets,    Circuit 2 contains 15 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__dfrtn_1'
+Circuit sky130_fd_sc_hd__dfrtn_1 contains 28 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  14
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  14
+Circuit contains 21 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__dfrtn_1'
+Circuit sky130_fd_sc_hd__dfrtn_1 contains 28 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  14
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  14
+Circuit contains 21 nets.
+
+Circuit 1 contains 28 devices, Circuit 2 contains 28 devices.
+Circuit 1 contains 21 nets,    Circuit 2 contains 21 nets.
+
+
+Contents of circuit 1:  Circuit: 'SLC'
+Circuit SLC contains 27 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:  20
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'SLC'
+Circuit SLC contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 11 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'SLC'
+Circuit SLC contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 11 nets.
+Contents of circuit 2:  Circuit: 'SLC'
+Circuit SLC contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   1
+  Class: sky130_fd_pr__nfet_01v8_lvt instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 11 nets.
+
+Circuit 1 contains 8 devices, Circuit 2 contains 8 devices.
+Circuit 1 contains 11 nets,    Circuit 2 contains 11 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__o211a_1'
+Circuit sky130_fd_sc_hd__o211a_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 13 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__o211a_1'
+Circuit sky130_fd_sc_hd__o211a_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 13 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 13 nets,    Circuit 2 contains 13 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__conb_1'
+Circuit sky130_fd_sc_hd__conb_1 contains 2 device instances.
+  Class: sky130_fd_pr__res_generic_po instances:   2
+Circuit contains 4 nets, and 2 disconnected pins.
+
+Circuit 1 contains 2 devices, Circuit 2 contains 2 devices.
+Circuit 1 contains 4 nets,    Circuit 2 contains 4 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux4_2'
+Circuit sky130_fd_sc_hd__mux4_2 contains 28 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  14
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  14
+Circuit contains 24 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux4_2'
+Circuit sky130_fd_sc_hd__mux4_2 contains 28 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  14
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  14
+Circuit contains 24 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__mux4_2'
+Circuit sky130_fd_sc_hd__mux4_2 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__mux4_2'
+Circuit sky130_fd_sc_hd__mux4_2 contains 26 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  13
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:  13
+Circuit contains 24 nets.
+
+Circuit 1 contains 26 devices, Circuit 2 contains 26 devices.
+Circuit 1 contains 24 nets,    Circuit 2 contains 24 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__nand2_1'
+Circuit sky130_fd_sc_hd__nand2_1 contains 4 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   2
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   2
+Circuit contains 8 nets.
+
+Circuit 1 contains 4 devices, Circuit 2 contains 4 devices.
+Circuit 1 contains 8 nets,    Circuit 2 contains 8 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or2_2'
+Circuit sky130_fd_sc_hd__or2_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or2_2'
+Circuit sky130_fd_sc_hd__or2_2 contains 8 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   4
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   4
+Circuit contains 9 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__or2_2'
+Circuit sky130_fd_sc_hd__or2_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 9 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__or2_2'
+Circuit sky130_fd_sc_hd__or2_2 contains 6 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   3
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   3
+Circuit contains 9 nets.
+
+Circuit 1 contains 6 devices, Circuit 2 contains 6 devices.
+Circuit 1 contains 9 nets,    Circuit 2 contains 9 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__o311a_1'
+Circuit sky130_fd_sc_hd__o311a_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__o311a_1'
+Circuit sky130_fd_sc_hd__o311a_1 contains 12 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   6
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   6
+Circuit contains 15 nets.
+
+Circuit 1 contains 12 devices, Circuit 2 contains 12 devices.
+Circuit 1 contains 15 nets,    Circuit 2 contains 15 nets.
+
+
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__o221ai_1'
+Circuit sky130_fd_sc_hd__o221ai_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__o221ai_1'
+Circuit sky130_fd_sc_hd__o221ai_1 contains 10 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:   5
+  Class: sky130_fd_pr__pfet_01v8_hvt instances:   5
+Circuit contains 14 nets.
+
+Circuit 1 contains 10 devices, Circuit 2 contains 10 devices.
+Circuit 1 contains 14 nets,    Circuit 2 contains 14 nets.
+
+
+Contents of circuit 1:  Circuit: 'tempsenseInst_error'
+Circuit tempsenseInst_error contains 256 device instances.
+  Class: SLC                   instances:   1
+  Class: sky130_fd_sc_hd__o221ai_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_2 instances:   1
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:   4
+  Class: sky130_fd_sc_hd__inv_1 instances:  55
+  Class: sky130_fd_sc_hd__or3_1 instances:   1
+  Class: sky130_fd_sc_hd__conb_1 instances:   1
+  Class: sky130_fd_sc_hd__a221oi_4 instances:   1
+  Class: sky130_fd_sc_hd__decap_4 instances: 106
+  Class: sky130_fd_sc_hd__or2_2 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   3
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   2
+  Class: sky130_fd_sc_hd__dfrtn_1 instances:  43
+  Class: HEADER                instances:   3
+  Class: sky130_fd_sc_hd__o211a_1 instances:   2
+  Class: sky130_fd_sc_hd__o2111a_2 instances:   1
+  Class: sky130_fd_sc_hd__or3b_2 instances:   1
+  Class: sky130_fd_sc_hd__nor3_1 instances:  21
+  Class: sky130_fd_sc_hd__nor3_2 instances:   4
+  Class: sky130_fd_sc_hd__o311a_1 instances:   1
+  Class: sky130_fd_sc_hd__or2b_1 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 158 nets.
+Contents of circuit 2:  Circuit: 'tempsenseInst_error'
+Circuit tempsenseInst_error contains 256 device instances.
+  Class: SLC                   instances:   1
+  Class: sky130_fd_sc_hd__o221ai_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_2 instances:   1
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:   4
+  Class: sky130_fd_sc_hd__inv_1 instances:  55
+  Class: sky130_fd_sc_hd__or3_1 instances:   1
+  Class: sky130_fd_sc_hd__conb_1 instances:   1
+  Class: sky130_fd_sc_hd__a221oi_4 instances:   1
+  Class: sky130_fd_sc_hd__decap_4 instances: 106
+  Class: sky130_fd_sc_hd__or2_2 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   3
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   2
+  Class: sky130_fd_sc_hd__dfrtn_1 instances:  43
+  Class: HEADER                instances:   3
+  Class: sky130_fd_sc_hd__o211a_1 instances:   2
+  Class: sky130_fd_sc_hd__o2111a_2 instances:   1
+  Class: sky130_fd_sc_hd__or3b_2 instances:   1
+  Class: sky130_fd_sc_hd__nor3_1 instances:  21
+  Class: sky130_fd_sc_hd__nor3_2 instances:   4
+  Class: sky130_fd_sc_hd__o311a_1 instances:   1
+  Class: sky130_fd_sc_hd__or2b_1 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 158 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'tempsenseInst_error'
+Circuit tempsenseInst_error contains 152 device instances.
+  Class: SLC                   instances:   1
+  Class: sky130_fd_sc_hd__o221ai_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_2 instances:   1
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:   4
+  Class: sky130_fd_sc_hd__inv_1 instances:  55
+  Class: sky130_fd_sc_hd__or3_1 instances:   1
+  Class: sky130_fd_sc_hd__conb_1 instances:   1
+  Class: sky130_fd_sc_hd__a221oi_4 instances:   1
+  Class: sky130_fd_sc_hd__decap_4 instances:   2
+  Class: sky130_fd_sc_hd__or2_2 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   3
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   2
+  Class: sky130_fd_sc_hd__dfrtn_1 instances:  43
+  Class: HEADER                instances:   3
+  Class: sky130_fd_sc_hd__o211a_1 instances:   2
+  Class: sky130_fd_sc_hd__o2111a_2 instances:   1
+  Class: sky130_fd_sc_hd__or3b_2 instances:   1
+  Class: sky130_fd_sc_hd__nor3_1 instances:  21
+  Class: sky130_fd_sc_hd__nor3_2 instances:   4
+  Class: sky130_fd_sc_hd__o311a_1 instances:   1
+  Class: sky130_fd_sc_hd__or2b_1 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 158 nets.
+Contents of circuit 2:  Circuit: 'tempsenseInst_error'
+Circuit tempsenseInst_error contains 152 device instances.
+  Class: SLC                   instances:   1
+  Class: sky130_fd_sc_hd__o221ai_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_1 instances:   1
+  Class: sky130_fd_sc_hd__mux4_2 instances:   1
+  Class: sky130_fd_sc_hd__dfrtp_1 instances:   4
+  Class: sky130_fd_sc_hd__inv_1 instances:  55
+  Class: sky130_fd_sc_hd__or3_1 instances:   1
+  Class: sky130_fd_sc_hd__conb_1 instances:   1
+  Class: sky130_fd_sc_hd__a221oi_4 instances:   1
+  Class: sky130_fd_sc_hd__decap_4 instances:   2
+  Class: sky130_fd_sc_hd__or2_2 instances:   1
+  Class: sky130_fd_sc_hd__nand2_1 instances:   3
+  Class: sky130_fd_sc_hd__nand3b_1 instances:   2
+  Class: sky130_fd_sc_hd__dfrtn_1 instances:  43
+  Class: HEADER                instances:   3
+  Class: sky130_fd_sc_hd__o211a_1 instances:   2
+  Class: sky130_fd_sc_hd__o2111a_2 instances:   1
+  Class: sky130_fd_sc_hd__or3b_2 instances:   1
+  Class: sky130_fd_sc_hd__nor3_1 instances:  21
+  Class: sky130_fd_sc_hd__nor3_2 instances:   4
+  Class: sky130_fd_sc_hd__o311a_1 instances:   1
+  Class: sky130_fd_sc_hd__or2b_1 instances:   1
+  Class: sky130_fd_sc_hd__nor2_1 instances:   1
+Circuit contains 158 nets.
+
+Circuit 1 contains 152 devices, Circuit 2 contains 152 devices.
+Circuit 1 contains 158 nets,    Circuit 2 contains 158 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense//6_final_lvs.rpt" disabled
+LVS Done.
+make[1]: Leaving directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
+-20
+0
+20
+40
+60
+80
+100
+
+----calculate_max_error------ 2.99981306898544 98
+     Temp      Frequency         Power     Error  inv  header
+105   -20     147.636364  3.717020e-07  1.280939   10       9
+106     0     608.363636  3.717020e-07 -0.610333   10       9
+107    20    2362.590909  3.717020e-07 -0.858408   10       9
+108    40    7917.772727  3.717020e-07 -0.694455   10       9
+109    60   23080.909091  3.717020e-07 -0.403260   10       9
+110    80   59459.136364  3.717020e-07 -0.135278   10       9
+111   100  137970.045455  3.717020e-07  0.079048   10       9
+----calculate_max_error------ 1.28093850270312 105
+Minimum error is     3.64836303627038e-07
+-------calculate_min_power_new-------SPLIT DATA RESULT tempareature 20.0
+-------calculate_min_power_new-------matching temp to power golden value      Temp    Frequency         Power     Error  inv  header
+2      20  2231.900000  3.232879e-07  0.100672    4       3
+9      20  2347.750000  2.440277e-07 -0.311720    6       3
+16     20  1777.800000  3.698848e-07 -0.974724    8       3
+23     20  1487.833333  3.950984e-07 -0.813659   10       3
+30     20  2455.666667  3.648363e-07 -0.336102    4       5
+37     20  2713.250000  4.819866e-07 -0.334425    6       5
+44     20  1866.500000  1.945947e-07 -2.151063    8       5
+51     20  1921.400000  3.422742e-07 -1.317148   10       5
+58     20  3660.333333  2.855601e-07 -0.273595    4       7
+65     20  3236.375000  4.421295e-07 -0.715499    6       7
+72     20  2414.409091  2.761786e-07 -0.765383    8       7
+79     20  2063.807692  2.834897e-07 -0.314165   10       7
+86     20  3345.125000  4.450566e-07  0.720678    4       9
+93     20  3530.136364  3.048115e-07 -0.157275    6       9
+100    20  2337.000000  2.536070e-07 -0.610628    8       9
+107    20  2362.590909  3.717020e-07 -0.858408   10       9
+calculate_min_power_new-----range Error---- 0.3024914748020802 0.3697118025358758
+-------calculate_min_power_new-------all Error values within the new range of error     Temp    Frequency         Power     Error  inv  header
+9     20  2347.750000  2.440277e-07 -0.311720    6       3
+30    20  2455.666667  3.648363e-07 -0.336102    4       5
+37    20  2713.250000  4.819866e-07 -0.334425    6       5
+79    20  2063.807692  2.834897e-07 -0.314165   10       7
+calculate_min_power_new-----min_power, Inv, Header------ 2.44027697469062e-07 6 3
+Error :  -0.311720262269828
+Inv :  6
+Header :  3
+History :  Tempmin:-20,Tempmax:100,Optimization:error,Model:tools/..//models/modelfile.csv,Delta_1st_pass:10
+#----------------------------------------------------------------------
+# Cleaning the workspace...
+#----------------------------------------------------------------------
+Loading platform_config file...
+
+PDK_ROOT value: /usr/bin/miniconda3/share/pdk/
+---check_search_done---- FILE IS PRESENT LETS CHECK IF SEARCH WAS ALREADY DONE
+---check_search_done---- search_param :    Tempmin:-20,Tempmax:100,Optimization:error,Model:tools/..//models/modelfile.csv,Delta_1st_pass:10
+---check_search_done---- df_search_done :       Temp  ...                                       search_param
+0    20  ...  Tempmin:-20,Tempmax:100,Optimization:error,Mod...
+
+[1 rows x 6 columns]
+File present : SEARCH already done
+---check_search_done---- get old research results :    20 2.44027697469062e-07 -0.311720262269828 6 3 Tempmin:-20,Tempmax:100,Optimization:error,Model:tools/..//models/modelfile.csv,Delta_1st_pass:10
+Error :  -0.311720262269828
+Inv :  6
+Header :  3
+History :  Tempmin:-20,Tempmax:100,Optimization:error,Model:tools/..//models/modelfile.csv,Delta_1st_pass:10
+INV:6
+HEADER:3
+
+target number of inverters: 6
+target number of headers: 3
+#----------------------------------------------------------------------
+# Verilog Generation
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# Verilog Generated
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# Run Synthesis and APR
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# Place and Route finished
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# DRC finished
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# LVS finished
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# Macro Generated
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# Generating spice netlists for the macro
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# Running prePEX Simulations
+#----------------------------------------------------------------------
+tools/../simulations/run/prePEX_inv6_header3/prePEX all_result file is not generated successfully

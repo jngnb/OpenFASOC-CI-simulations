@@ -1,0 +1,8 @@
+python result.py --tool xyce --inputFile tempsenseInst_error_sim_-20.mt0
+python result.py --tool xyce --inputFile tempsenseInst_error_sim_0.mt0
+python result.py --tool xyce --inputFile tempsenseInst_error_sim_20.mt0
+python result.py --tool xyce --inputFile tempsenseInst_error_sim_40.mt0
+python result.py --tool xyce --inputFile tempsenseInst_error_sim_60.mt0
+python result.py --tool xyce --inputFile tempsenseInst_error_sim_80.mt0
+python result.py --tool xyce --inputFile tempsenseInst_error_sim_100.mt0
+python result_error.py --mode partial

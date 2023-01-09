@@ -1,0 +1,1091 @@
+
+*****
+***** Welcome to the Xyce(TM) Parallel Electronic Simulator
+*****
+***** This is version Xyce DEVELOPMENT-202301080918-(Public_Release-7.6.0-77-g50daf8e8)-opensource
+***** Date: Mon Jan 09 05:21:45 UTC 2023
+
+
+***** Executing netlist tempsenseInst_error_sim_100.sp
+
+***** Reading and parsing netlist...
+Netlist warning in file tempsenseInst_error_sim_100.sp at or near line 3
+ Unrecognized .OPTIONS package or parameter AUTOSTOP will be ignored
+Netlist warning: No print specified
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_069_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_069_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_069_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_069_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_070_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_070_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_070_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_070_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_071_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_071_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_071_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_071_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_072_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_072_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_072_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_072_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_073_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_073_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_073_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_073_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_074_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_074_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_074_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_074_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_075_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_075_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_075_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_075_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_076_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_076_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_076_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_076_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_077_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_077_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_077_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_077_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_078_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_078_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_078_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_078_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_079_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_079_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_079_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_079_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_080_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_080_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_080_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_080_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_081_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_081_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_081_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_081_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_082_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_082_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_082_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_082_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_083_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_083_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_083_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_083_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_093_:X0:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_093_:X0:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_093_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_093_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_093_:X2:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_093_:X2:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_093_:X3:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_093_:X3:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_104_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_104_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_104_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_104_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_108_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_108_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_108_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_108_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_110_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_110_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_110_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_110_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_112_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_112_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_112_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_112_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_114_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_114_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_114_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_114_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_116_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_116_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_116_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_116_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_118_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_118_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_118_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 21474
+ Device model XI1:X_118_:X1:SKY130_FD_PR__PFET_01V8_HVT__MODEL.80: Given
+ pbswgd is less than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_120_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Model card
+ specifies BSIM4 version 4.5 which is older than the oldest version supported
+ in Xyce (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /usr/bin/miniconda3/share/pdk/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 23884
+ Device model XI1:X_120_:X0:SKY130_FD_PR__NFET_01V8__MODEL.89: Given pbswgd is
+ less than 0.1. Pbswgd is set to 0.1
+Maximum warning count has been exceeded and will no longer be displayed
+***** Setting up topology...
+
+***** Device Count Summary ...
+       C level 1 (Capacitor)                    1
+       M level 14 (BSIM4)                     148
+       V level 1 (Independent Voltage Source)   9
+       ------------------------------------------
+       Total Devices                          158
+***** Setting up matrix structure...
+***** Number of Unknowns = 576
+***** Initializing...
+
+***** Beginning DC Operating Point Calculation...
+
+***** Beginning Transient Calculation...
+
+***** Percent complete: 1.00022 %
+***** Current system time: Mon Jan  9 05:22:08 2023
+***** Estimated time to completion: 32 min., 21 sec.
+
+***** Percent complete: 2.00042 %
+***** Current system time: Mon Jan  9 05:22:28 2023
+***** Estimated time to completion: 32 min., 34 sec.
+
+***** Percent complete: 3.00071 %
+***** Current system time: Mon Jan  9 05:22:49 2023
+***** Estimated time to completion: 32 min., 27 sec.
+
+***** Percent complete: 4.00086 %
+***** Current system time: Mon Jan  9 05:23:09 2023
+***** Estimated time to completion: 32 min.,  6 sec.
+
+***** Percent complete: 5.00096 %
+***** Current system time: Mon Jan  9 05:23:29 2023
+***** Estimated time to completion: 31 min., 55 sec.
+
+***** Percent complete: 6.0015 %
+***** Current system time: Mon Jan  9 05:23:50 2023
+***** Estimated time to completion: 31 min., 39 sec.
+
+***** Percent complete: 7.00189 %
+***** Current system time: Mon Jan  9 05:24:10 2023
+***** Estimated time to completion: 31 min., 14 sec.
+
+***** Percent complete: 8.00208 %
+***** Current system time: Mon Jan  9 05:24:30 2023
+***** Estimated time to completion: 30 min., 55 sec.
+
+***** Percent complete: 9.00255 %
+***** Current system time: Mon Jan  9 05:24:50 2023
+***** Estimated time to completion: 30 min., 33 sec.
+
+***** Percent complete: 10.0028 %
+***** Current system time: Mon Jan  9 05:25:10 2023
+***** Estimated time to completion: 30 min., 14 sec.
+
+***** Percent complete: 11.0039 %
+***** Current system time: Mon Jan  9 05:25:31 2023
+***** Estimated time to completion: 29 min., 56 sec.
+
+***** Percent complete: 12.0042 %
+***** Current system time: Mon Jan  9 05:25:51 2023
+***** Estimated time to completion: 29 min., 40 sec.
+
+***** Percent complete: 13.0043 %
+***** Current system time: Mon Jan  9 05:26:12 2023
+***** Estimated time to completion: 29 min., 19 sec.
+
+***** Percent complete: 14.0045 %
+***** Current system time: Mon Jan  9 05:26:32 2023
+***** Estimated time to completion: 28 min., 58 sec.
+
+***** Percent complete: 15.0048 %
+***** Current system time: Mon Jan  9 05:26:51 2023
+***** Estimated time to completion: 28 min., 34 sec.
+
+***** Percent complete: 16.005 %
+***** Current system time: Mon Jan  9 05:27:11 2023
+***** Estimated time to completion: 28 min., 11 sec.
+
+***** Percent complete: 17.0052 %
+***** Current system time: Mon Jan  9 05:27:31 2023
+***** Estimated time to completion: 27 min., 52 sec.
+
+***** Percent complete: 18.0052 %
+***** Current system time: Mon Jan  9 05:27:51 2023
+***** Estimated time to completion: 27 min., 31 sec.
+
+***** Percent complete: 19.0057 %
+***** Current system time: Mon Jan  9 05:28:11 2023
+***** Estimated time to completion: 27 min., 10 sec.
+
+***** Percent complete: 20.0061 %
+***** Current system time: Mon Jan  9 05:28:32 2023
+***** Estimated time to completion: 26 min., 51 sec.
+
+***** Percent complete: 21.0063 %
+***** Current system time: Mon Jan  9 05:28:51 2023
+***** Estimated time to completion: 26 min., 30 sec.
+
+***** Percent complete: 22.0069 %
+***** Current system time: Mon Jan  9 05:29:12 2023
+***** Estimated time to completion: 26 min., 10 sec.
+
+***** Percent complete: 23.0073 %
+***** Current system time: Mon Jan  9 05:29:32 2023
+***** Estimated time to completion: 25 min., 49 sec.
+
+***** Percent complete: 24.0075 %
+***** Current system time: Mon Jan  9 05:29:52 2023
+***** Estimated time to completion: 25 min., 30 sec.
+
+***** Percent complete: 25.0075 %
+***** Current system time: Mon Jan  9 05:30:12 2023
+***** Estimated time to completion: 25 min.,  9 sec.
+
+***** Percent complete: 26.0075 %
+***** Current system time: Mon Jan  9 05:30:32 2023
+***** Estimated time to completion: 24 min., 49 sec.
+
+***** Percent complete: 27.0079 %
+***** Current system time: Mon Jan  9 05:30:52 2023
+***** Estimated time to completion: 24 min., 29 sec.
+
+***** Percent complete: 28.0084 %
+***** Current system time: Mon Jan  9 05:31:13 2023
+***** Estimated time to completion: 24 min., 10 sec.
+
+***** Percent complete: 29.0087 %
+***** Current system time: Mon Jan  9 05:31:33 2023
+***** Estimated time to completion: 23 min., 49 sec.
+
+***** Percent complete: 30.0091 %
+***** Current system time: Mon Jan  9 05:31:53 2023
+***** Estimated time to completion: 23 min., 30 sec.
+
+***** Percent complete: 31.0092 %
+***** Current system time: Mon Jan  9 05:32:13 2023
+***** Estimated time to completion: 23 min.,  9 sec.
+
+***** Percent complete: 32.0093 %
+***** Current system time: Mon Jan  9 05:32:33 2023
+***** Estimated time to completion: 22 min., 49 sec.
+
+***** Percent complete: 33.0101 %
+***** Current system time: Mon Jan  9 05:32:53 2023
+***** Estimated time to completion: 22 min., 29 sec.
+
+***** Percent complete: 34.0106 %
+***** Current system time: Mon Jan  9 05:33:13 2023
+***** Estimated time to completion: 22 min.,  8 sec.
+
+***** Percent complete: 35.0108 %
+***** Current system time: Mon Jan  9 05:33:33 2023
+***** Estimated time to completion: 21 min., 48 sec.
+
+***** Percent complete: 36.0112 %
+***** Current system time: Mon Jan  9 05:33:53 2023
+***** Estimated time to completion: 21 min., 27 sec.
+
+***** Percent complete: 37.0117 %
+***** Current system time: Mon Jan  9 05:34:10 2023
+***** Estimated time to completion: 21 min.,  2 sec.
+
+***** Percent complete: 38.012 %
+***** Current system time: Mon Jan  9 05:34:27 2023
+***** Estimated time to completion: 20 min., 37 sec.
+
+***** Percent complete: 39.0124 %
+***** Current system time: Mon Jan  9 05:34:44 2023
+***** Estimated time to completion: 20 min., 12 sec.
+
+***** Percent complete: 40.0126 %
+***** Current system time: Mon Jan  9 05:35:02 2023
+***** Estimated time to completion: 19 min., 49 sec.
+
+***** Percent complete: 41.0132 %
+***** Current system time: Mon Jan  9 05:35:19 2023
+***** Estimated time to completion: 19 min., 25 sec.
+
+***** Percent complete: 42.0133 %
+***** Current system time: Mon Jan  9 05:35:35 2023
+***** Estimated time to completion: 19 min.,  1 sec.
+
+***** Percent complete: 43.014 %
+***** Current system time: Mon Jan  9 05:35:53 2023
+***** Estimated time to completion: 18 min., 38 sec.
+
+***** Percent complete: 44.0144 %
+***** Current system time: Mon Jan  9 05:36:10 2023
+***** Estimated time to completion: 18 min., 15 sec.
+
+***** Percent complete: 45.0146 %
+***** Current system time: Mon Jan  9 05:36:27 2023
+***** Estimated time to completion: 17 min., 53 sec.
+
+***** Percent complete: 46.0146 %
+***** Current system time: Mon Jan  9 05:36:44 2023
+***** Estimated time to completion: 17 min., 30 sec.
+
+***** Percent complete: 47.0152 %
+***** Current system time: Mon Jan  9 05:37:01 2023
+***** Estimated time to completion: 17 min.,  8 sec.
+
+***** Percent complete: 48.0153 %
+***** Current system time: Mon Jan  9 05:37:18 2023
+***** Estimated time to completion: 16 min., 46 sec.
+
+***** Percent complete: 49.0157 %
+***** Current system time: Mon Jan  9 05:37:35 2023
+***** Estimated time to completion: 16 min., 24 sec.
+
+***** Percent complete: 50.0159 %
+***** Current system time: Mon Jan  9 05:37:49 2023
+***** Estimated time to completion: 15 min., 59 sec.
+
+***** Percent complete: 51.016 %
+***** Current system time: Mon Jan  9 05:38:03 2023
+***** Estimated time to completion: 15 min., 35 sec.
+
+***** Percent complete: 52.0164 %
+***** Current system time: Mon Jan  9 05:38:16 2023
+***** Estimated time to completion: 15 min., 11 sec.
+
+***** Percent complete: 53.0164 %
+***** Current system time: Mon Jan  9 05:38:30 2023
+***** Estimated time to completion: 14 min., 47 sec.
+
+***** Percent complete: 54.017 %
+***** Current system time: Mon Jan  9 05:38:43 2023
+***** Estimated time to completion: 14 min., 23 sec.
+
+***** Percent complete: 55.0174 %
+***** Current system time: Mon Jan  9 05:38:54 2023
+***** Estimated time to completion: 13 min., 58 sec.
+
+***** Percent complete: 56.0175 %
+***** Current system time: Mon Jan  9 05:39:04 2023
+***** Estimated time to completion: 13 min., 33 sec.
+
+***** Percent complete: 57.018 %
+***** Current system time: Mon Jan  9 05:39:15 2023
+***** Estimated time to completion: 13 min.,  8 sec.
+
+***** Percent complete: 58.018 %
+***** Current system time: Mon Jan  9 05:39:25 2023
+***** Estimated time to completion: 12 min., 44 sec.
+
+***** Percent complete: 59.0182 %
+***** Current system time: Mon Jan  9 05:39:35 2023
+***** Estimated time to completion: 12 min., 20 sec.
+
+***** Percent complete: 60.0187 %
+***** Current system time: Mon Jan  9 05:39:46 2023
+***** Estimated time to completion: 11 min., 57 sec.
+
+***** Percent complete: 61.0189 %
+***** Current system time: Mon Jan  9 05:39:56 2023
+***** Estimated time to completion: 11 min., 34 sec.
+
+***** Percent complete: 62.0194 %
+***** Current system time: Mon Jan  9 05:40:07 2023
+***** Estimated time to completion: 11 min., 12 sec.
+
+***** Percent complete: 63.0196 %
+***** Current system time: Mon Jan  9 05:40:17 2023
+***** Estimated time to completion: 10 min., 50 sec.
+
+***** Percent complete: 64.0198 %
+***** Current system time: Mon Jan  9 05:40:28 2023
+***** Estimated time to completion: 10 min., 28 sec.
+
+***** Percent complete: 65.0199 %
+***** Current system time: Mon Jan  9 05:40:38 2023
+***** Estimated time to completion: 10 min.,  7 sec.
+
+***** Percent complete: 66.02 %
+***** Current system time: Mon Jan  9 05:40:48 2023
+***** Estimated time to completion:  9 min., 46 sec.
+
+***** Percent complete: 67.0202 %
+***** Current system time: Mon Jan  9 05:40:59 2023
+***** Estimated time to completion:  9 min., 25 sec.
+
+***** Percent complete: 68.0204 %
+***** Current system time: Mon Jan  9 05:41:09 2023
+***** Estimated time to completion:  9 min.,  5 sec.
+
+***** Percent complete: 69.0208 %
+***** Current system time: Mon Jan  9 05:41:20 2023
+***** Estimated time to completion:  8 min., 45 sec.
+
+***** Percent complete: 70.021 %
+***** Current system time: Mon Jan  9 05:41:30 2023
+***** Estimated time to completion:  8 min., 25 sec.
+
+***** Percent complete: 71.0212 %
+***** Current system time: Mon Jan  9 05:41:40 2023
+***** Estimated time to completion:  8 min.,  6 sec.
+
+***** Percent complete: 72.0212 %
+***** Current system time: Mon Jan  9 05:41:48 2023
+***** Estimated time to completion:  7 min., 45 sec.
+
+***** Percent complete: 73.0215 %
+***** Current system time: Mon Jan  9 05:41:56 2023
+***** Estimated time to completion:  7 min., 26 sec.
+
+***** Percent complete: 74.0218 %
+***** Current system time: Mon Jan  9 05:42:04 2023
+***** Estimated time to completion:  7 min.,  6 sec.
+
+***** Percent complete: 75.022 %
+***** Current system time: Mon Jan  9 05:42:13 2023
+***** Estimated time to completion:  6 min., 47 sec.
+
+***** Percent complete: 76.0226 %
+***** Current system time: Mon Jan  9 05:42:20 2023
+***** Estimated time to completion:  6 min., 28 sec.
+
+***** Percent complete: 77.0227 %
+***** Current system time: Mon Jan  9 05:42:29 2023
+***** Estimated time to completion:  6 min.,  9 sec.
+
+***** Percent complete: 78.0229 %
+***** Current system time: Mon Jan  9 05:42:36 2023
+***** Estimated time to completion:  5 min., 51 sec.
+
+***** Percent complete: 79.023 %
+***** Current system time: Mon Jan  9 05:42:44 2023
+***** Estimated time to completion:  5 min., 33 sec.
+
+***** Percent complete: 80.0235 %
+***** Current system time: Mon Jan  9 05:42:52 2023
+***** Estimated time to completion:  5 min., 15 sec.
+
+***** Percent complete: 81.0237 %
+***** Current system time: Mon Jan  9 05:43:00 2023
+***** Estimated time to completion:  4 min., 57 sec.
+
+***** Percent complete: 82.0238 %
+***** Current system time: Mon Jan  9 05:43:08 2023
+***** Estimated time to completion:  4 min., 40 sec.
+
+***** Percent complete: 83.0239 %
+***** Current system time: Mon Jan  9 05:43:16 2023
+***** Estimated time to completion:  4 min., 23 sec.
+
+***** Percent complete: 84.0239 %
+***** Current system time: Mon Jan  9 05:43:24 2023
+***** Estimated time to completion:  4 min.,  6 sec.
+
+***** Percent complete: 85.0244 %
+***** Current system time: Mon Jan  9 05:43:32 2023
+***** Estimated time to completion:  3 min., 49 sec.
+
+***** Percent complete: 86.0245 %
+***** Current system time: Mon Jan  9 05:43:41 2023
+***** Estimated time to completion:  3 min., 33 sec.
+
+***** Percent complete: 87.0246 %
+***** Current system time: Mon Jan  9 05:43:49 2023
+***** Estimated time to completion:  3 min., 16 sec.
+
+***** Percent complete: 88.0248 %
+***** Current system time: Mon Jan  9 05:43:56 2023
+***** Estimated time to completion:  3 min.,  0 sec.
+
+***** Percent complete: 89.0249 %
+***** Current system time: Mon Jan  9 05:44:01 2023
+***** Estimated time to completion:  2 min., 44 sec.
+
+***** Percent complete: 90.0249 %
+***** Current system time: Mon Jan  9 05:44:07 2023
+***** Estimated time to completion:  2 min., 28 sec.
+
+***** Percent complete: 91.0253 %
+***** Current system time: Mon Jan  9 05:44:12 2023
+***** Estimated time to completion:  2 min., 12 sec.
+
+***** Percent complete: 92.0258 %
+***** Current system time: Mon Jan  9 05:44:17 2023
+***** Estimated time to completion:  1 min., 56 sec.
+
+***** Percent complete: 93.0265 %
+***** Current system time: Mon Jan  9 05:44:22 2023
+***** Estimated time to completion:  1 min., 41 sec.
+
+***** Percent complete: 94.027 %
+***** Current system time: Mon Jan  9 05:44:27 2023
+***** Estimated time to completion:  1 min., 26 sec.
+
+***** Percent complete: 95.0274 %
+***** Current system time: Mon Jan  9 05:44:32 2023
+***** Estimated time to completion:  1 min., 11 sec.
+
+***** Percent complete: 96.0275 %
+***** Current system time: Mon Jan  9 05:44:38 2023
+***** Estimated time to completion: 56 sec.
+
+***** Percent complete: 97.0282 %
+***** Current system time: Mon Jan  9 05:44:43 2023
+***** Estimated time to completion: 42 sec.
+
+***** Percent complete: 98.0285 %
+***** Current system time: Mon Jan  9 05:44:48 2023
+***** Estimated time to completion: 27 sec.
+
+***** Percent complete: 99.0291 %
+***** Current system time: Mon Jan  9 05:44:53 2023
+***** Estimated time to completion: 13 sec.
+
+***** Problem read in and set up time: 3.48201 seconds
+ ***** DCOP time: 0.0822968 seconds.  Breakdown follows:
+	Number Successful Steps Taken:		1
+	Number Failed Steps Attempted:		0
+	Number Jacobians Evaluated:		43
+	Number Linear Solves:			43
+	Number Failed Linear Solves:		0
+	Number Residual Evaluations:		45
+	Number Nonlinear Convergence Failures:	0
+	Total Residual Load Time:		0.0450194 seconds
+	Total Jacobian Load Time:		0.0021472 seconds
+	Total Linear Solution Time:		0.0198686 seconds
+
+ ***** Transient Stepping time: 1389.38 seconds.  Breakdown follows:
+	Number Successful Steps Taken:		299004
+	Number Failed Steps Attempted:		46656
+	Number Jacobians Evaluated:		1179645
+	Number Linear Solves:			1179645
+	Number Failed Linear Solves:		0
+	Number Residual Evaluations:		1525305
+	Number Nonlinear Convergence Failures:	334
+	Total Residual Load Time:		886.834 seconds
+	Total Jacobian Load Time:		138.303 seconds
+	Total Linear Solution Time:		254.08 seconds
+
+
+***** Solution Summary *****
+	Number Successful Steps Taken:		299005
+	Number Failed Steps Attempted:		46656
+	Number Jacobians Evaluated:		1179688
+	Number Linear Solves:			1179688
+	Number Failed Linear Solves:		0
+	Number Residual Evaluations:		1525350
+	Number Nonlinear Convergence Failures:	334
+	Total Residual Load Time:		886.879 seconds
+	Total Jacobian Load Time:		138.305 seconds
+	Total Linear Solution Time:		254.1 seconds
+
+
+ ***** Measure Functions ***** 
+
+PERIOD = 4.173392e-06 with targ = 2.005254e-05 and trig = 1.587915e-05
+
+POWER = 6.155416e-04
+Measure Start Time= 1.000000e-05	Measure End Time= 1.470000e-02
+
+
+***** Total Simulation Solvers Run Time: 1389.47 seconds
+***** Total Elapsed Run Time:            1392.95 seconds
+*****
+***** End of Xyce(TM) Simulation
+*****
+
+Timing summary of 1 processor
+                 Stats                    Count        CPU Time              Wall Time
+---------------------------------------- ------- --------------------- ---------------------
+Xyce                                           1     8:59.746 (100.0%)    23:12.953 (100.0%)
+  Analysis                                     1     8:58.776 (99.82%)    23:09.467 (99.75%)
+    Transient                                  1     8:58.776 (99.82%)    23:09.467 (99.75%)
+      Nonlinear Solve                     345661     8:42.077 (96.73%)    22:26.998 (96.70%)
+        Residual                         1525350     5:45.570 (64.02%)    14:54.551 (64.22%)
+        Jacobian                         1179688       54.497 (10.10%)     2:21.472 (10.16%)
+        Linear Solve                     1179688     1:40.359 (18.59%)     4:17.632 (18.50%)
+      Successful DCOP Steps                    1        0.000 (<0.01%)        0.000 (<0.01%)
+      Successful Step                     299004       10.256 ( 1.90%)       26.292 ( 1.89%)
+      Failed Steps                         46656        0.088 ( 0.02%)        0.175 ( 0.01%)
+        Nonlinear Failure                    334        0.000 (<0.01%)        0.000 (<0.01%)
+  Netlist Import                               1        0.949 ( 0.18%)        3.406 ( 0.24%)
+    Parse Context                              1        0.599 ( 0.11%)        2.137 ( 0.15%)
+    Distribute Devices                         1        0.337 ( 0.06%)        1.178 ( 0.08%)
+    Verify Devices                             1        0.000 (<0.01%)        0.000 (<0.01%)
+    Instantiate                                1        0.005 (<0.01%)        0.020 (<0.01%)
+  Late Initialization                          1        0.006 (<0.01%)        0.033 (<0.01%)
+    Global Indices                             1        0.001 (<0.01%)        0.001 (<0.01%)
+  Setup Matrix Structure                       1        0.002 (<0.01%)        0.024 (<0.01%)
+
