@@ -15,15 +15,20 @@ jobs:
       - name: Clone OpenFASOC repo
         run: |
           mkdir $GITHUB_WORKSPACE/openfasoc && cd $GITHUB_WORKSPACE/openfasoc
+          echo "PWD - $PWD"
           git clone https://github.com/saicharan0112/OpenFASOC && cd OpenFASOC
+          echo "PWD - $PWD"
 
       - name: Run tempSense generator
         env:
                 IMAGE_NAME: ghcr.io/saicharan0112/openfasoc_ci_image:alpha
         run: |
           echo "#######"
+          echo "PWD - $PWD"
           ls -al
           echo "#######"
+          cd openfasoc/OpenFASOC
+          echo "PWD - $PWD"
           touch file.log
           docker run --rm \
             -v $PWD:$PWD\
