@@ -14,14 +14,13 @@ jobs:
 
       - name: Clone OpenFASOC repo
         run: |
-          mkdir /home/runner/work/openfasoc_ci && cd $!
+          mkdir $GITHUB_WORKSPACE/openfasoc && cd $GITHUB_WORKSPACE/openfasoc
           git clone https://github.com/saicharan0112/OpenFASOC && cd OpenFASOC
 
       - name: Run tempSense generator
         env:
                 IMAGE_NAME: ghcr.io/saicharan0112/openfasoc_ci_image:alpha
         run: |
-          cd /home/runner/work/openfasoc_ci/OpenFASOC
           echo "#######"
           ls -al
           echo "#######"
@@ -40,10 +39,9 @@ jobs:
  
       - name: Commit and push changes
         run: |
-          cp /home/runner/work/openfasoc_ci/OpenFASOC/openfasoc/generators/temp-sense-gen/work /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/.
-          echo "#######"
+          cp $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work $GITHUB_WORKSPACE/.
+          sudo rm -rf $GITHUB_WORKSPACE/openfasoc
           git status
-          echo "#######"
           git config --global user.name 'sai charan'
           git config --global user.email 'saicharan0112@users.noreply.github.com'
           git add -A 
