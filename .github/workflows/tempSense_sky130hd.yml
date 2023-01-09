@@ -44,7 +44,7 @@ jobs:
  
       - name: Commit and push changes
         run: |
-          cp $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work $GITHUB_WORKSPACE/.
+          cp -rf $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work $GITHUB_WORKSPACE/.
           sudo rm -rf $GITHUB_WORKSPACE/openfasoc
           git status
           git config --global user.name 'sai charan'
