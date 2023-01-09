@@ -45,9 +45,12 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v3
 
-      - name: Commit and push changes
+      - name: Build csv file and push changes
         run: |
           cp -rf /home/runner/work/3_head_6_inv $GITHUB_WORKSPACE/utils/.
+          chmod 755 $GITHUB_WORKSPACE/utils/build_csv.py
+          sudo apt-get install python3
+          python3 ./build_csv.py
           cd $GITHUB_WORKSPACE
           git status
           git config --global user.name 'sai charan'

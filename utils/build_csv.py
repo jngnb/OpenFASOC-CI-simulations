@@ -9,7 +9,7 @@ values=[]
 result=[]
 
 for i in folders:
-    config=i.split("-")
+    config=i.split("_")
     header=config[0]
     inverter=config[2]
 
