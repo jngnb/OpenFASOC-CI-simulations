@@ -39,18 +39,25 @@ jobs:
               cd ./openfasoc/generators/temp-sense-gen &&\
               make sky130hd_temp\
             "| tee -a file.log
-          if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi         
+          if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi     
+
+      - name: Prepare for Checkout
+        run: |
+          echo "PWD - $PWD"
+          ls -al
+          mkdir /home/runner/work/data -p
+          cp -rf $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
+          sudo rm -rf $GITHUB_WORKSPACE/openfasoc
+          echo "PWD - $PWD"
 
       - name: Checkout this repo
         uses: actions/checkout@v3
-
 
       - name: Commit and push changes
         run: |
           echo "PWD - $PWD"
           ls -al
-          cp -rf $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work $GITHUB_WORKSPACE/.
-          sudo rm -rf $GITHUB_WORKSPACE/openfasoc
+          cp -rf /home/runner/work/data/work $GITHUB_WORKSPACE/.
           echo "PWD - $PWD"
           cd $GITHUB_WORKSPACE
           echo "PWD - $PWD"
