@@ -1,0 +1,7 @@
+xyce -l tempsenseInst_error_sim_-20.log -o tempsenseInst_error_sim_-20 tempsenseInst_error_sim_-20.sp
+xyce -l tempsenseInst_error_sim_0.log -o tempsenseInst_error_sim_0 tempsenseInst_error_sim_0.sp
+xyce -l tempsenseInst_error_sim_20.log -o tempsenseInst_error_sim_20 tempsenseInst_error_sim_20.sp
+xyce -l tempsenseInst_error_sim_40.log -o tempsenseInst_error_sim_40 tempsenseInst_error_sim_40.sp
+xyce -l tempsenseInst_error_sim_60.log -o tempsenseInst_error_sim_60 tempsenseInst_error_sim_60.sp
+xyce -l tempsenseInst_error_sim_80.log -o tempsenseInst_error_sim_80 tempsenseInst_error_sim_80.sp
+xyce -l tempsenseInst_error_sim_100.log -o tempsenseInst_error_sim_100 tempsenseInst_error_sim_100.sp
