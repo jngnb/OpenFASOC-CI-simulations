@@ -41,13 +41,20 @@ jobs:
             "| tee -a file.log
           if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi         
 
- 
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+
+
       - name: Commit and push changes
         run: |
+          echo "PWD - $PWD"
+          ls -al
           cp -rf $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work $GITHUB_WORKSPACE/.
           sudo rm -rf $GITHUB_WORKSPACE/openfasoc
           echo "PWD - $PWD"
           cd $GITHUB_WORKSPACE
+          echo "PWD - $PWD"
+          ls -al
           git status
           git config --global user.name 'sai charan'
           git config --global user.email 'saicharan0112@users.noreply.github.com'
