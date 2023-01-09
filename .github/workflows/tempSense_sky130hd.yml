@@ -46,6 +46,8 @@ jobs:
         run: |
           cp -rf $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work $GITHUB_WORKSPACE/.
           sudo rm -rf $GITHUB_WORKSPACE/openfasoc
+          echo "PWD - $PWD"
+          cd $GITHUB_WORKSPACE
           git status
           git config --global user.name 'sai charan'
           git config --global user.email 'saicharan0112@users.noreply.github.com'
