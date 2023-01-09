@@ -15,20 +15,13 @@ jobs:
       - name: Clone OpenFASOC repo
         run: |
           mkdir $GITHUB_WORKSPACE/openfasoc && cd $GITHUB_WORKSPACE/openfasoc
-          echo "PWD - $PWD"
           git clone https://github.com/saicharan0112/OpenFASOC && cd OpenFASOC
-          echo "PWD - $PWD"
 
       - name: Run tempSense generator
         env:
                 IMAGE_NAME: ghcr.io/saicharan0112/openfasoc_ci_image:alpha
         run: |
-          echo "#######"
-          echo "PWD - $PWD"
-          ls -al
-          echo "#######"
           cd openfasoc/OpenFASOC
-          echo "PWD - $PWD"
           touch file.log
           docker run --rm \
             -v $PWD:$PWD\
@@ -37,31 +30,24 @@ jobs:
             bash -c "\
               pip3 install -r requirements.txt &&\
               cd ./openfasoc/generators/temp-sense-gen &&\
-              make sky130hd_temp\
+              make sky130hd_temp_full\
             "| tee -a file.log
           if grep "\[ERROR\]" file.log; then exit 1; else exit 0; fi     
 
       - name: Prepare for Checkout
         run: |
-          echo "PWD - $PWD"
-          ls -al
           mkdir /home/runner/work/data -p
           cp -rf $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/work /home/runner/work/data/.
+          cp -rf $GITHUB_WORKSPACE/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/simulations/run /home/runner/work/data/.
           sudo rm -rf $GITHUB_WORKSPACE/openfasoc
-          echo "PWD - $PWD"
 
       - name: Checkout this repo
         uses: actions/checkout@v3
 
       - name: Commit and push changes
         run: |
-          echo "PWD - $PWD"
-          ls -al
-          cp -rf /home/runner/work/data/work $GITHUB_WORKSPACE/.
-          echo "PWD - $PWD"
+          cp -rf /home/runner/work/data/* $GITHUB_WORKSPACE/.
           cd $GITHUB_WORKSPACE
-          echo "PWD - $PWD"
-          ls -al
           git status
           git config --global user.name 'sai charan'
           git config --global user.email 'saicharan0112@users.noreply.github.com'
