@@ -1,176 +1,176 @@
 Collecting pandas
   Downloading pandas-1.3.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 111.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 109.1 MB/s eta 0:00:00
 Collecting klayout
   Downloading klayout-0.28.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (21.9 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.9/21.9 MB 41.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.9/21.9 MB 75.6 MB/s eta 0:00:00
 Collecting numpy
   Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.7/15.7 MB 107.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.7/15.7 MB 87.9 MB/s eta 0:00:00
 Collecting matplotlib
   Downloading matplotlib-3.5.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 132.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 107.2 MB/s eta 0:00:00
 Collecting gdsfactory==5.1.1
   Using cached gdsfactory-5.1.1-py3-none-any.whl (725 kB)
 Collecting nbsphinx
   Using cached nbsphinx-0.8.11-py3-none-any.whl (26 kB)
-Collecting scipy
-  Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.1/38.1 MB 67.6 MB/s eta 0:00:00
-Collecting loguru
-  Using cached loguru-0.6.0-py3-none-any.whl (58 kB)
-Collecting click
-  Using cached click-8.1.3-py3-none-any.whl (96 kB)
-Collecting rectpack
-  Using cached rectpack-0.2.2.tar.gz (17 kB)
-  Preparing metadata (setup.py): started
-  Preparing metadata (setup.py): finished with status 'done'
-Collecting xmltodict
-  Using cached xmltodict-0.13.0-py2.py3-none-any.whl (10.0 kB)
-Collecting pydantic
-  Downloading pydantic-1.10.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 122.3 MB/s eta 0:00:00
-Requirement already satisfied: typing-extensions in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (4.4.0)
-Collecting Pyqtree
-  Using cached Pyqtree-1.0.0.tar.gz (5.2 kB)
-  Preparing metadata (setup.py): started
-  Preparing metadata (setup.py): finished with status 'done'
-Collecting picwriter==0.5
-  Using cached picwriter-0.5-py3-none-any.whl (139 kB)
 Collecting phidl==1.6.1
   Using cached phidl-1.6.1.tar.gz (114 kB)
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: tqdm in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (4.64.1)
 Collecting jsonschema
   Using cached jsonschema-4.17.3-py3-none-any.whl (90 kB)
-Collecting scikit-image
-  Downloading scikit_image-0.19.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (13.5 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 112.2 MB/s eta 0:00:00
-Requirement already satisfied: tqdm in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (4.64.1)
-Collecting semantic-version
-  Using cached semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
-Collecting orjson
-  Downloading orjson-3.8.4-cp37-cp37m-manylinux_2_28_x86_64.whl (140 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 kB 39.3 MB/s eta 0:00:00
-Collecting Shapely
-  Downloading shapely-2.0.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 119.4 MB/s eta 0:00:00
-Requirement already satisfied: toolz in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (0.12.0)
-Collecting gdspy
-  Using cached gdspy-1.6.12.zip (157 kB)
-  Preparing metadata (setup.py): started
-  Preparing metadata (setup.py): finished with status 'done'
-Collecting networkx
-  Downloading networkx-2.6.3-py3-none-any.whl (1.9 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 122.4 MB/s eta 0:00:00
-Collecting omegaconf
-  Using cached omegaconf-2.3.0-py3-none-any.whl (79 kB)
-Collecting jsondiff
-  Using cached jsondiff-2.0.0-py3-none-any.whl (6.6 kB)
-Collecting pytest
-  Using cached pytest-7.2.0-py3-none-any.whl (316 kB)
-Collecting trimesh
-  Using cached trimesh-3.17.1-py3-none-any.whl (669 kB)
-Collecting qrcode
-  Using cached qrcode-7.3.1.tar.gz (43 kB)
+Collecting click
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Collecting Pyqtree
+  Using cached Pyqtree-1.0.0.tar.gz (5.2 kB)
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
 Collecting lytest==0.0.20
   Using cached lytest-0.0.20-py3-none-any.whl (14 kB)
 Collecting pytest-regressions
   Using cached pytest_regressions-2.4.1-py3-none-any.whl (23 kB)
-Collecting lygadgets>=0.1.15
-  Using cached lygadgets-0.1.35-py3-none-any.whl (24 kB)
+Requirement already satisfied: toolz in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (0.12.0)
+Collecting Shapely
+  Downloading shapely-2.0.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 105.2 MB/s eta 0:00:00
+Collecting scipy
+  Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.1/38.1 MB 55.9 MB/s eta 0:00:00
+Collecting semantic-version
+  Using cached semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting loguru
+  Using cached loguru-0.6.0-py3-none-any.whl (58 kB)
+Collecting pydantic
+  Downloading pydantic-1.10.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 111.9 MB/s eta 0:00:00
+Collecting jsondiff
+  Using cached jsondiff-2.0.0-py3-none-any.whl (6.6 kB)
+Collecting qrcode
+  Using cached qrcode-7.3.1.tar.gz (43 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting gdspy
+  Using cached gdspy-1.6.12.zip (157 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting orjson
+  Downloading orjson-3.8.4-cp37-cp37m-manylinux_2_28_x86_64.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.6/140.6 kB 33.1 MB/s eta 0:00:00
+Collecting omegaconf
+  Using cached omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Collecting rectpack
+  Using cached rectpack-0.2.2.tar.gz (17 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting scikit-image
+  Downloading scikit_image-0.19.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (13.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 98.0 MB/s eta 0:00:00
+Collecting picwriter==0.5
+  Using cached picwriter-0.5-py3-none-any.whl (139 kB)
+Collecting pytest
+  Using cached pytest-7.2.0-py3-none-any.whl (316 kB)
+Collecting networkx
+  Downloading networkx-2.6.3-py3-none-any.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 99.6 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions in /usr/bin/miniconda3/lib/python3.7/site-packages (from gdsfactory==5.1.1->-r requirements.txt (line 5)) (4.4.0)
+Collecting trimesh
+  Using cached trimesh-3.17.1-py3-none-any.whl (669 kB)
+Collecting xmltodict
+  Using cached xmltodict-0.13.0-py2.py3-none-any.whl (10.0 kB)
 Collecting lyipc>0.2.0
   Using cached lyipc-0.2.13-py3-none-any.whl (15 kB)
-Collecting python-dateutil>=2.7.3
-  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting lygadgets>=0.1.15
+  Using cached lygadgets-0.1.35-py3-none-any.whl (24 kB)
 Collecting pytz>=2017.3
   Using cached pytz-2022.7-py2.py3-none-any.whl (499 kB)
-Collecting pyparsing>=2.2.1
-  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
 Collecting kiwisolver>=1.0.1
   Downloading kiwisolver-1.4.4-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 96.2 MB/s eta 0:00:00
-Collecting packaging>=20.0
-  Downloading packaging-23.0-py3-none-any.whl (42 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 kB 12.3 MB/s eta 0:00:00
-Collecting pillow>=6.2.0
-  Downloading Pillow-9.4.0-cp37-cp37m-manylinux_2_28_x86_64.whl (3.4 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 120.4 MB/s eta 0:00:00
-Collecting cycler>=0.10
-  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 95.7 MB/s eta 0:00:00
 Collecting fonttools>=4.22.0
   Using cached fonttools-4.38.0-py3-none-any.whl (965 kB)
-Collecting jinja2
-  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
-Collecting nbformat
-  Using cached nbformat-5.7.1-py3-none-any.whl (77 kB)
-Collecting nbconvert!=5.4
-  Using cached nbconvert-7.2.7-py3-none-any.whl (273 kB)
+Collecting packaging>=20.0
+  Downloading packaging-23.0-py3-none-any.whl (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 kB 12.5 MB/s eta 0:00:00
+Collecting cycler>=0.10
+  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.4.0-cp37-cp37m-manylinux_2_28_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 117.0 MB/s eta 0:00:00
+Collecting pyparsing>=2.2.1
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
 Collecting sphinx>=1.8
   Downloading sphinx-5.3.0-py3-none-any.whl (3.2 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 123.9 MB/s eta 0:00:00
-Collecting traitlets>=5
-  Using cached traitlets-5.8.0-py3-none-any.whl (116 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 112.7 MB/s eta 0:00:00
+Collecting nbconvert!=5.4
+  Using cached nbconvert-7.2.7-py3-none-any.whl (273 kB)
 Collecting docutils
   Using cached docutils-0.19-py3-none-any.whl (570 kB)
-Collecting tinycss2
-  Using cached tinycss2-1.2.1-py3-none-any.whl (21 kB)
-Collecting bleach
-  Using cached bleach-5.0.1-py3-none-any.whl (160 kB)
-Requirement already satisfied: importlib-metadata>=3.6 in /usr/bin/miniconda3/lib/python3.7/site-packages (from nbconvert!=5.4->nbsphinx->-r requirements.txt (line 6)) (4.11.3)
-Collecting mistune<3,>=2.0.3
-  Using cached mistune-2.0.4-py2.py3-none-any.whl (24 kB)
+Collecting nbformat
+  Using cached nbformat-5.7.1-py3-none-any.whl (77 kB)
+Collecting traitlets>=5
+  Using cached traitlets-5.8.0-py3-none-any.whl (116 kB)
+Collecting jinja2
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
 Collecting markupsafe>=2.0
   Downloading MarkupSafe-2.1.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
 Collecting nbclient>=0.5.0
   Using cached nbclient-0.7.2-py3-none-any.whl (71 kB)
-Collecting pandocfilters>=1.4.1
-  Using cached pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
-Collecting jupyterlab-pygments
-  Using cached jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
 Collecting pygments>=2.4.1
   Using cached Pygments-2.14.0-py3-none-any.whl (1.1 MB)
-Collecting beautifulsoup4
-  Using cached beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)
-Collecting defusedxml
-  Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
 Collecting jupyter-core>=4.7
   Downloading jupyter_core-4.12.0-py3-none-any.whl (89 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 30.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 18.9 MB/s eta 0:00:00
+Collecting bleach
+  Using cached bleach-5.0.1-py3-none-any.whl (160 kB)
+Collecting beautifulsoup4
+  Using cached beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)
+Collecting jupyterlab-pygments
+  Using cached jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Requirement already satisfied: importlib-metadata>=3.6 in /usr/bin/miniconda3/lib/python3.7/site-packages (from nbconvert!=5.4->nbsphinx->-r requirements.txt (line 6)) (4.11.3)
+Collecting pandocfilters>=1.4.1
+  Using cached pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting defusedxml
+  Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting mistune<3,>=2.0.3
+  Using cached mistune-2.0.4-py2.py3-none-any.whl (24 kB)
+Collecting tinycss2
+  Using cached tinycss2-1.2.1-py3-none-any.whl (21 kB)
 Collecting fastjsonschema
   Using cached fastjsonschema-2.16.2-py3-none-any.whl (22 kB)
-Collecting pkgutil-resolve-name>=1.3.10
-  Using cached pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
 Collecting attrs>=17.4.0
   Using cached attrs-22.2.0-py3-none-any.whl (60 kB)
 Collecting importlib-resources>=1.4.0
   Using cached importlib_resources-5.10.2-py3-none-any.whl (34 kB)
+Collecting pkgutil-resolve-name>=1.3.10
+  Using cached pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
 Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
   Using cached pyrsistent-0.19.3-py3-none-any.whl (57 kB)
 Collecting six>=1.5
   Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
-Collecting sphinxcontrib-devhelp
-  Using cached sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl (84 kB)
-Collecting alabaster<0.8,>=0.7
-  Using cached alabaster-0.7.12-py2.py3-none-any.whl (14 kB)
-Collecting imagesize>=1.3
-  Using cached imagesize-1.4.1-py2.py3-none-any.whl (8.8 kB)
-Collecting sphinxcontrib-serializinghtml>=1.1.5
-  Using cached sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl (94 kB)
-Collecting babel>=2.9
-  Using cached Babel-2.11.0-py3-none-any.whl (9.5 MB)
-Collecting sphinxcontrib-applehelp
-  Downloading sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl (121 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.2/121.2 kB 40.2 MB/s eta 0:00:00
-Collecting sphinxcontrib-jsmath
-  Using cached sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl (5.1 kB)
-Collecting snowballstemmer>=2.0
-  Using cached snowballstemmer-2.2.0-py2.py3-none-any.whl (93 kB)
 Collecting sphinxcontrib-htmlhelp>=2.0.0
   Using cached sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl (100 kB)
+Collecting sphinxcontrib-applehelp
+  Downloading sphinxcontrib_applehelp-1.0.2-py2.py3-none-any.whl (121 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.2/121.2 kB 27.9 MB/s eta 0:00:00
+Collecting snowballstemmer>=2.0
+  Using cached snowballstemmer-2.2.0-py2.py3-none-any.whl (93 kB)
+Collecting sphinxcontrib-devhelp
+  Using cached sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl (84 kB)
+Collecting sphinxcontrib-jsmath
+  Using cached sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl (5.1 kB)
+Collecting alabaster<0.8,>=0.7
+  Using cached alabaster-0.7.12-py2.py3-none-any.whl (14 kB)
 Requirement already satisfied: requests>=2.5.0 in /usr/bin/miniconda3/lib/python3.7/site-packages (from sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2.28.1)
+Collecting babel>=2.9
+  Using cached Babel-2.11.0-py3-none-any.whl (9.5 MB)
+Collecting sphinxcontrib-serializinghtml>=1.1.5
+  Using cached sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl (94 kB)
+Collecting imagesize>=1.3
+  Using cached imagesize-1.4.1-py2.py3-none-any.whl (8.8 kB)
 Collecting sphinxcontrib-qthelp
   Using cached sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl (90 kB)
 Collecting antlr4-python3-runtime==4.9.*
@@ -179,25 +179,25 @@ Collecting antlr4-python3-runtime==4.9.*
   Preparing metadata (setup.py): finished with status 'done'
 Collecting PyYAML>=5.1.0
   Downloading PyYAML-6.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (596 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 596.3/596.3 kB 89.9 MB/s eta 0:00:00
-Collecting exceptiongroup>=1.0.0rc8
-  Using cached exceptiongroup-1.1.0-py3-none-any.whl (14 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 596.3/596.3 kB 81.8 MB/s eta 0:00:00
+Collecting iniconfig
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
 Collecting tomli>=1.0.0
   Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
 Requirement already satisfied: pluggy<2.0,>=0.12 in /usr/bin/miniconda3/lib/python3.7/site-packages (from pytest->gdsfactory==5.1.1->-r requirements.txt (line 5)) (1.0.0)
-Collecting iniconfig
-  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting exceptiongroup>=1.0.0rc8
+  Using cached exceptiongroup-1.1.0-py3-none-any.whl (14 kB)
 Collecting pytest-datadir>=1.2.0
   Using cached pytest_datadir-1.4.1-py3-none-any.whl (5.0 kB)
 Collecting imageio>=2.4.1
   Downloading imageio-2.24.0-py3-none-any.whl (3.4 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 109.9 MB/s eta 0:00:00
-Collecting PyWavelets>=1.1.1
-  Downloading PyWavelets-1.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.4 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 120.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 109.6 MB/s eta 0:00:00
 Collecting tifffile>=2019.7.26
   Downloading tifffile-2021.11.2-py3-none-any.whl (178 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.9/178.9 kB 34.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.9/178.9 kB 53.8 MB/s eta 0:00:00
+Collecting PyWavelets>=1.1.1
+  Downloading PyWavelets-1.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.4/6.4 MB 117.5 MB/s eta 0:00:00
 Requirement already satisfied: zipp>=0.5 in /usr/bin/miniconda3/lib/python3.7/site-packages (from importlib-metadata>=3.6->nbconvert!=5.4->nbsphinx->-r requirements.txt (line 6)) (3.11.0)
 Collecting future
   Using cached future-0.18.2.tar.gz (829 kB)
@@ -205,51 +205,51 @@ Collecting future
   Preparing metadata (setup.py): finished with status 'done'
 Collecting jupyter-client>=6.1.12
   Using cached jupyter_client-7.4.8-py3-none-any.whl (133 kB)
-Requirement already satisfied: charset-normalizer<3,>=2 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2.0.4)
-Requirement already satisfied: idna<4,>=2.5 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (3.4)
-Requirement already satisfied: certifi>=2017.4.17 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2022.12.7)
 Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (1.26.13)
+Requirement already satisfied: charset-normalizer<3,>=2 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (2022.12.7)
+Requirement already satisfied: idna<4,>=2.5 in /usr/bin/miniconda3/lib/python3.7/site-packages (from requests>=2.5.0->sphinx>=1.8->nbsphinx->-r requirements.txt (line 6)) (3.4)
 Collecting soupsieve>1.2
   Using cached soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)
 Collecting webencodings
   Using cached webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting pyzmq>=23.0
+  Downloading pyzmq-24.0.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 80.0 MB/s eta 0:00:00
+Collecting nest-asyncio>=1.5.4
+  Using cached nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
 Collecting entrypoints
   Using cached entrypoints-0.4-py3-none-any.whl (5.3 kB)
 Collecting tornado>=6.2
   Using cached tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
-Collecting nest-asyncio>=1.5.4
-  Using cached nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
-Collecting pyzmq>=23.0
-  Downloading pyzmq-24.0.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 110.9 MB/s eta 0:00:00
 Building wheels for collected packages: phidl, gdspy, antlr4-python3-runtime, Pyqtree, qrcode, rectpack, future
   Building wheel for phidl (setup.py): started
   Building wheel for phidl (setup.py): finished with status 'done'
-  Created wheel for phidl: filename=phidl-1.6.1-py3-none-any.whl size=114527 sha256=9c230b0cb50c97be76cbc26b2955d558d764b4b9c55a6f29bd5c28813deed497
+  Created wheel for phidl: filename=phidl-1.6.1-py3-none-any.whl size=114527 sha256=40ea4e43a667eb1bf9feb54c9dec068e62e1630d45bef4c36f471e72096c763d
   Stored in directory: /root/.cache/pip/wheels/7c/81/63/67cf000b415bda4674c00eebf2f1708031bb1a1a147cd66984
   Building wheel for gdspy (setup.py): started
   Building wheel for gdspy (setup.py): finished with status 'done'
-  Created wheel for gdspy: filename=gdspy-1.6.12-cp37-cp37m-linux_x86_64.whl size=610924 sha256=c31c4d01a60c1fbcc193e50522bf2061a966b118fffb3e3942dddd58c0bed012
+  Created wheel for gdspy: filename=gdspy-1.6.12-cp37-cp37m-linux_x86_64.whl size=610926 sha256=ed2bb0215d4d79f63ce69ab13986b0428e6a2403c57d4c0a502aaf78690a4172
   Stored in directory: /root/.cache/pip/wheels/f1/51/b4/94f53111d1b74488fc88dbe792e2f5d44055620439264e8179
   Building wheel for antlr4-python3-runtime (setup.py): started
   Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
-  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144554 sha256=4fce09b00a868e462e5c303d86c8808a944e1131423f160d137eef722c49ea25
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144554 sha256=47b8d835b77def6cf6037bdc01e2408a4a8e2416d10d52655be090a3c4a8e0b0
   Stored in directory: /root/.cache/pip/wheels/a9/8b/1f/b8233836d5798e3224c2442947e9639f220095de8bf46e800c
   Building wheel for Pyqtree (setup.py): started
   Building wheel for Pyqtree (setup.py): finished with status 'done'
-  Created wheel for Pyqtree: filename=Pyqtree-1.0.0-py3-none-any.whl size=5969 sha256=3eb5d693a0da031075e282e70429d732e4e2ad792cb546d2fc7e7178a03a96cc
+  Created wheel for Pyqtree: filename=Pyqtree-1.0.0-py3-none-any.whl size=5969 sha256=1e23c1fb1d3bfc5d5b613c5a82fde79cd31f21c2a3634b903b7b64570951264e
   Stored in directory: /root/.cache/pip/wheels/2d/99/df/2bf3943f25f29ae786013fbd8d67ad2d53b80a6fc28b2929fa
   Building wheel for qrcode (setup.py): started
   Building wheel for qrcode (setup.py): finished with status 'done'
-  Created wheel for qrcode: filename=qrcode-7.3.1-py3-none-any.whl size=40386 sha256=729fb044eec0e5467dd2577ae5f513c191d2f62bcdf2c15d3e980e85fc703db8
+  Created wheel for qrcode: filename=qrcode-7.3.1-py3-none-any.whl size=40386 sha256=dfd4dc5baa354e0aef123af656cfb23d9ac02df6db175e080f1c3c0afae49d77
   Stored in directory: /root/.cache/pip/wheels/a9/b6/05/48e66c0a6a7cc8629e602c873240aca1a4daa1f1a7f089908c
   Building wheel for rectpack (setup.py): started
   Building wheel for rectpack (setup.py): finished with status 'done'
-  Created wheel for rectpack: filename=rectpack-0.2.2-py3-none-any.whl size=19330 sha256=36d534385bc728cc3b60cb984999d86c2e5f75299e6e4fcd74b4affbf15b6116
+  Created wheel for rectpack: filename=rectpack-0.2.2-py3-none-any.whl size=19330 sha256=51382a1537835ce068730c0e584301528d027777e48dcec9b06ad79900c9e314
   Stored in directory: /root/.cache/pip/wheels/90/fc/05/00ca02c6966d8cd34044a6eeb417357943078ab4b74f515471
   Building wheel for future (setup.py): started
   Building wheel for future (setup.py): finished with status 'done'
-  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491058 sha256=48933700364b5fd565651887aa4f11b55fbb979ac493161ac107fbdd8c45fe45
+  Created wheel for future: filename=future-0.18.2-py3-none-any.whl size=491058 sha256=8b29c38ead792dbce7b92ad76db358d21bc36e6ea919d4b739e59da6fd0f597a
   Stored in directory: /root/.cache/pip/wheels/3e/3c/b4/7132d27620dd551cf00823f798a7190e7320ae7ffb71d1e989
 Successfully built phidl gdspy antlr4-python3-runtime Pyqtree qrcode rectpack future
 Installing collected packages: webencodings, snowballstemmer, rectpack, pytz, Pyqtree, mistune, klayout, jsondiff, fastjsonschema, antlr4-python3-runtime, alabaster, xmltodict, traitlets, tornado, tomli, tinycss2, sphinxcontrib-serializinghtml, sphinxcontrib-qthelp, sphinxcontrib-jsmath, sphinxcontrib-htmlhelp, sphinxcontrib-devhelp, sphinxcontrib-applehelp, soupsieve, six, semantic-version, qrcode, pyzmq, PyYAML, pyrsistent, pyparsing, pygments, pydantic, pkgutil-resolve-name, pillow, pandocfilters, packaging, orjson, numpy, networkx, nest-asyncio, markupsafe, loguru, kiwisolver, jupyterlab-pygments, iniconfig, importlib-resources, imagesize, future, fonttools, exceptiongroup, entrypoints, docutils, defusedxml, cycler, babel, attrs, trimesh, tifffile, Shapely, scipy, PyWavelets, python-dateutil, omegaconf, lygadgets, jupyter-core, jsonschema, jinja2, imageio, gdspy, click, bleach, beautifulsoup4, sphinx, scikit-image, pytest, picwriter, pandas, nbformat, matplotlib, lyipc, jupyter-client, pytest-datadir, phidl, nbclient, pytest-regressions, nbconvert, lytest, nbsphinx, gdsfactory
@@ -639,10 +639,10 @@ Using ABC speed script.
 26.1. Executing BMUXMAP pass.
 26.2. Executing DEMUXMAP pass.
 Warnings: 26 unique messages, 234 total
-End of script. Logfile hash: e950ac29ff, CPU: user 0.84s system 0.02s, MEM: 41.50 MB peak
+End of script. Logfile hash: a7f18c118e, CPU: user 0.88s system 0.01s, MEM: 41.52 MB peak
 Yosys 0.23+3 (git sha1 853f4bb3c, x86_64-conda-linux-gnu-cc 11.2.0 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -fdebug-prefix-map=/home/runner/work/conda-eda/conda-eda/workdir/conda-env/conda-bld/yosys_1668468037942/work=/usr/local/src/conda/yosys-0.23_6_g853f4bb3c -fdebug-prefix-map=/usr/bin/miniconda3=/usr/local/src/conda-prefix -fPIC -Os -fno-merge-constants)
-Time spent: 29% 2x abc (0 sec), 13% 2x read_liberty (0 sec), ...
-Elapsed time: 0:01.28[h:]min:sec. CPU time: user 1.17 sys 0.03 (93%). Peak memory: 42812KB.
+Time spent: 31% 2x abc (0 sec), 13% 2x read_liberty (0 sec), ...
+Elapsed time: 0:01.37[h:]min:sec. CPU time: user 1.25 sys 0.04 (94%). Peak memory: 42808KB.
 mkdir -p /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense/
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//1_1_yosys.v /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//1_synth.v
 mkdir -p /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense/ /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense/
@@ -758,7 +758,7 @@ floorplan final report_design_area
 --------------------------------------------------------------------------
 Design area 1854 u^2 14% utilization.
 
-Elapsed time: 0:00.64[h:]min:sec. CPU time: user 0.47 sys 0.03 (79%). Peak memory: 85200KB.
+Elapsed time: 0:00.64[h:]min:sec. CPU time: user 0.48 sys 0.05 (83%). Peak memory: 85252KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/io_placement_random.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_2_floorplan_io.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_2_floorplan_io.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
@@ -767,19 +767,19 @@ Found 0 macro blocks.
 Using 1u default distance from corners.
 Using 2 tracks default min distance between IO pins.
 [INFO PPL-0007] Random pin placement.
-Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.39 sys 0.02 (99%). Peak memory: 78680KB.
+Elapsed time: 0:00.43[h:]min:sec. CPU time: user 0.40 sys 0.02 (99%). Peak memory: 78624KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/tdms_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_3_tdms.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_3_tdms_place.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
 No macros found: Skipping global_placement
-Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.40 sys 0.01 (99%). Peak memory: 78980KB.
+Elapsed time: 0:00.43[h:]min:sec. CPU time: user 0.41 sys 0.01 (99%). Peak memory: 78924KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/macro_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_4_mplace.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_4_mplace.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
 No macros found: Skipping macro_placement
-Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.41 sys 0.00 (99%). Peak memory: 78832KB.
+Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.41 sys 0.01 (99%). Peak memory: 78856KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/tapcell.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_5_tapcell.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_5_tapcell.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
@@ -787,7 +787,7 @@ Components of this program may be licensed under more restrictive licenses which
 [WARNING TAP-0014] endcap_cpp option is deprecated.
 [INFO TAP-0004] Inserted 106 endcaps.
 [INFO TAP-0005] Inserted 139 tapcells.
-Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.39 sys 0.03 (99%). Peak memory: 78752KB.
+Elapsed time: 0:00.43[h:]min:sec. CPU time: user 0.40 sys 0.02 (99%). Peak memory: 78704KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/pdn.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_6_pdn.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//2_6_pdn.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
@@ -795,14 +795,14 @@ Components of this program may be licensed under more restrictive licenses which
 [WARNING PDN-1024] -verbose has been deprecated.
 [INFO PDN-0001] Inserting grid: stdcell
 [INFO PDN-0001] Inserting grid: stdcell_analog
-Elapsed time: 0:00.79[h:]min:sec. CPU time: user 0.76 sys 0.01 (98%). Peak memory: 81740KB.
+Elapsed time: 0:00.82[h:]min:sec. CPU time: user 0.79 sys 0.02 (99%). Peak memory: 81760KB.
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//2_6_floorplan_pdn.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//2_floorplan.odb
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/global_place_skip_io.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_1_place_gp_skip_io.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_1_place_gp_skip_io.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
 Has top down IO Constraints. Skip global placement without IOs
-Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.40 sys 0.01 (99%). Peak memory: 78956KB.
+Elapsed time: 0:00.43[h:]min:sec. CPU time: user 0.40 sys 0.02 (99%). Peak memory: 78924KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/io_placement.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_2_place_iop.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_2_place_iop.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
@@ -811,7 +811,7 @@ Found 0 macro blocks.
 Using 1u default distance from corners.
 Using 2 tracks default min distance between IO pins.
 [INFO PPL-0007] Random pin placement.
-Elapsed time: 0:00.42[h:]min:sec. CPU time: user 0.39 sys 0.03 (99%). Peak memory: 79540KB.
+Elapsed time: 0:00.43[h:]min:sec. CPU time: user 0.38 sys 0.04 (99%). Peak memory: 79452KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/global_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_3_place_gp.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_3_place_gp.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
@@ -982,7 +982,7 @@ global place report_design_area
 --------------------------------------------------------------------------
 Design area 2559 u^2 19% utilization.
 
-Elapsed time: 0:00.65[h:]min:sec. CPU time: user 0.58 sys 0.04 (96%). Peak memory: 159100KB.
+Elapsed time: 0:00.69[h:]min:sec. CPU time: user 0.60 sys 0.05 (95%). Peak memory: 159216KB.
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_3_place_gp.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_4_place_resized.odb
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/detail_place.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_5_opendp.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//3_5_opendp.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
@@ -1164,7 +1164,7 @@ detailed place report_design_area
 --------------------------------------------------------------------------
 Design area 2559 u^2 19% utilization.
 
-Elapsed time: 0:00.47[h:]min:sec. CPU time: user 0.44 sys 0.02 (98%). Peak memory: 82140KB.
+Elapsed time: 0:00.49[h:]min:sec. CPU time: user 0.42 sys 0.05 (97%). Peak memory: 82176KB.
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_5_place_dp.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.odb
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//2_floorplan.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.sdc
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_1_cts.odb
@@ -1173,7 +1173,7 @@ OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
 [INFO DPL-0001] Placed 1096 filler instances.
-Elapsed time: 0:00.43[h:]min:sec. CPU time: user 0.41 sys 0.01 (99%). Peak memory: 81164KB.
+Elapsed time: 0:00.44[h:]min:sec. CPU time: user 0.40 sys 0.03 (99%). Peak memory: 81196KB.
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_2_cts_fillcell.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_cts.odb
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//3_place.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_cts.sdc
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/global_route.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_1_fastroute.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_1_fastroute.log
@@ -1433,7 +1433,7 @@ check_antennas
 [INFO ANT-0001] Found 0 pin violations.
 [WARNING FLW-0006] No clocks found.
 [INFO FLW-0011] Path endpoint count 129
-Elapsed time: 0:00.55[h:]min:sec. CPU time: user 0.47 sys 0.07 (98%). Peak memory: 139444KB.
+Elapsed time: 0:00.57[h:]min:sec. CPU time: user 0.49 sys 0.06 (98%). Peak memory: 139688KB.
 (/usr/bin/time -f 'Elapsed time: %E[h:]min:sec. CPU time: user %U sys %S (%P). Peak memory: %MKB.' /usr/bin/miniconda3/bin/openroad -exit -no_init  /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/scripts/detail_route.tcl -metrics /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_2_TritonRoute.json) 2>&1 | tee /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/logs/sky130hd/tempsense//5_2_TritonRoute.log
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
@@ -1517,7 +1517,7 @@ Number of nets:           156
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:06, elapsed time = 00:00:03, memory = 90.98 (MB), peak = 90.98 (MB)
+[INFO DRT-0267] cpu time = 00:00:06, elapsed time = 00:00:03, memory = 90.93 (MB), peak = 90.93 (MB)
 
 Number of guides:     1118
 
@@ -1572,38 +1572,38 @@ Number of guides:     1118
 [INFO DRT-0184] Done with 501 vertical wires in 1 frboxes and 321 horizontal wires in 1 frboxes.
 [INFO DRT-0186] Done with 28 vertical wires in 1 frboxes and 135 horizontal wires in 1 frboxes.
 [INFO DRT-0182] Complete track assignment.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 95.48 (MB), peak = 95.48 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 95.46 (MB), peak = 95.46 (MB)
 [INFO DRT-0187] Start routing data preparation.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 95.48 (MB), peak = 95.48 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 95.46 (MB), peak = 95.46 (MB)
 [INFO DRT-0194] Start detail routing.
 [INFO DRT-0195] Start 0th optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:00, memory = 120.50 (MB).
+    elapsed time = 00:00:00, memory = 120.40 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:00, memory = 136.99 (MB).
+    elapsed time = 00:00:00, memory = 136.90 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:00, memory = 134.92 (MB).
+    elapsed time = 00:00:00, memory = 136.90 (MB).
     Completing 40% with 30 violations.
-    elapsed time = 00:00:01, memory = 141.11 (MB).
+    elapsed time = 00:00:01, memory = 141.28 (MB).
     Completing 50% with 30 violations.
-    elapsed time = 00:00:01, memory = 141.11 (MB).
+    elapsed time = 00:00:01, memory = 141.28 (MB).
     Completing 60% with 37 violations.
-    elapsed time = 00:00:03, memory = 155.15 (MB).
+    elapsed time = 00:00:02, memory = 155.33 (MB).
     Completing 70% with 37 violations.
-    elapsed time = 00:00:03, memory = 155.15 (MB).
+    elapsed time = 00:00:02, memory = 155.33 (MB).
     Completing 80% with 37 violations.
-    elapsed time = 00:00:08, memory = 155.39 (MB).
+    elapsed time = 00:00:07, memory = 155.44 (MB).
     Completing 90% with 106 violations.
-    elapsed time = 00:00:08, memory = 155.39 (MB).
+    elapsed time = 00:00:07, memory = 155.44 (MB).
     Completing 100% with 107 violations.
-    elapsed time = 00:00:08, memory = 155.39 (MB).
+    elapsed time = 00:00:08, memory = 162.65 (MB).
 [INFO DRT-0199]   Number of violations = 184.
 Viol/Layer        met1    via   met2   met3
 Metal Spacing       28      0      2     17
 Min Hole             2      0      0      0
 Recheck             57      0     20      0
 Short               50      2      6      0
-[INFO DRT-0267] cpu time = 00:00:10, elapsed time = 00:00:09, memory = 480.55 (MB), peak = 480.55 (MB)
+[INFO DRT-0267] cpu time = 00:00:10, elapsed time = 00:00:08, memory = 493.74 (MB), peak = 493.74 (MB)
 Total wire length = 5649 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 2632 um.
@@ -1627,30 +1627,30 @@ Up-via summary (total 1007):.
 
 [INFO DRT-0195] Start 1st optimization iteration.
     Completing 10% with 184 violations.
-    elapsed time = 00:00:00, memory = 480.55 (MB).
+    elapsed time = 00:00:00, memory = 493.74 (MB).
     Completing 20% with 184 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 499.93 (MB).
     Completing 30% with 123 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 499.93 (MB).
     Completing 40% with 123 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 499.93 (MB).
     Completing 50% with 123 violations.
-    elapsed time = 00:00:02, memory = 500.14 (MB).
+    elapsed time = 00:00:02, memory = 499.93 (MB).
     Completing 60% with 98 violations.
-    elapsed time = 00:00:02, memory = 500.14 (MB).
+    elapsed time = 00:00:02, memory = 499.93 (MB).
     Completing 70% with 98 violations.
-    elapsed time = 00:00:03, memory = 500.14 (MB).
+    elapsed time = 00:00:03, memory = 499.93 (MB).
     Completing 80% with 81 violations.
-    elapsed time = 00:00:03, memory = 500.14 (MB).
+    elapsed time = 00:00:03, memory = 499.93 (MB).
     Completing 90% with 81 violations.
-    elapsed time = 00:00:03, memory = 500.14 (MB).
+    elapsed time = 00:00:03, memory = 499.93 (MB).
     Completing 100% with 81 violations.
-    elapsed time = 00:00:03, memory = 500.14 (MB).
+    elapsed time = 00:00:03, memory = 499.93 (MB).
 [INFO DRT-0199]   Number of violations = 81.
 Viol/Layer        met1   met2   met3
 Metal Spacing       24      2      5
 Short               48      2      0
-[INFO DRT-0267] cpu time = 00:00:04, elapsed time = 00:00:03, memory = 500.14 (MB), peak = 500.14 (MB)
+[INFO DRT-0267] cpu time = 00:00:04, elapsed time = 00:00:03, memory = 500.18 (MB), peak = 500.18 (MB)
 Total wire length = 5650 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 2729 um.
@@ -1674,31 +1674,31 @@ Up-via summary (total 1003):.
 
 [INFO DRT-0195] Start 2nd optimization iteration.
     Completing 10% with 81 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 20% with 81 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 30% with 83 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 40% with 83 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 500.18 (MB).
     Completing 50% with 83 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 500.18 (MB).
     Completing 60% with 74 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 500.18 (MB).
     Completing 70% with 74 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 500.18 (MB).
     Completing 80% with 74 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 500.18 (MB).
     Completing 90% with 74 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 500.18 (MB).
     Completing 100% with 65 violations.
-    elapsed time = 00:00:01, memory = 500.14 (MB).
+    elapsed time = 00:00:01, memory = 500.18 (MB).
 [INFO DRT-0199]   Number of violations = 66.
 Viol/Layer        met1   met2   met3
 Metal Spacing       23      0     10
 Recheck              1      0      0
 Short               30      2      0
-[INFO DRT-0267] cpu time = 00:00:02, elapsed time = 00:00:01, memory = 500.14 (MB), peak = 500.14 (MB)
+[INFO DRT-0267] cpu time = 00:00:02, elapsed time = 00:00:02, memory = 500.18 (MB), peak = 500.18 (MB)
 Total wire length = 5576 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 2691 um.
@@ -1722,30 +1722,30 @@ Up-via summary (total 981):.
 
 [INFO DRT-0195] Start 3rd optimization iteration.
     Completing 10% with 66 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 20% with 66 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 30% with 66 violations.
-    elapsed time = 00:00:02, memory = 500.14 (MB).
+    elapsed time = 00:00:02, memory = 500.18 (MB).
     Completing 40% with 60 violations.
-    elapsed time = 00:00:02, memory = 500.14 (MB).
+    elapsed time = 00:00:02, memory = 500.18 (MB).
     Completing 50% with 60 violations.
-    elapsed time = 00:00:02, memory = 500.14 (MB).
+    elapsed time = 00:00:02, memory = 500.18 (MB).
     Completing 60% with 60 violations.
-    elapsed time = 00:00:02, memory = 500.14 (MB).
+    elapsed time = 00:00:02, memory = 500.18 (MB).
     Completing 70% with 60 violations.
-    elapsed time = 00:00:02, memory = 500.14 (MB).
+    elapsed time = 00:00:02, memory = 500.18 (MB).
     Completing 80% with 60 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 90% with 13 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 100% with 13 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
 [INFO DRT-0199]   Number of violations = 13.
 Viol/Layer        met1   met2
 Metal Spacing        4      0
 Short                7      2
-[INFO DRT-0267] cpu time = 00:00:07, elapsed time = 00:00:05, memory = 500.14 (MB), peak = 500.14 (MB)
+[INFO DRT-0267] cpu time = 00:00:07, elapsed time = 00:00:05, memory = 500.18 (MB), peak = 500.18 (MB)
 Total wire length = 5596 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 2670 um.
@@ -1769,29 +1769,29 @@ Up-via summary (total 991):.
 
 [INFO DRT-0195] Start 4th optimization iteration.
     Completing 10% with 13 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 20% with 13 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 30% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 40% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 50% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 60% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 70% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 80% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 90% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
     Completing 100% with 5 violations.
-    elapsed time = 00:00:05, memory = 500.14 (MB).
+    elapsed time = 00:00:05, memory = 500.18 (MB).
 [INFO DRT-0199]   Number of violations = 5.
 Viol/Layer        met1
 Metal Spacing        5
-[INFO DRT-0267] cpu time = 00:00:05, elapsed time = 00:00:05, memory = 500.14 (MB), peak = 500.14 (MB)
+[INFO DRT-0267] cpu time = 00:00:05, elapsed time = 00:00:05, memory = 500.18 (MB), peak = 500.18 (MB)
 Total wire length = 5599 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 2625 um.
@@ -1815,27 +1815,27 @@ Up-via summary (total 992):.
 
 [INFO DRT-0195] Start 5th optimization iteration.
     Completing 10% with 5 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 20% with 5 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 40% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 50% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 60% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 70% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 80% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 90% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:00, memory = 500.14 (MB).
+    elapsed time = 00:00:00, memory = 500.18 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 500.14 (MB), peak = 500.14 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 500.18 (MB), peak = 500.18 (MB)
 Total wire length = 5589 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 2629 um.
@@ -1879,10 +1879,10 @@ Up-via summary (total 987):.
                    987
 
 
-[INFO DRT-0267] cpu time = 00:00:30, elapsed time = 00:00:26, memory = 500.14 (MB), peak = 500.14 (MB)
+[INFO DRT-0267] cpu time = 00:00:31, elapsed time = 00:00:26, memory = 500.18 (MB), peak = 500.18 (MB)
 
 [INFO DRT-0180] Post processing.
-Elapsed time: 0:30.07[h:]min:sec. CPU time: user 37.46 sys 0.24 (125%). Peak memory: 512448KB.
+Elapsed time: 0:30.15[h:]min:sec. CPU time: user 38.17 sys 0.22 (127%). Peak memory: 512280KB.
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_2_route.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.odb
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.odb /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_fill.odb
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//4_cts.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.sdc
@@ -2132,7 +2132,7 @@ finish report_design_area
 --------------------------------------------------------------------------
 Design area 2559 u^2 19% utilization.
 
-Elapsed time: 0:00.61[h:]min:sec. CPU time: user 0.59 sys 0.01 (99%). Peak memory: 93572KB.
+Elapsed time: 0:00.64[h:]min:sec. CPU time: user 0.59 sys 0.03 (96%). Peak memory: 93584KB.
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//5_route.sdc /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.sdc
 sed '/OR_DEFAULT/d' /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef > /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//klayout_tech.lef
 sed 's,<lef-files>.*</lef-files>,<lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense/klayout_tech.lef</lef-files> <lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/common/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef</lef-files> <lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/blocks/sky130hd/lef/HEADER.lef</lef-files> <lef-files>/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/blocks/sky130hd/lef/SLC.lef</lef-files>,g' /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/sky130hd.lyt > /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//klayout.lyt
@@ -2159,7 +2159,7 @@ INFO: Reading config file: /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-
 [INFO] Checking for orphan cell in the final layout...
 [INFO] No orphan cells
 [INFO] Writing out GDS/OAS '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_merged.gds'
-Elapsed time: 0:01.50[h:]min:sec. CPU time: user 1.29 sys 0.10 (93%). Peak memory: 391484KB.
+Elapsed time: 0:01.62[h:]min:sec. CPU time: user 1.37 sys 0.13 (92%). Peak memory: 390640KB.
 cp /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_1_merged.gds /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.gds
 make[1]: Leaving directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
 make[1]: Entering directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
@@ -2261,7 +2261,7 @@ make[1]: Entering directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASO
 OpenROAD c1b65058bbb291c5ae79a9f45a1b8480cf38c0da 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
-Elapsed time: 0:00.45[h:]min:sec. CPU time: user 0.43 sys 0.01 (99%). Peak memory: 83368KB.
+Elapsed time: 0:00.46[h:]min:sec. CPU time: user 0.44 sys 0.01 (98%). Peak memory: 83364KB.
 mkdir -p /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/spice /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/ext
 python /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/util/openfasoc/cdl_parser.py -i /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.cdl -s /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/platforms/sky130hd/cdl/sky130_fd_sc_hd.spice -o /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/objects/sky130hd/tempsense//netgen_lvs/spice/tempsenseInst_error.spice
 /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/../../../common/drc-lvs-check/run_lvspex.sh /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/results/sky130hd/tempsense//6_final.gds tempsenseInst_error /home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense//6_final_lvs.rpt
@@ -3195,13 +3195,12 @@ Circuits match uniquely.
 Logging to file "/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow/reports/sky130hd/tempsense//6_final_lvs.rpt" disabled
 LVS Done.
 make[1]: Leaving directory '/home/runner/work/OpenFASOC-CI-simulations/OpenFASOC-CI-simulations/openfasoc/OpenFASOC/openfasoc/generators/temp-sense-gen/flow'
--20
-0
-20
-40
-60
-80
-100
+temp: 0, 	frequency: 623.166333
+temp: 20, 	frequency: 3524.384334
+temp: 40, 	frequency: 13406.189718
+temp: 60, 	frequency: 40831.875976
+temp: 80, 	frequency: 105407.555150
+temp: 100, 	frequency: 239613.245053
 
 ----calculate_max_error------ 2.99981306898544 98
      Temp      Frequency         Power     Error  inv  header
@@ -3295,4 +3294,14 @@ target number of headers: 3
 #----------------------------------------------------------------------
 # Running prePEX Simulations
 #----------------------------------------------------------------------
-tools/../simulations/run/prePEX_inv6_header3/prePEX all_result file is not generated successfully
+#----------------------------------------------------------------------
+# Simulation output Generated
+#----------------------------------------------------------------------
+Exiting tool....
+DRC is clean!
+LVS is clean!
+==================================================================================
+Thank you for using OpenFASOC
+For more info, please read the latest documentation on openfasoc.readthedocs.io
+For any issues, please feel free to open an issue on GitHub repository
+==================================================================================

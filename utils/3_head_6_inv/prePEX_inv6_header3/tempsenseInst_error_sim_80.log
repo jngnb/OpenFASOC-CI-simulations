@@ -3,7 +3,7 @@
 ***** Welcome to the Xyce(TM) Parallel Electronic Simulator
 *****
 ***** This is version Xyce DEVELOPMENT-202301080918-(Public_Release-7.6.0-77-g50daf8e8)-opensource
-***** Date: Mon Jan 09 05:21:45 UTC 2023
+***** Date: Mon Jan 09 06:49:16 UTC 2023
 
 
 ***** Executing netlist tempsenseInst_error_sim_80.sp
@@ -618,403 +618,403 @@ Maximum warning count has been exceeded and will no longer be displayed
 ***** Beginning Transient Calculation...
 
 ***** Percent complete: 1.00008 %
-***** Current system time: Mon Jan  9 05:22:09 2023
-***** Estimated time to completion: 34 min.,  5 sec.
+***** Current system time: Mon Jan  9 06:49:43 2023
+***** Estimated time to completion: 38 min., 20 sec.
 
 ***** Percent complete: 2.00009 %
-***** Current system time: Mon Jan  9 05:22:30 2023
-***** Estimated time to completion: 33 min., 43 sec.
+***** Current system time: Mon Jan  9 06:50:06 2023
+***** Estimated time to completion: 38 min.,  3 sec.
 
 ***** Percent complete: 3.00044 %
-***** Current system time: Mon Jan  9 05:22:50 2023
-***** Estimated time to completion: 33 min., 12 sec.
+***** Current system time: Mon Jan  9 06:50:29 2023
+***** Estimated time to completion: 37 min., 25 sec.
 
 ***** Percent complete: 4.00048 %
-***** Current system time: Mon Jan  9 05:23:10 2023
-***** Estimated time to completion: 32 min., 42 sec.
+***** Current system time: Mon Jan  9 06:50:52 2023
+***** Estimated time to completion: 36 min., 53 sec.
 
 ***** Percent complete: 5.00058 %
-***** Current system time: Mon Jan  9 05:23:31 2023
-***** Estimated time to completion: 32 min., 20 sec.
+***** Current system time: Mon Jan  9 06:51:15 2023
+***** Estimated time to completion: 36 min., 29 sec.
 
 ***** Percent complete: 6.00089 %
-***** Current system time: Mon Jan  9 05:23:51 2023
-***** Estimated time to completion: 31 min., 58 sec.
+***** Current system time: Mon Jan  9 06:51:38 2023
+***** Estimated time to completion: 36 min.,  4 sec.
 
 ***** Percent complete: 7.00113 %
-***** Current system time: Mon Jan  9 05:24:12 2023
-***** Estimated time to completion: 31 min., 40 sec.
+***** Current system time: Mon Jan  9 06:52:01 2023
+***** Estimated time to completion: 35 min., 46 sec.
 
 ***** Percent complete: 8.00143 %
-***** Current system time: Mon Jan  9 05:24:32 2023
-***** Estimated time to completion: 31 min., 21 sec.
+***** Current system time: Mon Jan  9 06:52:25 2023
+***** Estimated time to completion: 35 min., 23 sec.
 
 ***** Percent complete: 9.00179 %
-***** Current system time: Mon Jan  9 05:24:53 2023
-***** Estimated time to completion: 30 min., 59 sec.
+***** Current system time: Mon Jan  9 06:52:48 2023
+***** Estimated time to completion: 35 min.,  0 sec.
 
 ***** Percent complete: 10.0028 %
-***** Current system time: Mon Jan  9 05:25:13 2023
-***** Estimated time to completion: 30 min., 40 sec.
+***** Current system time: Mon Jan  9 06:53:11 2023
+***** Estimated time to completion: 34 min., 35 sec.
 
 ***** Percent complete: 11.0031 %
-***** Current system time: Mon Jan  9 05:25:34 2023
-***** Estimated time to completion: 30 min., 20 sec.
+***** Current system time: Mon Jan  9 06:53:34 2023
+***** Estimated time to completion: 34 min., 12 sec.
 
 ***** Percent complete: 12.0032 %
-***** Current system time: Mon Jan  9 05:25:54 2023
-***** Estimated time to completion: 29 min., 58 sec.
+***** Current system time: Mon Jan  9 06:53:57 2023
+***** Estimated time to completion: 33 min., 48 sec.
 
 ***** Percent complete: 13.0034 %
-***** Current system time: Mon Jan  9 05:26:15 2023
-***** Estimated time to completion: 29 min., 41 sec.
+***** Current system time: Mon Jan  9 06:54:20 2023
+***** Estimated time to completion: 33 min., 26 sec.
 
 ***** Percent complete: 14.0038 %
-***** Current system time: Mon Jan  9 05:26:35 2023
-***** Estimated time to completion: 29 min., 20 sec.
+***** Current system time: Mon Jan  9 06:54:43 2023
+***** Estimated time to completion: 33 min.,  2 sec.
 
 ***** Percent complete: 15.0044 %
-***** Current system time: Mon Jan  9 05:26:55 2023
-***** Estimated time to completion: 28 min., 57 sec.
+***** Current system time: Mon Jan  9 06:55:06 2023
+***** Estimated time to completion: 32 min., 38 sec.
 
 ***** Percent complete: 16.0045 %
-***** Current system time: Mon Jan  9 05:27:16 2023
-***** Estimated time to completion: 28 min., 35 sec.
+***** Current system time: Mon Jan  9 06:55:28 2023
+***** Estimated time to completion: 32 min., 13 sec.
 
 ***** Percent complete: 17.0047 %
-***** Current system time: Mon Jan  9 05:27:36 2023
-***** Estimated time to completion: 28 min., 13 sec.
+***** Current system time: Mon Jan  9 06:55:51 2023
+***** Estimated time to completion: 31 min., 51 sec.
 
 ***** Percent complete: 18.0048 %
-***** Current system time: Mon Jan  9 05:27:56 2023
-***** Estimated time to completion: 27 min., 53 sec.
+***** Current system time: Mon Jan  9 06:56:15 2023
+***** Estimated time to completion: 31 min., 29 sec.
 
 ***** Percent complete: 19.0056 %
-***** Current system time: Mon Jan  9 05:28:17 2023
-***** Estimated time to completion: 27 min., 33 sec.
+***** Current system time: Mon Jan  9 06:56:38 2023
+***** Estimated time to completion: 31 min.,  5 sec.
 
 ***** Percent complete: 20.0061 %
-***** Current system time: Mon Jan  9 05:28:37 2023
-***** Estimated time to completion: 27 min., 13 sec.
+***** Current system time: Mon Jan  9 06:57:01 2023
+***** Estimated time to completion: 30 min., 42 sec.
 
 ***** Percent complete: 21.0062 %
-***** Current system time: Mon Jan  9 05:28:58 2023
-***** Estimated time to completion: 26 min., 53 sec.
+***** Current system time: Mon Jan  9 06:57:24 2023
+***** Estimated time to completion: 30 min., 19 sec.
 
 ***** Percent complete: 22.0063 %
-***** Current system time: Mon Jan  9 05:29:18 2023
-***** Estimated time to completion: 26 min., 33 sec.
+***** Current system time: Mon Jan  9 06:57:46 2023
+***** Estimated time to completion: 29 min., 54 sec.
 
 ***** Percent complete: 23.0065 %
-***** Current system time: Mon Jan  9 05:29:39 2023
-***** Estimated time to completion: 26 min., 13 sec.
+***** Current system time: Mon Jan  9 06:58:09 2023
+***** Estimated time to completion: 29 min., 30 sec.
 
 ***** Percent complete: 24.0069 %
-***** Current system time: Mon Jan  9 05:29:59 2023
-***** Estimated time to completion: 25 min., 52 sec.
+***** Current system time: Mon Jan  9 06:58:32 2023
+***** Estimated time to completion: 29 min.,  7 sec.
 
 ***** Percent complete: 25.007 %
-***** Current system time: Mon Jan  9 05:30:20 2023
-***** Estimated time to completion: 25 min., 34 sec.
+***** Current system time: Mon Jan  9 06:58:55 2023
+***** Estimated time to completion: 28 min., 44 sec.
 
 ***** Percent complete: 26.0074 %
-***** Current system time: Mon Jan  9 05:30:41 2023
-***** Estimated time to completion: 25 min., 13 sec.
+***** Current system time: Mon Jan  9 06:59:18 2023
+***** Estimated time to completion: 28 min., 21 sec.
 
 ***** Percent complete: 27.0083 %
-***** Current system time: Mon Jan  9 05:31:01 2023
-***** Estimated time to completion: 24 min., 52 sec.
+***** Current system time: Mon Jan  9 06:59:41 2023
+***** Estimated time to completion: 27 min., 58 sec.
 
 ***** Percent complete: 28.0086 %
-***** Current system time: Mon Jan  9 05:31:22 2023
-***** Estimated time to completion: 24 min., 33 sec.
+***** Current system time: Mon Jan  9 07:00:04 2023
+***** Estimated time to completion: 27 min., 34 sec.
 
 ***** Percent complete: 29.0087 %
-***** Current system time: Mon Jan  9 05:31:42 2023
-***** Estimated time to completion: 24 min., 12 sec.
+***** Current system time: Mon Jan  9 07:00:26 2023
+***** Estimated time to completion: 27 min., 11 sec.
 
 ***** Percent complete: 30.0087 %
-***** Current system time: Mon Jan  9 05:32:02 2023
-***** Estimated time to completion: 23 min., 50 sec.
+***** Current system time: Mon Jan  9 07:00:49 2023
+***** Estimated time to completion: 26 min., 48 sec.
 
 ***** Percent complete: 31.0087 %
-***** Current system time: Mon Jan  9 05:32:23 2023
-***** Estimated time to completion: 23 min., 30 sec.
+***** Current system time: Mon Jan  9 07:01:12 2023
+***** Estimated time to completion: 26 min., 23 sec.
 
 ***** Percent complete: 32.0087 %
-***** Current system time: Mon Jan  9 05:32:42 2023
-***** Estimated time to completion: 23 min.,  8 sec.
+***** Current system time: Mon Jan  9 07:01:34 2023
+***** Estimated time to completion: 26 min.,  0 sec.
 
 ***** Percent complete: 33.0091 %
-***** Current system time: Mon Jan  9 05:33:03 2023
-***** Estimated time to completion: 22 min., 49 sec.
+***** Current system time: Mon Jan  9 07:01:57 2023
+***** Estimated time to completion: 25 min., 36 sec.
 
 ***** Percent complete: 34.0091 %
-***** Current system time: Mon Jan  9 05:33:24 2023
-***** Estimated time to completion: 22 min., 29 sec.
+***** Current system time: Mon Jan  9 07:02:20 2023
+***** Estimated time to completion: 25 min., 13 sec.
 
 ***** Percent complete: 35.0096 %
-***** Current system time: Mon Jan  9 05:33:45 2023
-***** Estimated time to completion: 22 min.,  9 sec.
+***** Current system time: Mon Jan  9 07:02:43 2023
+***** Estimated time to completion: 24 min., 51 sec.
 
 ***** Percent complete: 36.0101 %
-***** Current system time: Mon Jan  9 05:34:03 2023
-***** Estimated time to completion: 21 min., 45 sec.
+***** Current system time: Mon Jan  9 07:03:04 2023
+***** Estimated time to completion: 24 min., 24 sec.
 
 ***** Percent complete: 37.0103 %
-***** Current system time: Mon Jan  9 05:34:20 2023
-***** Estimated time to completion: 21 min., 18 sec.
+***** Current system time: Mon Jan  9 07:03:23 2023
+***** Estimated time to completion: 23 min., 55 sec.
 
 ***** Percent complete: 38.0108 %
-***** Current system time: Mon Jan  9 05:34:37 2023
-***** Estimated time to completion: 20 min., 52 sec.
+***** Current system time: Mon Jan  9 07:03:42 2023
+***** Estimated time to completion: 23 min., 26 sec.
 
 ***** Percent complete: 39.0115 %
-***** Current system time: Mon Jan  9 05:34:54 2023
-***** Estimated time to completion: 20 min., 28 sec.
+***** Current system time: Mon Jan  9 07:04:02 2023
+***** Estimated time to completion: 22 min., 58 sec.
 
 ***** Percent complete: 40.0116 %
-***** Current system time: Mon Jan  9 05:35:11 2023
-***** Estimated time to completion: 20 min.,  3 sec.
+***** Current system time: Mon Jan  9 07:04:21 2023
+***** Estimated time to completion: 22 min., 31 sec.
 
 ***** Percent complete: 41.0119 %
-***** Current system time: Mon Jan  9 05:35:28 2023
-***** Estimated time to completion: 19 min., 39 sec.
+***** Current system time: Mon Jan  9 07:04:41 2023
+***** Estimated time to completion: 22 min.,  4 sec.
 
 ***** Percent complete: 42.0121 %
-***** Current system time: Mon Jan  9 05:35:46 2023
-***** Estimated time to completion: 19 min., 15 sec.
+***** Current system time: Mon Jan  9 07:05:00 2023
+***** Estimated time to completion: 21 min., 37 sec.
 
 ***** Percent complete: 43.0125 %
-***** Current system time: Mon Jan  9 05:36:03 2023
-***** Estimated time to completion: 18 min., 51 sec.
+***** Current system time: Mon Jan  9 07:05:19 2023
+***** Estimated time to completion: 21 min., 11 sec.
 
 ***** Percent complete: 44.0127 %
-***** Current system time: Mon Jan  9 05:36:20 2023
-***** Estimated time to completion: 18 min., 28 sec.
+***** Current system time: Mon Jan  9 07:05:39 2023
+***** Estimated time to completion: 20 min., 45 sec.
 
 ***** Percent complete: 45.013 %
-***** Current system time: Mon Jan  9 05:36:38 2023
-***** Estimated time to completion: 18 min.,  5 sec.
+***** Current system time: Mon Jan  9 07:05:57 2023
+***** Estimated time to completion: 20 min., 18 sec.
 
 ***** Percent complete: 46.0131 %
-***** Current system time: Mon Jan  9 05:36:54 2023
-***** Estimated time to completion: 17 min., 42 sec.
+***** Current system time: Mon Jan  9 07:06:14 2023
+***** Estimated time to completion: 19 min., 50 sec.
 
 ***** Percent complete: 47.0132 %
-***** Current system time: Mon Jan  9 05:37:10 2023
-***** Estimated time to completion: 17 min., 18 sec.
+***** Current system time: Mon Jan  9 07:06:31 2023
+***** Estimated time to completion: 19 min., 22 sec.
 
 ***** Percent complete: 48.0142 %
-***** Current system time: Mon Jan  9 05:37:26 2023
-***** Estimated time to completion: 16 min., 54 sec.
+***** Current system time: Mon Jan  9 07:06:49 2023
+***** Estimated time to completion: 18 min., 55 sec.
 
 ***** Percent complete: 49.0147 %
-***** Current system time: Mon Jan  9 05:37:40 2023
-***** Estimated time to completion: 16 min., 30 sec.
+***** Current system time: Mon Jan  9 07:07:04 2023
+***** Estimated time to completion: 18 min., 27 sec.
 
 ***** Percent complete: 50.0148 %
-***** Current system time: Mon Jan  9 05:37:54 2023
-***** Estimated time to completion: 16 min.,  4 sec.
+***** Current system time: Mon Jan  9 07:07:19 2023
+***** Estimated time to completion: 17 min., 58 sec.
 
 ***** Percent complete: 51.0152 %
-***** Current system time: Mon Jan  9 05:38:07 2023
-***** Estimated time to completion: 15 min., 39 sec.
+***** Current system time: Mon Jan  9 07:07:33 2023
+***** Estimated time to completion: 17 min., 29 sec.
 
 ***** Percent complete: 52.0153 %
-***** Current system time: Mon Jan  9 05:38:20 2023
-***** Estimated time to completion: 15 min., 14 sec.
+***** Current system time: Mon Jan  9 07:07:47 2023
+***** Estimated time to completion: 17 min.,  1 sec.
 
 ***** Percent complete: 53.0154 %
-***** Current system time: Mon Jan  9 05:38:33 2023
-***** Estimated time to completion: 14 min., 50 sec.
+***** Current system time: Mon Jan  9 07:08:01 2023
+***** Estimated time to completion: 16 min., 33 sec.
 
 ***** Percent complete: 54.0156 %
-***** Current system time: Mon Jan  9 05:38:45 2023
-***** Estimated time to completion: 14 min., 25 sec.
+***** Current system time: Mon Jan  9 07:08:13 2023
+***** Estimated time to completion: 16 min.,  4 sec.
 
 ***** Percent complete: 55.0156 %
-***** Current system time: Mon Jan  9 05:38:56 2023
-***** Estimated time to completion: 13 min., 59 sec.
+***** Current system time: Mon Jan  9 07:08:24 2023
+***** Estimated time to completion: 15 min., 35 sec.
 
 ***** Percent complete: 56.0158 %
-***** Current system time: Mon Jan  9 05:39:06 2023
-***** Estimated time to completion: 13 min., 34 sec.
+***** Current system time: Mon Jan  9 07:08:35 2023
+***** Estimated time to completion: 15 min.,  7 sec.
 
 ***** Percent complete: 57.0163 %
-***** Current system time: Mon Jan  9 05:39:16 2023
-***** Estimated time to completion: 13 min.,  9 sec.
+***** Current system time: Mon Jan  9 07:08:46 2023
+***** Estimated time to completion: 14 min., 39 sec.
 
 ***** Percent complete: 58.0166 %
-***** Current system time: Mon Jan  9 05:39:27 2023
-***** Estimated time to completion: 12 min., 45 sec.
+***** Current system time: Mon Jan  9 07:08:57 2023
+***** Estimated time to completion: 14 min., 12 sec.
 
 ***** Percent complete: 59.0168 %
-***** Current system time: Mon Jan  9 05:39:37 2023
-***** Estimated time to completion: 12 min., 22 sec.
+***** Current system time: Mon Jan  9 07:09:09 2023
+***** Estimated time to completion: 13 min., 45 sec.
 
 ***** Percent complete: 60.017 %
-***** Current system time: Mon Jan  9 05:39:48 2023
-***** Estimated time to completion: 11 min., 58 sec.
+***** Current system time: Mon Jan  9 07:09:20 2023
+***** Estimated time to completion: 13 min., 19 sec.
 
 ***** Percent complete: 61.0171 %
-***** Current system time: Mon Jan  9 05:39:58 2023
-***** Estimated time to completion: 11 min., 35 sec.
+***** Current system time: Mon Jan  9 07:09:31 2023
+***** Estimated time to completion: 12 min., 53 sec.
 
 ***** Percent complete: 62.0175 %
-***** Current system time: Mon Jan  9 05:40:08 2023
-***** Estimated time to completion: 11 min., 13 sec.
+***** Current system time: Mon Jan  9 07:09:42 2023
+***** Estimated time to completion: 12 min., 28 sec.
 
 ***** Percent complete: 63.0177 %
-***** Current system time: Mon Jan  9 05:40:19 2023
-***** Estimated time to completion: 10 min., 51 sec.
+***** Current system time: Mon Jan  9 07:09:53 2023
+***** Estimated time to completion: 12 min.,  3 sec.
 
 ***** Percent complete: 64.018 %
-***** Current system time: Mon Jan  9 05:40:29 2023
-***** Estimated time to completion: 10 min., 29 sec.
+***** Current system time: Mon Jan  9 07:10:05 2023
+***** Estimated time to completion: 11 min., 39 sec.
 
 ***** Percent complete: 65.018 %
-***** Current system time: Mon Jan  9 05:40:40 2023
-***** Estimated time to completion: 10 min.,  8 sec.
+***** Current system time: Mon Jan  9 07:10:16 2023
+***** Estimated time to completion: 11 min., 15 sec.
 
 ***** Percent complete: 66.0184 %
-***** Current system time: Mon Jan  9 05:40:50 2023
-***** Estimated time to completion:  9 min., 47 sec.
+***** Current system time: Mon Jan  9 07:10:27 2023
+***** Estimated time to completion: 10 min., 52 sec.
 
 ***** Percent complete: 67.0185 %
-***** Current system time: Mon Jan  9 05:41:01 2023
-***** Estimated time to completion:  9 min., 26 sec.
+***** Current system time: Mon Jan  9 07:10:38 2023
+***** Estimated time to completion: 10 min., 28 sec.
 
 ***** Percent complete: 68.0185 %
-***** Current system time: Mon Jan  9 05:41:11 2023
-***** Estimated time to completion:  9 min.,  6 sec.
+***** Current system time: Mon Jan  9 07:10:49 2023
+***** Estimated time to completion: 10 min.,  6 sec.
 
 ***** Percent complete: 69.0186 %
-***** Current system time: Mon Jan  9 05:41:22 2023
-***** Estimated time to completion:  8 min., 46 sec.
+***** Current system time: Mon Jan  9 07:11:01 2023
+***** Estimated time to completion:  9 min., 43 sec.
 
 ***** Percent complete: 70.0191 %
-***** Current system time: Mon Jan  9 05:41:32 2023
-***** Estimated time to completion:  8 min., 26 sec.
+***** Current system time: Mon Jan  9 07:11:11 2023
+***** Estimated time to completion:  9 min., 21 sec.
 
 ***** Percent complete: 71.0193 %
-***** Current system time: Mon Jan  9 05:41:43 2023
-***** Estimated time to completion:  8 min.,  7 sec.
+***** Current system time: Mon Jan  9 07:11:19 2023
+***** Estimated time to completion:  8 min., 58 sec.
 
 ***** Percent complete: 72.0201 %
-***** Current system time: Mon Jan  9 05:41:50 2023
-***** Estimated time to completion:  7 min., 46 sec.
+***** Current system time: Mon Jan  9 07:11:27 2023
+***** Estimated time to completion:  8 min., 35 sec.
 
 ***** Percent complete: 73.0204 %
-***** Current system time: Mon Jan  9 05:41:57 2023
-***** Estimated time to completion:  7 min., 26 sec.
+***** Current system time: Mon Jan  9 07:11:35 2023
+***** Estimated time to completion:  8 min., 13 sec.
 
 ***** Percent complete: 74.0207 %
-***** Current system time: Mon Jan  9 05:42:05 2023
-***** Estimated time to completion:  7 min.,  6 sec.
+***** Current system time: Mon Jan  9 07:11:44 2023
+***** Estimated time to completion:  7 min., 51 sec.
 
 ***** Percent complete: 75.0207 %
-***** Current system time: Mon Jan  9 05:42:14 2023
-***** Estimated time to completion:  6 min., 47 sec.
+***** Current system time: Mon Jan  9 07:11:52 2023
+***** Estimated time to completion:  7 min., 30 sec.
 
 ***** Percent complete: 76.0212 %
-***** Current system time: Mon Jan  9 05:42:22 2023
-***** Estimated time to completion:  6 min., 29 sec.
+***** Current system time: Mon Jan  9 07:12:00 2023
+***** Estimated time to completion:  7 min.,  9 sec.
 
 ***** Percent complete: 77.0217 %
-***** Current system time: Mon Jan  9 05:42:30 2023
-***** Estimated time to completion:  6 min., 10 sec.
+***** Current system time: Mon Jan  9 07:12:08 2023
+***** Estimated time to completion:  6 min., 48 sec.
 
 ***** Percent complete: 78.0218 %
-***** Current system time: Mon Jan  9 05:42:39 2023
-***** Estimated time to completion:  5 min., 52 sec.
+***** Current system time: Mon Jan  9 07:12:17 2023
+***** Estimated time to completion:  6 min., 27 sec.
 
 ***** Percent complete: 79.0219 %
-***** Current system time: Mon Jan  9 05:42:47 2023
-***** Estimated time to completion:  5 min., 34 sec.
+***** Current system time: Mon Jan  9 07:12:25 2023
+***** Estimated time to completion:  6 min.,  7 sec.
 
 ***** Percent complete: 80.022 %
-***** Current system time: Mon Jan  9 05:42:55 2023
-***** Estimated time to completion:  5 min., 16 sec.
+***** Current system time: Mon Jan  9 07:12:34 2023
+***** Estimated time to completion:  5 min., 47 sec.
 
 ***** Percent complete: 81.0225 %
-***** Current system time: Mon Jan  9 05:43:04 2023
-***** Estimated time to completion:  4 min., 58 sec.
+***** Current system time: Mon Jan  9 07:12:42 2023
+***** Estimated time to completion:  5 min., 28 sec.
 
 ***** Percent complete: 82.0226 %
-***** Current system time: Mon Jan  9 05:43:12 2023
-***** Estimated time to completion:  4 min., 41 sec.
+***** Current system time: Mon Jan  9 07:12:50 2023
+***** Estimated time to completion:  5 min.,  9 sec.
 
 ***** Percent complete: 83.0228 %
-***** Current system time: Mon Jan  9 05:43:20 2023
-***** Estimated time to completion:  4 min., 24 sec.
+***** Current system time: Mon Jan  9 07:12:59 2023
+***** Estimated time to completion:  4 min., 50 sec.
 
 ***** Percent complete: 84.0229 %
-***** Current system time: Mon Jan  9 05:43:28 2023
-***** Estimated time to completion:  4 min.,  7 sec.
+***** Current system time: Mon Jan  9 07:13:07 2023
+***** Estimated time to completion:  4 min., 31 sec.
 
 ***** Percent complete: 85.0238 %
-***** Current system time: Mon Jan  9 05:43:36 2023
-***** Estimated time to completion:  3 min., 50 sec.
+***** Current system time: Mon Jan  9 07:13:15 2023
+***** Estimated time to completion:  4 min., 12 sec.
 
 ***** Percent complete: 86.0241 %
-***** Current system time: Mon Jan  9 05:43:45 2023
-***** Estimated time to completion:  3 min., 33 sec.
+***** Current system time: Mon Jan  9 07:13:24 2023
+***** Estimated time to completion:  3 min., 54 sec.
 
 ***** Percent complete: 87.0245 %
-***** Current system time: Mon Jan  9 05:43:53 2023
-***** Estimated time to completion:  3 min., 17 sec.
+***** Current system time: Mon Jan  9 07:13:32 2023
+***** Estimated time to completion:  3 min., 36 sec.
 
 ***** Percent complete: 88.0246 %
-***** Current system time: Mon Jan  9 05:43:59 2023
-***** Estimated time to completion:  3 min.,  0 sec.
+***** Current system time: Mon Jan  9 07:13:40 2023
+***** Estimated time to completion:  3 min., 18 sec.
 
 ***** Percent complete: 89.0252 %
-***** Current system time: Mon Jan  9 05:44:04 2023
-***** Estimated time to completion:  2 min., 44 sec.
+***** Current system time: Mon Jan  9 07:13:48 2023
+***** Estimated time to completion:  3 min.,  1 sec.
 
 ***** Percent complete: 90.0261 %
-***** Current system time: Mon Jan  9 05:44:09 2023
-***** Estimated time to completion:  2 min., 28 sec.
+***** Current system time: Mon Jan  9 07:13:54 2023
+***** Estimated time to completion:  2 min., 43 sec.
 
 ***** Percent complete: 91.0261 %
-***** Current system time: Mon Jan  9 05:44:14 2023
-***** Estimated time to completion:  2 min., 12 sec.
+***** Current system time: Mon Jan  9 07:13:59 2023
+***** Estimated time to completion:  2 min., 25 sec.
 
 ***** Percent complete: 92.0265 %
-***** Current system time: Mon Jan  9 05:44:19 2023
-***** Estimated time to completion:  1 min., 56 sec.
+***** Current system time: Mon Jan  9 07:14:05 2023
+***** Estimated time to completion:  2 min.,  8 sec.
 
 ***** Percent complete: 93.0268 %
-***** Current system time: Mon Jan  9 05:44:24 2023
-***** Estimated time to completion:  1 min., 41 sec.
+***** Current system time: Mon Jan  9 07:14:10 2023
+***** Estimated time to completion:  1 min., 51 sec.
 
 ***** Percent complete: 94.0269 %
-***** Current system time: Mon Jan  9 05:44:29 2023
-***** Estimated time to completion:  1 min., 26 sec.
+***** Current system time: Mon Jan  9 07:14:16 2023
+***** Estimated time to completion:  1 min., 35 sec.
 
 ***** Percent complete: 95.0271 %
-***** Current system time: Mon Jan  9 05:44:34 2023
-***** Estimated time to completion:  1 min., 11 sec.
+***** Current system time: Mon Jan  9 07:14:21 2023
+***** Estimated time to completion:  1 min., 18 sec.
 
 ***** Percent complete: 96.0273 %
-***** Current system time: Mon Jan  9 05:44:39 2023
-***** Estimated time to completion: 56 sec.
+***** Current system time: Mon Jan  9 07:14:27 2023
+***** Estimated time to completion:  1 min.,  2 sec.
 
 ***** Percent complete: 97.0276 %
-***** Current system time: Mon Jan  9 05:44:44 2023
-***** Estimated time to completion: 42 sec.
+***** Current system time: Mon Jan  9 07:14:32 2023
+***** Estimated time to completion: 46 sec.
 
 ***** Percent complete: 98.0279 %
-***** Current system time: Mon Jan  9 05:44:49 2023
-***** Estimated time to completion: 27 sec.
+***** Current system time: Mon Jan  9 07:14:38 2023
+***** Estimated time to completion: 30 sec.
 
 ***** Percent complete: 99.0284 %
-***** Current system time: Mon Jan  9 05:44:54 2023
-***** Estimated time to completion: 13 sec.
+***** Current system time: Mon Jan  9 07:14:43 2023
+***** Estimated time to completion: 14 sec.
 
-***** Problem read in and set up time: 3.6279 seconds
- ***** DCOP time: 0.0622871 seconds.  Breakdown follows:
+***** Problem read in and set up time: 3.62917 seconds
+ ***** DCOP time: 0.08424 seconds.  Breakdown follows:
 	Number Successful Steps Taken:		1
 	Number Failed Steps Attempted:		0
 	Number Jacobians Evaluated:		32
@@ -1022,11 +1022,11 @@ Maximum warning count has been exceeded and will no longer be displayed
 	Number Failed Linear Solves:		0
 	Number Residual Evaluations:		34
 	Number Nonlinear Convergence Failures:	0
-	Total Residual Load Time:		0.0223837 seconds
-	Total Jacobian Load Time:		0.0096283 seconds
-	Total Linear Solution Time:		0.0272942 seconds
+	Total Residual Load Time:		0.0516334 seconds
+	Total Jacobian Load Time:		0.0138125 seconds
+	Total Linear Solution Time:		0.0156848 seconds
 
- ***** Transient Stepping time: 1390.67 seconds.  Breakdown follows:
+ ***** Transient Stepping time: 1528.53 seconds.  Breakdown follows:
 	Number Successful Steps Taken:		297239
 	Number Failed Steps Attempted:		45616
 	Number Jacobians Evaluated:		1204883
@@ -1034,9 +1034,9 @@ Maximum warning count has been exceeded and will no longer be displayed
 	Number Failed Linear Solves:		0
 	Number Residual Evaluations:		1547738
 	Number Nonlinear Convergence Failures:	716
-	Total Residual Load Time:		887.475 seconds
-	Total Jacobian Load Time:		137.31 seconds
-	Total Linear Solution Time:		255.592 seconds
+	Total Residual Load Time:		953.229 seconds
+	Total Jacobian Load Time:		148.161 seconds
+	Total Linear Solution Time:		296.617 seconds
 
 
 ***** Solution Summary *****
@@ -1047,9 +1047,9 @@ Maximum warning count has been exceeded and will no longer be displayed
 	Number Failed Linear Solves:		0
 	Number Residual Evaluations:		1547772
 	Number Nonlinear Convergence Failures:	716
-	Total Residual Load Time:		887.498 seconds
-	Total Jacobian Load Time:		137.32 seconds
-	Total Linear Solution Time:		255.62 seconds
+	Total Residual Load Time:		953.281 seconds
+	Total Jacobian Load Time:		148.175 seconds
+	Total Linear Solution Time:		296.632 seconds
 
 
  ***** Measure Functions ***** 
@@ -1060,8 +1060,8 @@ POWER = 4.720596e-04
 Measure Start Time= 1.000000e-05	Measure End Time= 3.260000e-02
 
 
-***** Total Simulation Solvers Run Time: 1390.74 seconds
-***** Total Elapsed Run Time:            1394.36 seconds
+***** Total Simulation Solvers Run Time: 1528.62 seconds
+***** Total Elapsed Run Time:            1532.25 seconds
 *****
 ***** End of Xyce(TM) Simulation
 *****
@@ -1069,23 +1069,23 @@ Measure Start Time= 1.000000e-05	Measure End Time= 3.260000e-02
 Timing summary of 1 processor
                  Stats                    Count        CPU Time              Wall Time
 ---------------------------------------- ------- --------------------- ---------------------
-Xyce                                           1     9:01.448 (100.0%)    23:14.367 (100.0%)
-  Analysis                                     1     9:00.465 (99.82%)    23:10.735 (99.74%)
-    Transient                                  1     9:00.465 (99.82%)    23:10.735 (99.74%)
-      Nonlinear Solve                     342856     8:44.215 (96.82%)    22:28.924 (96.74%)
-        Residual                         1547772     5:45.932 (63.89%)    14:55.141 (64.20%)
-        Jacobian                         1204915       55.362 (10.22%)     2:21.065 (10.12%)
-        Linear Solve                     1204915     1:41.699 (18.78%)     4:19.469 (18.61%)
+Xyce                                           1     9:51.984 (100.0%)    25:32.254 (100.0%)
+  Analysis                                     1     9:50.990 (99.83%)    25:28.619 (99.76%)
+    Transient                                  1     9:50.990 (99.83%)    25:28.619 (99.76%)
+      Nonlinear Solve                     342856     9:31.253 (96.50%)    24:37.300 (96.41%)
+        Residual                         1547772     6:11.119 (62.69%)    16:04.976 (62.98%)
+        Jacobian                         1204915     1:00.292 (10.18%)     2:32.311 ( 9.94%)
+        Linear Solve                     1204915     1:55.842 (19.57%)     5:00.451 (19.61%)
       Successful DCOP Steps                    1        0.000 (<0.01%)        0.000 (<0.01%)
-      Successful Step                     297239        9.913 ( 1.83%)       25.466 ( 1.83%)
-      Failed Steps                         45616        0.088 ( 0.02%)        0.248 ( 0.02%)
+      Successful Step                     297239       13.075 ( 2.21%)       35.037 ( 2.29%)
+      Failed Steps                         45616        0.093 ( 0.02%)        0.231 ( 0.02%)
         Nonlinear Failure                    716        0.001 (<0.01%)        0.001 (<0.01%)
-  Netlist Import                               1        0.964 ( 0.18%)        3.543 ( 0.25%)
-    Parse Context                              1        0.618 ( 0.11%)        2.282 ( 0.16%)
-    Distribute Devices                         1        0.336 ( 0.06%)        1.200 ( 0.09%)
+  Netlist Import                               1        0.971 ( 0.16%)        3.545 ( 0.23%)
+    Parse Context                              1        0.624 ( 0.11%)        2.234 ( 0.15%)
+    Distribute Devices                         1        0.336 ( 0.06%)        1.234 ( 0.08%)
     Verify Devices                             1        0.000 (<0.01%)        0.000 (<0.01%)
-    Instantiate                                1        0.005 (<0.01%)        0.033 (<0.01%)
+    Instantiate                                1        0.005 (<0.01%)        0.037 (<0.01%)
   Late Initialization                          1        0.006 (<0.01%)        0.022 (<0.01%)
-    Global Indices                             1        0.001 (<0.01%)        0.001 (<0.01%)
+    Global Indices                             1        0.002 (<0.01%)        0.018 (<0.01%)
   Setup Matrix Structure                       1        0.001 (<0.01%)        0.001 (<0.01%)
 
